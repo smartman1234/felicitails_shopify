@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "d1c9e0ec-c67b-4e0e-af08-1c277e4d418e": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Whoa The Dreaded 404",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "error_title"
+      }
+    },
+    "6801e0aa-98f9-4fdf-b35d-2d19007b195b": {
+      "type": "hero-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/psychiatric-service-dog-in-disbelief-that-a-website-user-landed-on-404-page-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "container": true,
+        "image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "overlay_bg": "rgba(0,0,0,0)",
+        "overlay_bg_opacity": 80,
+        "color_overlay_text": "#000000",
+        "overlay_title": "",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 0,
+        "mobile_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "d1c9e0ec-c67b-4e0e-af08-1c277e4d418e",
+    "6801e0aa-98f9-4fdf-b35d-2d19007b195b",
+    "main"
+  ]
+}

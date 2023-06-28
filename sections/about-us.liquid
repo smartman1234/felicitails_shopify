@@ -1,0 +1,184 @@
+<div class="{{ section.settings.custom_class }} relative container container--no-mobile-padding large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="rich-text-section">
+  {% style %}
+    .section-{{ section.id }} .rich-text-section {
+      background: {{ section.settings.gradient_bg | default: section.settings.color_bg }};
+      color: {{ section.settings.color_text }};
+    }
+    .section-{{ section.id }} .rich-text-section .large-title,
+    .section-{{ section.id }} .rich-text-section .giant-title {
+      color: {{ section.settings.color_title }};
+    }
+  {% endstyle %}
+  <div class="page-width rich-text-section large-section global-border-radius" data-cc-animate>
+    <div class="{% if section.settings.full_width == false %}reading-width{% endif %} text-center">
+      
+        <div class="rich-text-img">
+          {% if section.settings.image_url != blank %}<a href="{{ section.settings.image_url }}">{% endif %}
+            {% if section.settings.image != blank %}
+              <img src="{{ section.settings.image | img_url:'master' }}">
+            {% endif %}
+            {% if section.settings.title != blank %}
+              <h2 class="{% if section.settings.enlarge_title %}giant-title {% else %}large-title {% endif %} rich-text-section__title">{{ section.settings.title | escape }}</h2>
+            {% endif %}
+          {% if section.settings.image_url != blank %}</a>{% endif %}          
+        </div>      
+
+      {% if section.settings.text != blank %}
+        <div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}">
+          {{ section.settings.text }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.sign != blank %}
+        <img src="{{ section.settings.sign | img_url:'master' }}" width="{{ section.settings.logo_width | times: 2 }}" height="{{ section.settings.logo_width | times: 2 | divided_by: section.settings.logo.aspect_ratio | round }}">
+      {% endif %}
+
+      {% if section.settings.img_cap != blank %}
+        <div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}">
+          {{ section.settings.img_cap }}
+        </div>
+      {% endif %}
+      
+      {% if section.settings.button_label != blank %}
+
+        {%- assign bg_alpha = section.settings.color_bg | color_extract: 'alpha' -%}
+        {%- assign link_inherit_color = false -%}
+        {%- if section.settings.url_style == 'link_style' -%}
+          {%- if bg_alpha > 0 and section.settings.color_bg != settings.color_body_background -%}
+            {%- assign link_inherit_color = true -%}
+          {%- endif -%}
+        {%- endif -%}
+
+        <div class="rich-text-section__btn-row">
+          <a class="{% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% if link_inherit_color == true %}standard-link--inherit-color{% endif %}{% endif %}" href="{{ section.settings.button_link | escape }}">{{ section.settings.button_label | escape }}</a>
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Us",
+    "tag": "section",
+    "class": "section-rich-text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Rich text"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Use this text to share information about your store with your customers.</p><p>Describe products, share announcements, or welcome customers to your store.</p>"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "radio",
+        "id": "url_style",
+        "label": "Button style",
+        "options": [
+          { "value": "button_1", "label": "Button - primary" },
+          { "value": "button_2", "label": "Button - secondary" },
+          { "value": "link_style", "label": "Link"}
+        ],
+        "default": "button_1"
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_title",
+        "label": "Enlarge heading",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_text",
+        "label": "Enlarge text",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Wide text width",
+        "default": false
+      },
+      {
+        "type": "color",
+        "id": "color_title",
+        "label": "Heading color",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text color",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "#ecf1f2"
+      },
+      {
+        "type": "color_background",
+        "id": "gradient_bg",
+        "label": "Background gradient",
+        "info": "If set, replaces background color"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type":"url",
+        "id":"image_url",
+        "label":"Link"
+      },
+      {
+        "type": "image_picker",
+        "id": "sign",
+        "label": "Signature"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "min": 30,
+        "max": 450,
+        "step": 5,
+        "unit": "px",
+        "label": "Maximum width",
+        "default": 200
+      },
+      {
+        "type": "text",
+        "id": "img_cap",
+        "label": "Caption"
+      },
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom Class"
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Us"
+      }
+    ]
+  }
+{% endschema %}

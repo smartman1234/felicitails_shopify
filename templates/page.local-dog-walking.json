@@ -1,0 +1,282 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "a8a5bb65-4b94-4519-8b51-cb791bd0b711": {
+      "type": "background-video",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89726158a12a4700a109a7412a99fec1.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-dog-walking-service-wags-partnership-overview-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#000000",
+        "video_overlay_opacity": 50,
+        "height_desktop": 800,
+        "height_mobile": 620,
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO OUR PREFERRED PROVIDER OF LOCAL DOG WALKING SERVICES",
+        "overlay_text": "We’re thrilled you’re considering working WAG! for your local dog walking needs. Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through WAG!",
+        "overlay_url_text_1": "BOOK ON WAG! TODAY",
+        "overlay_url_1": "https:\/\/wagwalking.com\/dog-walking",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "4c59bece-74f9-400c-a0fd-626b2b2aff93": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Wag! for our Patients & Clients that are in need of dog walking services. Through our collaboration, you are able book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through their app.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/wag-felicitails-brand-collaboration-petinsurer-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "56fe422e-582e-4cc6-b5ad-132dd005cecf": {
+      "type": "timeline-wag",
+      "blocks": {
+        "a0017393-f19e-49a9-8ba2-3d502d6699b3": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Set your schedule",
+            "timeline_text": "<p>Available on-demand or pre-scheduled, select the date and time that best suits your pups needs<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-dog-walking-scheduling-process-1.svg"
+          }
+        },
+        "9e5bb238-f760-4bfe-8821-a3162669de78": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Get their steps in",
+            "timeline_text": "<p>Choose between a 20-minute, 30-minute, or 60-minute GPS tracked stroll for your dog<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-dog-walking-scheduling-process-2.svg"
+          }
+        },
+        "8ae864dc-9fb0-48e7-b7d2-8f23ecd67ed6": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Follow along",
+            "timeline_text": "<p>Receive live pictures and videos of your pup enjoying time outside with their walker<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-dog-walking-scheduling-process-3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "a0017393-f19e-49a9-8ba2-3d502d6699b3",
+        "9e5bb238-f760-4bfe-8821-a3162669de78",
+        "8ae864dc-9fb0-48e7-b7d2-8f23ecd67ed6"
+      ],
+      "settings": {
+        "img_title": "Local Dog Walking",
+        "image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-five-star-rated-dog-waker.png",
+        "title": "How to book a dog walk with the Wag! app",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/dog-walking",
+        "url_style": "button_1",
+        "sub_button_label_1": "",
+        "sub_button_link_1": "",
+        "sub_url_style_1": "button_1",
+        "sub_button_label_2": "",
+        "sub_button_link_2": "",
+        "sub_url_style_2": "button_1"
+      }
+    },
+    "a86fc6f0-aadd-455e-9e63-db5a9c941231": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a092986167e4c33baf0b9fb20cb6346.mp4",
+        "poster": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-dog-walking-video-cover_47f7d10a-5be4-45f9-b4a8-183dc7d7fb19.png",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "411f3af7-8efa-4696-a2f8-199330e53105": {
+      "type": "custom-reviews",
+      "blocks": {
+        "900d37f5-e763-40c9-a5b9-3a65be444902": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Tanya K",
+            "review_content": "<p>All the Wag! walks I've gotten have been awesome. Sweet and caring people who obviously love dogs!<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-mixed-breed-dog-dog-walking-service.png"
+          }
+        },
+        "00dfc4f9-1657-438b-b6db-11d5f9ec408d": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Eve R",
+            "review_content": "<p>What a great experience! I'm sure Vienna was happy to go outside and stretch her legs.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-golden-retriever-dog-walking-service.png"
+          }
+        },
+        "43f65cad-c95a-44a2-976f-3eba90208374": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Ashlee A",
+            "review_content": "<p>I've been using Wag! for about 6 months and love the convenience of being able to have someone take care of my pup when I'm gone.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-st-bernard-dog-walking-service.png"
+          }
+        }
+      },
+      "block_order": [
+        "900d37f5-e763-40c9-a5b9-3a65be444902",
+        "00dfc4f9-1657-438b-b6db-11d5f9ec408d",
+        "43f65cad-c95a-44a2-976f-3eba90208374"
+      ],
+      "settings": {
+        "title": "AMAZING REVIEWS FROM WAG! PET PARENTS",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/dog-walking",
+        "review_rating": "4.8\/5",
+        "review_rating_text": "42K+ WAG! APP REVIEWS",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": ""
+      }
+    },
+    "f19f381f-b70b-4d6e-8297-cf901e5db76b": {
+      "type": "faq",
+      "blocks": {
+        "cb168288-e03c-4c92-98e4-1925865733e6": {
+          "type": "faq",
+          "settings": {
+            "que": "What is Wag!?",
+            "ans": "<p>Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through the app.<\/p>"
+          }
+        },
+        "0adb6c23-db7f-4948-95bc-deab655622e8": {
+          "type": "faq",
+          "settings": {
+            "que": "Is hiring a dog walker safe?",
+            "ans": "<p>As fellow pet parents and animal lovers ourselves, Wag! understands that you won't trust just anyone to care for your fur-baby. That's why they've implemented state-of-the-art safety features for your peace of mind. GPS tracking, in-app messaging, and photo and video updates allow pet parents to follow along their dog's walk in real-time right on their smartphones.<\/p><p>All of the Pet Caregivers on their platform must pass a thorough background check and dog walking proficiency test that assesses their knowledge of leash, harness, and collar best practices. Pet Caregivers must also demonstrate their ability to handle and care for dogs in real-life scenarios.<\/p>"
+          }
+        },
+        "d7aadafe-7d7a-4001-a73f-6b8ec3c7b6a5": {
+          "type": "faq",
+          "settings": {
+            "que": "How can I tell if a dog walker is trustworthy?",
+            "ans": "<p>Before any walker begins working with Wag!, they must first undergo a thorough vetting process, which includes dog handling safety tests, phone screening, and background checks. Wag!’s top priority is ensuring Pet Parents feel safe entrusting their dogs' care to the dog walkers and caregivers on the Wag! platform.<\/p><p>When it comes to selecting a dog walker, their algorithm is designed to choose your pup's \"pawfect\" match. However, they encourage Pet Parents to take their time choosing a dog walker. Read each Pet Caregiver's profile and reviews to learn more about their pet care experience. Wag! Pet Caregiver profiles include:<\/p><p>- a summary of the Pet Caregiver's experience working with dogs<\/p><p>- their rates and services offered<\/p><p>- areas of expertise (running with dogs, walking dogs who pull, senior dog care, etc.)<\/p><p>- verified reviews from other Pet Parents who booked services with the Pet Caregiver<\/p><p>- a list of achievements (number of walks completed, breeds they work with most often, endorsements from Pet Parents, etc.)<\/p><p>When you schedule a dog walking service through Wag!, you can chat with your Pet Caregiver before, during, and after the walk. Feel free to ask as many questions as you like at any time once you've scheduled your service. We also invite Pet Caregivers to ask Pet Parents questions about their preferences and their dog's unique needs.<\/p>"
+          }
+        },
+        "6c53fb85-74de-4272-a136-aca05f51d797": {
+          "type": "faq",
+          "settings": {
+            "que": "How many dogs can a dog walker handle at once?",
+            "ans": "<p>Dog walkers on the Wag! platform are only allowed to walk the dogs from one household at a time. Our app doesn't allow Pet Caregivers to accept two services scheduled for the same time and date.<\/p>"
+          }
+        },
+        "7486ed86-3847-4c65-a527-c7a0296b4afd": {
+          "type": "faq",
+          "settings": {
+            "que": "How do dog walkers get in the house?",
+            "ans": "<p>How your walker accesses your home is entirely up to you. You can choose to have someone answer the door if you'd like. A Wag! Lockbox also offers extra peace of mind. When booking a service, enter your preferences on the 'How to Get In' screen.<\/p>"
+          }
+        },
+        "57c318fe-be30-45bf-a2f6-357c9b23d70c": {
+          "type": "faq",
+          "settings": {
+            "que": "What is the average cost of dog walking in the United States?",
+            "ans": "<p>The cost of dog walking in the U.S. is based on the price set by the Pet Caregiver and varies depending on a variety of factors, including where you live, the length of the walk, and any additional fees that may apply.<\/p><p>*Average Cost Per Walk For One Dog -<\/p><p>20 min - $12.75 - $19.99<\/p><p>30 min - $17.00 - $26.99<\/p><p>60 min - $25.50 - $36.99<\/p><p>The estimated rate for your service will be displayed at the bottom of your screen during booking on Wag!, and a final price will be provided when you match with a Pet Caregiver.<\/p><p>*These are estimated prices. The final price may be higher or lower.<\/p>"
+          }
+        },
+        "9ad26d9b-bd89-4797-9ce5-2a8015424af3": {
+          "type": "faq",
+          "settings": {
+            "que": "Should dog walkers be tipped?",
+            "ans": "<p>Tipping your dog walker isn't required, but always appreciated! Tips are a great way to show your gratitude for a job well done.<\/p>"
+          }
+        },
+        "4215fae0-ae25-4b9a-92ac-019b16d53160": {
+          "type": "faq",
+          "settings": {
+            "que": "Do dog walkers on the Wag! platform get to keep their tips?",
+            "ans": "<p>Yes! Dog walkers through Wag! keep 100% of their tips.<\/p>"
+          }
+        },
+        "9583fb5f-359c-4195-96bd-ba4bc766b1ee": {
+          "type": "faq",
+          "settings": {
+            "que": "How much do dog walkers make on average?",
+            "ans": "<p>That depends on the rates each dog walker sets up, how many walks they complete each week, and the costs of living in their area. Some of the walkers on the platform make a full-time income walking dogs!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cb168288-e03c-4c92-98e4-1925865733e6",
+        "0adb6c23-db7f-4948-95bc-deab655622e8",
+        "d7aadafe-7d7a-4001-a73f-6b8ec3c7b6a5",
+        "6c53fb85-74de-4272-a136-aca05f51d797",
+        "7486ed86-3847-4c65-a527-c7a0296b4afd",
+        "57c318fe-be30-45bf-a2f6-357c9b23d70c",
+        "9ad26d9b-bd89-4797-9ce5-2a8015424af3",
+        "4215fae0-ae25-4b9a-92ac-019b16d53160",
+        "9583fb5f-359c-4195-96bd-ba4bc766b1ee"
+      ],
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a8a5bb65-4b94-4519-8b51-cb791bd0b711",
+    "4c59bece-74f9-400c-a0fd-626b2b2aff93",
+    "56fe422e-582e-4cc6-b5ad-132dd005cecf",
+    "a86fc6f0-aadd-455e-9e63-db5a9c941231",
+    "411f3af7-8efa-4696-a2f8-199330e53105",
+    "f19f381f-b70b-4d6e-8297-cf901e5db76b"
+  ]
+}

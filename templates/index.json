@@ -1,0 +1,430 @@
+{
+  "sections": {
+    "043be3ce-b51d-4ab4-921e-b0ee101fb6b0": {
+      "type": "home-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/happy-go-lucky-dog-tongue-out-laying-in-field-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 75,
+        "color_overlay_text": "#000000",
+        "overlay_title": "LIVE LIFE TO THE FULLEST WITH YOUR FAITHFUL COMPANION",
+        "overlay_text": "Shop our passionately curated collections.",
+        "overlay_url_text_1": "DOGS",
+        "overlay_url_1": "shopify:\/\/pages\/shop-for-the-well-loved-dog",
+        "overlay_url_text_2": "CATS",
+        "overlay_url_2": "shopify:\/\/pages\/shop-for-the-well-loved-cat",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 25,
+        "overlay_position_y": 50,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#000000",
+        "show_chevron": false,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "home-hero"
+      }
+    },
+    "2923dd43-2d74-4986-9f1b-b021f2714d68": {
+      "type": "rich-text",
+      "settings": {
+        "title": "All the essentials for pets & their humans",
+        "text": "<p>At Felicitails, we take pride in offering a thoughtfully curated collection of premium pet products and essential animal services that cater to pets of all ages, from their early stages to their senior years. <\/p><p>Whether you're seeking emotional support animal or psychiatric service animal certification programs, online or local training, reliable dog walking and sitting services, DNA and health testing, pet insurance providers, or a vast array of hand-curated supplies spanning over five hundred categories, rest assured that we have you covered.<\/p><p>Join us as we embark on this journey together, dedicated to the well-being and satisfaction of our animal companions. Let's create a world where our pets flourish, maintain their unique sense of style, and accompany us throughout life's adventures.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#000000",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "essentials-pets"
+      }
+    },
+    "7f621298-63cb-4ca1-a908-fecaa0df1ebb": {
+      "type": "collection-boxes",
+      "blocks": {
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/french-bulldog-red-collar-treated-by-owner-on-grass-felicitails-founded-by-lindsay-giguiere.jpg",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Dog Collars<\/p>",
+            "button_link": "shopify:\/\/collections\/dog-collars",
+            "enlarge_title": false,
+            "enlarge_text": true
+          }
+        },
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/cute-emotional-support-dog-playing-with-football-dog-toy-on-grass-founded-by-lindsay-giguiere.jpg",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Dog Toys & Balls<\/p>",
+            "button_link": "shopify:\/\/collections\/dog-toys-balls",
+            "enlarge_title": false,
+            "enlarge_text": true
+          }
+        },
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/cavalier-king-charles-spaniel-blenheim-grooming-with-curls-felicitails-founded-by-lindsay-giguiere.jpg",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Dog Grooming & Bathing Products<\/p>",
+            "button_link": "shopify:\/\/collections\/dog-grooming-bathing-products",
+            "enlarge_title": false,
+            "enlarge_text": true
+          }
+        },
+        "369a40ff-b207-45b3-9f26-b6a653635616": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/healthy-dog-food-paw-print-bowl-felicitails-founded-by-lindsay-giguiere.jpg",
+            "image_width": 100,
+            "title": "",
+            "text": "<p>Dog Food & Diets<\/p>",
+            "button_link": "shopify:\/\/collections\/dog-food-diets",
+            "enlarge_title": false,
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-0",
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-1",
+        "template--18115960176941__7f621298-63cb-4ca1-a908-fecaa0df1ebb-1679556287d5ae9d67-2",
+        "369a40ff-b207-45b3-9f26-b6a653635616"
+      ],
+      "settings": {
+        "title": "Customer Favorites",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "#ecbebe",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "f8c85201-8adc-44af-afae-992a69bdc4d7": {
+      "type": "split-image",
+      "blocks": {
+        "template--18115960176941__f8c85201-8adc-44af-afae-992a69bdc4d7-167744977452538dfd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/happy-emotional-support-dog-laying-in-grass-with-content-owner-smiling-felicitails-founded-by-lindsay-giguiere.jpg",
+            "image_link": "",
+            "image_position": "center center",
+            "color_overlay_bg": "#faf2f2",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#000000",
+            "overlay_title": "EMOTIONAL SUPPORT ANIMAL CERTIFICATION PROGRAM",
+            "overlay_subtitle": "Telehealth Certification Done Right!",
+            "overlay_text": "Enjoy life with your faithful companion even more through our Free My Paws ESA Certification.",
+            "overlay_url_text": "CERTIFY TODAY",
+            "overlay_url": "shopify:\/\/pages\/free-my-paws-emotional-support-animal-dog-certification",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "mobile_text_below": false,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "product_id": "",
+            "show_chevron": true,
+            "chevron_position": "right",
+            "label_position_x": 20,
+            "label_position_y": 20
+          }
+        },
+        "template--18115960176941__f8c85201-8adc-44af-afae-992a69bdc4d7-167744977452538dfd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-serving-her-owner-while-owner-doing-in-home-yoga-felicitails-founded-by-lindsay-giguiere.jpg",
+            "image_link": "",
+            "image_position": "center right",
+            "color_overlay_bg": "#faf2f2",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#000000",
+            "overlay_title": "PSYCHIATRIC SERVICE ANIMAL CERTIFICATION PROGRAM",
+            "overlay_subtitle": "Telehealth Certification Done Right!",
+            "overlay_text": "All the training, documentation & support you need through our Free My Paws PSA Certification.",
+            "overlay_url_text": "CERTIFY TODAY",
+            "overlay_url": "shopify:\/\/pages\/free-my-paws-psychiatric-service-animal-dog-certification",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "mobile_text_below": false,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "product_id": "",
+            "show_chevron": false,
+            "chevron_position": "left",
+            "label_position_x": 21,
+            "label_position_y": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--18115960176941__f8c85201-8adc-44af-afae-992a69bdc4d7-167744977452538dfd-0",
+        "template--18115960176941__f8c85201-8adc-44af-afae-992a69bdc4d7-167744977452538dfd-1"
+      ],
+      "custom_css": [
+        ".overlay {padding: 15px;}",
+        ".overlay-text {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "height_desktop": 600,
+        "height_mobile": 500
+      }
+    },
+    "e547ee8f-a6b0-4495-83f2-620ff3abe610": {
+      "type": "about-us",
+      "settings": {
+        "title": "A NOTE FROM LINDSAY",
+        "text": "<p>I personally want to welcome to Felicitails, where we are dedicated to making a positive impact by offering a modern platform that caters to the diverse needs of pet owners. Our comprehensive range of services includes emotional support and service animal certifications, professional training, local pet attending services, and a curated selection of high-quality foods, treats, and supplies.<\/p><p>We consider it an honor to be involved in the lives of thousands of pet owners, assisting them in achieving success and happiness in their journey with their beloved furry companions. By joining our loving community, you have the opportunity to be part of something greater — together, we can make a tangible difference in the lives of cherished animals, who, in their own unique way, profoundly influence and enrich our lives.<\/p><p>XO,<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#ecbebe",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/lindsay-giguiere-profile-picture-felicitials-founded-by-lindsay-giguiere.png",
+        "image_url": "https:\/\/www.lindsaygiguiere.com\/",
+        "sign": "shopify:\/\/shop_images\/felicitails-founder-lindsay-giguiere-website-signature.png",
+        "logo_width": 60,
+        "img_cap": "Founder",
+        "custom_class": "founder_story"
+      }
+    },
+    "5f7d57b4-880e-4216-ba9c-a99460b44f39": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3b728e940e2b4ce2990147e87ea0efa6.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-home-page-intro-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#ffffff",
+        "video_overlay_opacity": 0,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "For the Love of Dogs",
+        "overlay_text": "So whether you're considering certification for your pet or have been searching for the perfect gift for your furry loved one, we'll ensure you both receive the best care and attention.",
+        "overlay_url_text_1": "ABOUT US",
+        "overlay_url_1": "shopify:\/\/pages\/about-felicitails-free-my-paws",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": ""
+      }
+    },
+    "5a750fbb-bf05-4555-a677-db466190b385": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/emotional-support-dog-healthy-enjoying-tincture-drops-for-calming-effects-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 660,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Love your pets longer",
+        "overlay_text": "Wellness and Dietary Supplements",
+        "overlay_url_text_1": "LEARN MORE",
+        "overlay_url_1": "shopify:\/\/collections\/wellness-dietary-supplements-for-dogs",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 0,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 50,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": ""
+      }
+    },
+    "5362450c-b4b4-4929-96ad-2b85b37cce24": {
+      "type": "standout-collection",
+      "custom_css": [
+        ".overlay {padding: 15px;}"
+      ],
+      "settings": {
+        "collection": "dog-treats-chews",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "linear-gradient(360deg, rgba(236, 190, 190, 1), rgba(255, 255, 255, 1) 100%)",
+        "alternative_image": "shopify:\/\/shop_images\/pomeranian-dog-chewing-on-healthy-teeth-chewstick-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "layout": "left",
+        "show_vendor": false,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 100,
+        "color_overlay_text": "#000000",
+        "overlay_url_text": "Shop now",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "overlay_position_y": 85,
+        "color_label_background": "#bda5ac",
+        "color_label_text": "#333333",
+        "product_id": "",
+        "show_chevron": false,
+        "chevron_position": "left",
+        "label_position_x": 18,
+        "label_position_y": 100
+      }
+    },
+    "84fcdca6-806a-4a0d-ba09-6730630aa09c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blonde-young-girl-training-her-french-bulldog-outside-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 75,
+        "color_overlay_text": "#000000",
+        "overlay_title": "Dog Training & Behavior",
+        "overlay_text": "",
+        "overlay_url_text_1": "shop now",
+        "overlay_url_1": "shopify:\/\/collections\/dog-training-behavior-enhancement",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 75,
+        "overlay_position_y": 31,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": ""
+      }
+    },
+    "a4cbe35c-866b-4ec5-a8ec-8e4d0dea0db4": {
+      "type": "featured-blog",
+      "settings": {
+        "heading_image": "shopify:\/\/shop_images\/dog-blog-hero-image-couple-kissing-on-beach-walk-with-emotional-support-animal-felicitails-website-felicitails-founded-by-lindsay-giguiere.png",
+        "image_position": "center center",
+        "title": "Dog Blog",
+        "description": "Let us introduce to you our Pet Lovers Blog, which covers anything and everything a modern day pet lover would be interested in learning about. Our content that we carefully write and present is meant to build a wholesome community around education and recreation. We hope you enjoy it!",
+        "color_overlay_bg": "#666666",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#ffffff",
+        "show_view_all": true,
+        "overlay_url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 80,
+        "blog": "pet-animal-training",
+        "post_limit": 5,
+        "show_author": false,
+        "show_date": false,
+        "show_tags": false,
+        "show_featured_products": true
+      }
+    },
+    "16817359144b73d555": {
+      "type": "apps",
+      "blocks": {
+        "02604d15-4a1a-4118-98c9-339f313817e0": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 26,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "02604d15-4a1a-4118-98c9-339f313817e0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "043be3ce-b51d-4ab4-921e-b0ee101fb6b0",
+    "2923dd43-2d74-4986-9f1b-b021f2714d68",
+    "7f621298-63cb-4ca1-a908-fecaa0df1ebb",
+    "f8c85201-8adc-44af-afae-992a69bdc4d7",
+    "e547ee8f-a6b0-4495-83f2-620ff3abe610",
+    "5f7d57b4-880e-4216-ba9c-a99460b44f39",
+    "5a750fbb-bf05-4555-a677-db466190b385",
+    "5362450c-b4b4-4929-96ad-2b85b37cce24",
+    "84fcdca6-806a-4a0d-ba09-6730630aa09c",
+    "a4cbe35c-866b-4ec5-a8ec-8e4d0dea0db4",
+    "16817359144b73d555"
+  ]
+}

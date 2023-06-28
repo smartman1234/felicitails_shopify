@@ -1,0 +1,341 @@
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $(".pwd-field .show_pwd_icon svg").click(function() {
+      $(this).parent().toggleClass("hide_pwd_icon");
+      var input = $(".pwd-field input");
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+  });
+  $(document).ready(function() {
+
+// $(".email-errors").hide();
+    $('#CustomerEmail').focusout(function() {
+      $('#CustomerEmail').filter(function() {
+        var email = $('#CustomerEmail').val();
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        if (! emailReg.test(email)) {
+          $(".email-errors").show();
+        }
+      });
+    });
+    $('.errors ul li').each(function() {
+      var errortext = $(this).text();
+      if (errortext == 'Incorrect email or password.') {
+        $(this).html('Incorrect email or password');
+      }
+      if (errortext == 'No account found with that email.') {
+        $(this).html('Oh no! We don’t recognize that email address. Please try another one you may have used or click the following: <a href="/account/register">Create a New Account</a>.');
+      }
+    });
+
+    if ($("#RecoverPasswordForm").length) {
+      $('form').attr("novalidate", "novalidate");
+    }
+    $(document).on('click', '.reset-psw-submit', function(e) {
+      var Email = $("#RecoverEmail").val();
+      if (isValidEmail(Email) && Email != "") {
+        $(".email-errors.email").hide();
+      } else {
+        e.preventDefault();
+        $(".email-errors.email").show();
+      }
+    });
+
+    function isValidEmail(email) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+
+// Recover pass message
+    $("#RecoverPasswordForm").css("display", "none", "!important");
+    $("#RecoverPassword").click(function() {
+      $("#CustomerLoginForm").css("display", "none", "!important");
+      $("#RecoverPasswordForm").css("display", "block", "!important");
+    });
+
+    $("#HideRecoverPasswordLink").click(function() {
+      $("#CustomerLoginForm").css("display", "block", "!important");
+      $("#RecoverPasswordForm").css("display", "none", "!important");
+    });
+
+    if ($("#ResetSuccess").length) {
+      if (!$("#ResetSuccess").hasClass("hide")) {
+        $("#RecoverPasswordForm").css("display", "block", "!important");
+        $("#CustomerLoginForm").css("display", "none", "!important");
+      }
+    }
+
+    if ($(".errors").length) {
+      if (!$(".errors").hasClass("hide")) {
+        $("#RecoverPasswordForm").css("display", "block", "!important");
+        $("#CustomerLoginForm").css("display", "none", "!important");
+      }
+    }
+  });
+
+// Set the cookie for reset success password
+
+  $(document).ready(function() {
+    if ($("#ResetSuccess").length) {
+      if (!$('#ResetSuccess').hasClass('hide')) {
+        $(".reset-form .reset-pass-title").hide();
+        $(".reset-form #RecoverEmail").hide();
+        $(".reset-form label").hide();
+        $(".reset-psw-submit").hide();
+        $("#HideRecoverPasswordLink").hide();
+      }
+    }
+  });
+
+  $(document).ready(function() {
+    console.log('test');
+    $('.errors ul li').each(function() {
+      var errortext = $(this).text();
+      console.log(errortext);
+      if (errortext == 'Incorrect email or password') {
+        console.log('test123');
+        $("#CustomerLoginForm").css("display", "block", "!important");
+        $("#RecoverPasswordForm").css("display", "none", "!important");
+      }
+    });
+  })
+</script>
+
+<div class="container">
+  <div id="RecoverPasswordForm">
+    <div class="reset-wrap page-width large-row">
+      <div class="reset-img">
+        <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/reset-password-with-felicitails-womans-hand-stacking-dog-treats-on-table-felicitails-founded-by-lindsay-giguiere.png?v=1680260634">
+      </div>
+      <div class="reset-form">
+        <h2 class="row center reset-pass-title">BEGIN THE PASSWORD RESET PROCESS</h2>
+        {% form 'recover_customer_password' %}
+          {{ form.errors | default_errors }}
+          <div style="display: none;" class="email-errors email">
+            <ul>
+              <li>Incorrect Email format, typical email formatting is name@domain.com</li>
+            </ul>
+          </div>
+          {% if form.posted_successfully? %}
+            <span class="hide reset-password-success"></span>
+          {% endif %}
+
+          <div class="input-wrapper form-row">
+            <label for="RecoverEmail">
+              {{ 'customer.recover_password.email' | t }}
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="RecoverEmail"
+              class="{% if form.errors contains 'email' %}input-error{% endif %}"
+              spellcheck="false"
+              autocomplete="off"
+              autocapitalize="off"
+              value=""
+              data-desktop-autofocus>
+            <p class="recover_des" style="display: none !important;">
+              Submit the email you used when you created your account. We will then send you an email to actually reset
+              your password.
+            </p>
+
+            <div class="form-success hide" id="ResetSuccess">
+              {% comment %} {{ 'customer.recover_password.success' | t }} {% endcomment %}
+              <h2 class="row center sent_title">PASSWORD RESET EMAIL HAS BEEN SENT</h2>
+              <p>
+                We have sent a Password Reset email to you. You should see it within seconds if not a minute or two. If
+                you don’t see an email from
+                <a href="mailto:support@felicitails.com">support@felicitails.com</a>, check
+                your Spam folder just in case for some reason it landed there. In this email there will be a button that
+                                                                                                                                                                                                                                                reads RESET YOUR PASSWORD. Click on that button and you will be taken to a page for you to quickly reset
+                                                                                                                                                                                                                                                your password.
+              </p>
+              <div class="pwd_protection">
+                <p class="protection_title">For Your Protection, Your Password Is To:</p>
+                <p>Have a minimum of 8 characters</p>
+                <p>Have 1 special character like #</p>
+                <p>Have 1 lower case letter</p>
+                <p>Have 1 number</p>
+                <p>Have 1 Upper Case Letter</p>
+                <p>Not be your email</p>
+              </div>
+              <p>
+                A good example of a strong password is: NOphising!911*. If you have any questions about your account
+                login credentials, please email us at
+                <a href="mailto:support@felicitails.com">support@felicitails.com</a>
+                as we are always happy to help.
+              </p>
+            </div>
+          </div>
+          <div class="large-row">
+            <input
+              type="submit"
+              class="btn reset-psw-submit"
+              value="{{ 'customer.recover_password.submit' | t }}">
+          </div>
+          <div class="row">
+            <a href="#" id="HideRecoverPasswordLink">{{ 'customer.recover_password.cancel' | t }}</a>
+          </div>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+  <div id="CustomerLoginForm">
+    <div class="login-wrap page-width large-row">
+      <div class="account-form">
+        {% form 'customer_login' %}
+          <h2 class="row">LOG IN TO YOUR ACCOUNT</h2>
+          {{ form.errors | default_errors }}
+          <div style="display: none;" class="email-errors">
+            <ul>
+              <li>Please enter in a proper email address.</li>
+            </ul>
+          </div>
+          <div class="input-wrapper form-row">
+            <label for="CustomerEmail">
+              {{ 'customer.login.email' | t }}
+            </label>
+            <input
+              type="email"
+              name="customer[email]"
+              id="CustomerEmail"
+              class="{% if form.errors contains 'email' %}input-error{% endif %}"
+              spellcheck="false"
+              autocomplete="off"
+              autocapitalize="off"
+              data-desktop-autofocus>
+          </div>
+          {% if form.password_needed %}
+            <div class="input-wrapper-with-overlay-link">
+              <div class="input-wrapper form-row pwd-field">
+                <label for="CustomerPassword">
+                  {{ 'customer.login.password' | t }}
+                </label>
+
+                <span class="show_pwd_icon">
+                  <svg
+                    class="show_eye"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path
+                      d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                      stroke="black"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                  <svg
+                    class="hide_eye"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_193_2)">
+                      <mask
+                        id="mask0_193_2"
+                        style="mask-type:luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24">
+                        <path d="M24 0H0V24H24V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_193_2)">
+                        <path
+                          d="M17.94 17.94C16.2306 19.243 14.1491 19.9649 12 20C5 20 1 12 1 12C2.24389 9.68192 3.96914 7.65663 6.06 6.06003M9.9 4.24002C10.5883 4.0789 11.2931 3.99836 12 4.00003C19 4.00003 23 12 23 12C22.393 13.1356 21.6691 14.2048 20.84 15.19M14.12 14.12C13.8454 14.4148 13.5141 14.6512 13.1462 14.8151C12.7782 14.9791 12.3809 15.0673 11.9781 15.0744C11.5753 15.0815 11.1752 15.0074 10.8016 14.8565C10.4281 14.7056 10.0887 14.4811 9.80385 14.1962C9.51897 13.9113 9.29439 13.572 9.14351 13.1984C8.99262 12.8249 8.91853 12.4247 8.92563 12.0219C8.93274 11.6191 9.02091 11.2219 9.18488 10.8539C9.34884 10.4859 9.58525 10.1547 9.88 9.88002"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path
+                          d="M1 1L23 23"
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_193_2">
+                        <rect
+                          width="24"
+                          height="24"
+                          fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <input
+                    type="password"
+                    name="customer[password]"
+                    id="CustomerPassword"
+                    class="{% if form.errors contains 'password' %}input-error{% endif %}">
+                </span>
+                <div style="margin-top: 30px;">
+                  <div class="remember-me">
+
+                    <input
+                      name="remember"
+                      type="checkbox"
+                      id="remember_me"
+                      value="1" />
+                    <label for="remember_me">Remember Me</label>
+
+                  </div>
+                  <a
+                    href="#recover"
+                    class="input-overlay-link forgot-password"
+                    id="RecoverPassword">
+                    {{- 'customer.login.forgot_password' | t -}}
+                  </a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          <div class="large-row">
+            <input
+              type="submit"
+              class="btn"
+              value="LOG IN">
+          </div>
+        {% endform %}
+      </div>
+      <div class="create-account">
+        <div>
+          <h2 class="create-account-title">CREATE AN ACCOUNT</h2>
+          <p>
+            Even if you have purchased from us before or have an active subscription, you may not have registered your
+            account yet. Creating your account is simple. Just follow the steps after you click the LET’S DO THIS button
+                                                                                                                                                                        below.
+          </p>
+          <a href="{{ routes.account_register_url }}">LET'S DO THIS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if shop.checkout.guest_login %}
+    <div class="account-form">
+      <h2 class="title row">{{ 'customer.login.guest_title' | t }}</h2>
+
+      {% form 'guest_login' %}
+        <input
+          type="submit"
+          class="btn"
+          value="{{ 'customer.login.guest_continue' | t }}">
+      {% endform %}
+    </div>
+  {% endif %}
+</div>

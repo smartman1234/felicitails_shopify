@@ -1,0 +1,176 @@
+<div class="sec-timeline sec-timeline-wag section-{{ section.id }}">
+  <div class="page-width">
+    <div class="image-title">
+      <h2 class="large-title text-center row cc-animate-init cc-animate-in">{{ section.settings.img_title }}</h2>
+    </div>
+    <div class="timeline_image_wrapper">
+      <img
+        src="{{ section.settings.image | img_url: '1024x1024' }}"
+        alt="{{ section.settings.image.alt | escape }}"
+        class="timeline_image">
+    </div>
+    <div class="timeline-title">
+      <h2 class="large-title text-center row cc-animate-init cc-animate-in">{{ section.settings.title }}</h2>
+    </div>
+    {% unless section.settings.sub_button_label_1 == "" or section.settings.sub_button_label_2 == "" %}
+      <div class="sub_button_wrapper">
+        <div class="link_wrapper">
+          <a class="btn_dog {% if section.settings.sub_url_style_1 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.sub_url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.sub_button_label_1 }}</a>
+        </div>
+        <div class="link_wrapper">
+          <a class="btn_cat {% if section.settings.sub_url_style_2 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.sub_url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.sub_button_label_2 }}</a>
+        </div>
+      </div>
+    {% endunless %}
+
+    <div class="timeline-wrap">
+      <ul>
+        {% for block in section.blocks %}
+          <li class="timeline-box">
+            <div class="timeline-box-wrapper">
+              {% if block.settings.timeline_icon %}
+                <div class="timeline-icon"><img src="{{ block.settings.timeline_icon | img_url:'master' }}"></div>
+              {% endif %}
+
+              <div class="timeline_text_wrapper">
+                <h5>{{ block.settings.timeline_heading }}</h5>
+                {{ block.settings.timeline_text }}
+              </div>
+
+            </div>
+          </li>
+        {% endfor %}
+        <div style="clear:both;"></div>
+      </ul>
+    </div>
+    <div class="link_wrapper">
+      <a href="{{ section.settings.button_link }}" class="btn_timeline {% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.button_label }}</a>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Timeline For Wag",
+    "settings": [
+      {
+        "type": "text",
+        "id": "img_title",
+        "label": "Image Heading",
+        "default": "Local Dog Walking"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "EASY PEASY PROCESS"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }, {
+        "type": "radio",
+        "id": "url_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "type": "text",
+        "id": "sub_button_label_1",
+        "label": "Sub Button 1"
+      }, {
+        "type": "url",
+        "id": "sub_button_link_1",
+        "label": "Sub Button 1 link"
+      }, {
+        "type": "radio",
+        "id": "sub_url_style_1",
+        "label": "Sub Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "type": "text",
+        "id": "sub_button_label_2",
+        "label": "Sub Button 2"
+      }, {
+        "type": "url",
+        "id": "sub_button_link_2",
+        "label": "Sub Button 2 link"
+      }, {
+        "type": "radio",
+        "id": "sub_url_style_2",
+        "label": "Sub Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "timeline",
+        "name": "Timeline",
+        "settings": [
+          {
+            "type": "text",
+            "id": "timeline_heading",
+            "label": "Text"
+          }, {
+            "type": "richtext",
+            "id": "timeline_text",
+            "label": "Text"
+          }, {
+            "type": "image_picker",
+            "id": "timeline_icon",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Timeline For Wag"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "e296d6ee-1bb2-4282-811f-cb065776e80b": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/aa25afe256f348fdb6d0336250b4b2ad.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-in-home-pet-sitting-service-wags-partnership-overview-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#000000",
+        "video_overlay_opacity": 0,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO OUR PREFERRED PROVIDER OF LOCAL IN-HOME PET SITTING SERVICES",
+        "overlay_text": "We’re thrilled you’re considering working WAG! for your overnight pet sitting needs. Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through WAG!",
+        "overlay_url_text_1": "BOOK ON WAG! TODAY FOR YOUR DOG",
+        "overlay_url_1": "https:\/\/wagwalking.com\/dog-sitting",
+        "overlay_url_text_2": "BOOK ON WAG! TODAY FOR YOUR CAT",
+        "overlay_url_2": "https:\/\/wagwalking.com\/cat-sitting",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "80aee699-2c18-4f0c-9af9-12f13383fb9f": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Wag! for our Patients & Clients that are in need of in-home pet sitting services. Through our collaboration, you are able book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through their app.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/wag-felicitails-brand-collaboration-petinsurer-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "1dbd83a7-cee9-4454-9777-2b4adbac7d24": {
+      "type": "timeline-wag",
+      "blocks": {
+        "2090f580-683a-4095-8fdc-fdce663ee803": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Set your schedule",
+            "timeline_text": "<p>Whether it's just for the weekend or a few weeks, select your days and we'll fit your schedule<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-in-home-over-night-pet-sitting-service-for-cats-scheduling-process-1.svg"
+          }
+        },
+        "67dbc0e8-9508-42fb-91f3-bdf423b9f356": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Meet your match",
+            "timeline_text": "<p>Browse local pet sitter profiles and find your pawfect match<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-in-home-over-night-pet-sitting-service-for-dogs-scheduling-process-2.svg"
+          }
+        },
+        "4417bab7-e999-4004-ba27-a30fb7763b7b": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Follow along",
+            "timeline_text": "<p>Receive pictures and videos of your pet enjoying playtime, meals, and snuggles (when requested)<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-in-home-over-night-pet-sitting-service-for-dogs-scheduling-process-3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "2090f580-683a-4095-8fdc-fdce663ee803",
+        "67dbc0e8-9508-42fb-91f3-bdf423b9f356",
+        "4417bab7-e999-4004-ba27-a30fb7763b7b"
+      ],
+      "settings": {
+        "img_title": "In-home Pet Sitting",
+        "image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-five-star-rated-in-home-over-night-pet-sitting-service.png",
+        "title": "How overnight pet sitting works",
+        "button_label": "BOOK ON WAG! TODAY FOR YOUR DOG",
+        "button_link": "https:\/\/wagwalking.com\/dog-sitting",
+        "url_style": "button_1",
+        "sub_button_label_1": "DOG SITTING",
+        "sub_button_link_1": "",
+        "sub_url_style_1": "button_1",
+        "sub_button_label_2": "CAT SITTING",
+        "sub_button_link_2": "",
+        "sub_url_style_2": "button_2"
+      }
+    },
+    "eb912a12-1bc6-4f54-b79d-f2206a3edeee": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7c09f50786c84389a0a1f7a0d2949a4b.mp4",
+        "poster": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-in-home-over-night-pet-sitting-service-video-cover.png",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "d2d56d38-d34f-46f1-90df-363c3c463ebd": {
+      "type": "custom-reviews",
+      "blocks": {
+        "c92c8f87-c069-4a24-9c57-8f1ba7088208": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Amanda A",
+            "review_content": "<p>I have had nothing less than wonderful experiences with all of the dog sitters. This is the best app ever and I trust my dogs are in good hands.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-mixed-breed-dog-in-home-over-night-pet-sitting-service.png"
+          }
+        },
+        "d55856de-75a4-4dc6-a4a1-acc37dc46191": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Debbie R.",
+            "review_content": "<p>I found a cat sitter for our two kitties 48 hours before we had to leave on a business trip and no one else was available.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-cat-pair-in-home-over-night-pet-sitting-service.png"
+          }
+        },
+        "3e47ee38-039d-437f-8d0d-a7a7a72c02e6": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Darryl L",
+            "review_content": "<p>I connected with my cat sitter before and arranged all the details, Wag! made it so easy to chat back and forth.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-cat-in-home-over-night-pet-sitting-service.png"
+          }
+        }
+      },
+      "block_order": [
+        "c92c8f87-c069-4a24-9c57-8f1ba7088208",
+        "d55856de-75a4-4dc6-a4a1-acc37dc46191",
+        "3e47ee38-039d-437f-8d0d-a7a7a72c02e6"
+      ],
+      "settings": {
+        "title": "AMAZING REVIEWS FROM WAG! PET PARENTS",
+        "button_label": "BOOK ON WAG! TODAY FOR YOUR DOG",
+        "button_link": "https:\/\/wagwalking.com\/dog-sitting",
+        "review_rating": "4.8\/5",
+        "review_rating_text": "42K+ WAG! APP REVIEWS",
+        "url_style": "button_1",
+        "button_label_2": "BOOK ON WAG! TODAY FOR YOUR CAT",
+        "button_link_2": "https:\/\/wagwalking.com\/cat-sitting",
+        "url_style_2": "button_1",
+        "custom_class": ""
+      }
+    },
+    "ba156fc4-2a63-4456-afea-74a5019fdb9c": {
+      "type": "faq",
+      "blocks": {
+        "38c17e38-9b05-4b7f-89c2-341e4667bf13": {
+          "type": "faq",
+          "settings": {
+            "que": "What is Wag!?",
+            "ans": "<p>Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through the app.<\/p>"
+          }
+        },
+        "432ba1d2-a1f5-4995-bae5-29b6dd1e5c98": {
+          "type": "faq",
+          "settings": {
+            "que": "Who's watching my pet?",
+            "ans": "<p>Wag! pairs your furry family member with an experienced pet sitter in your neighborhood. Your highly-rated sitter will take care of your pet at your home, for the day, or night (or month). Every booking includes unlimited playtime, potty breaks, and the entire day and night can be followed through video and photo updates. Many sitters are lifelong pet owners and every sitter is thoroughly background checked and insured.<\/p>"
+          }
+        },
+        "59488848-b553-4cdb-a5ff-557d14f0b819": {
+          "type": "faq",
+          "settings": {
+            "que": "Is Wag! right for my pet?",
+            "ans": "<p>The Wag! matchmaking process is designed to find your purr-fect match for any cat or dog. On Wag! you can find and book a sitter with experience caring for puppies and kittens, older pets, disabled pets, pets that require medication, pets with separation anxiety, and pets who need lots of playtime. Helpful tip: Make sure to inform your Sitter of all the information they'll need to know to best take care of your pet!<\/p>"
+          }
+        },
+        "b9bce828-4dd2-4853-941c-3067fe33f9e6": {
+          "type": "faq",
+          "settings": {
+            "que": "How much does a Wag! sitting service cost?",
+            "ans": "<p>On average, the cost of an overnight stay for one dog is $39 - $59*. The cost is based on the price set by the Pet Caregiver and varies by region and any additional fees that may apply. The estimated rate will be displayed at the bottom of the screen during booking, with a final price provided when you match with a Pet Caregiver.<\/p><p>*These are estimated prices. The final price may be higher or lower.<\/p>"
+          }
+        },
+        "a5dda41e-1969-4ef1-a2af-5da6021df383": {
+          "type": "faq",
+          "settings": {
+            "que": "Where will my pet be staying?",
+            "ans": "<p>Your pet will be staying in your home with a pet sitter.<\/p>"
+          }
+        },
+        "9a0684ab-d406-4163-b02a-f5094b0e9337": {
+          "type": "faq",
+          "settings": {
+            "que": "I have more than one dog. Is there an additional fee that I will need to pay?",
+            "ans": "<p>Each additional dog costs an additional $24 per night.<\/p>"
+          }
+        },
+        "9d6e25cc-aaf5-4bbc-85d7-7b312ce8896d": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I evaluate sitters?",
+            "ans": "<p>Before any sitter begins working for Wag!, he or she must first undergo a thorough vetting process (which includes pet handling, safety tests, phone screening, and background checks). Many of the sitters have worked as veterinary technicians or shelter volunteers. The majority have been lifelong pet owners and caretakers. 95% of Wag! sittings result in a perfect, 5-star review.<\/p>"
+          }
+        },
+        "a6f2c083-9c87-4ba6-b996-55a5fe3f1617": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I pay for the service?",
+            "ans": "<p>Wag! accepts all major credit cards, including VISA, MasterCard and American Express. Never pay by cash or check as this makes your booking ineligible for premium insurance and support.<\/p>"
+          }
+        },
+        "c0f58339-6860-4047-8488-54bc14f5105a": {
+          "type": "faq",
+          "settings": {
+            "que": "When will I be charged for service?",
+            "ans": "<p>Your card is charged after the service is complete. Wag! will hold onto the funds and release payment to your walker or sitter within 48 hours of the service being completed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "38c17e38-9b05-4b7f-89c2-341e4667bf13",
+        "432ba1d2-a1f5-4995-bae5-29b6dd1e5c98",
+        "59488848-b553-4cdb-a5ff-557d14f0b819",
+        "b9bce828-4dd2-4853-941c-3067fe33f9e6",
+        "a5dda41e-1969-4ef1-a2af-5da6021df383",
+        "9a0684ab-d406-4163-b02a-f5094b0e9337",
+        "9d6e25cc-aaf5-4bbc-85d7-7b312ce8896d",
+        "a6f2c083-9c87-4ba6-b996-55a5fe3f1617",
+        "c0f58339-6860-4047-8488-54bc14f5105a"
+      ],
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e296d6ee-1bb2-4282-811f-cb065776e80b",
+    "80aee699-2c18-4f0c-9af9-12f13383fb9f",
+    "1dbd83a7-cee9-4454-9777-2b4adbac7d24",
+    "eb912a12-1bc6-4f54-b79d-f2206a3edeee",
+    "d2d56d38-d34f-46f1-90df-363c3c463ebd",
+    "ba156fc4-2a63-4456-afea-74a5019fdb9c"
+  ]
+}

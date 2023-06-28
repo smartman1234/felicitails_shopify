@@ -1,0 +1,91 @@
+{% capture social_icon_html %}
+  <div class="social-links {{ container_class }}">
+    <ul class="social-links__list">
+      {% if settings.social_facebook_url != blank %}
+        <li><a aria-label="Facebook" class="facebook" target="_blank" rel="noopener" href="{{ settings.social_facebook_url }}">{% render 'svg-facebook' %}</a></li>
+      {% endif %}
+      {% if settings.social_instagram_url != blank %}
+        <li><a aria-label="Instagram" class="instagram" target="_blank" rel="noopener" href="{{ settings.social_instagram_url }}">{% render 'svg-instagram' %}</a></li>
+      {% endif %}
+      {% if settings.social_youtube_url != blank %}
+        <li><a aria-label="Youtube" class="youtube" target="_blank" rel="noopener" href="{{ settings.social_youtube_url }}">{% render 'svg-youtube' %}</a></li>
+      {% endif %}
+      {% if settings.social_pinterest_url != blank %}
+        <li><a aria-label="Pinterest" class="pinterest" target="_blank" rel="noopener" href="{{ settings.social_pinterest_url }}">{% render 'svg-pinterest' %}</a></li>
+      {% endif %}
+      
+    {%  comment %}
+        {% if settings.social_twitter_url != blank %}
+          <li><a aria-label="Twitter" class="twitter" target="_blank" rel="noopener" href="{{ settings.social_twitter_url }}"><span>Twitter</span>{% render 'svg-twitter' %}</a></li>
+        {% endif %}
+        {% if settings.social_vimeo_url != blank %}
+          <li><a aria-label="Vimeo" class="vimeo" target="_blank" rel="noopener" href="{{ settings.social_vimeo_url }}"><span>Vimeo</span>{% render 'svg-vimeo' %}</a></li>
+        {% endif %}
+        {% if settings.social_tiktok_url != blank %}
+          <li><a aria-label="Tiktok" class="tiktok" target="_blank" rel="noopener" href="{{ settings.social_tiktok_url }}"><span>Tiktok</span>{% render 'svg-tiktok' %}</a></li>
+        {% endif %}
+        {% if settings.social_tumblr_url != blank %}
+          <li><a aria-label="Tumblr" class="tumblr" target="_blank" rel="noopener" href="{{ settings.social_tumblr_url }}"><span>Tumblr</span>{% render 'svg-tumblr' %}</a></li>
+        {% endif %}
+        {% if settings.social_snapchat_url != blank %}
+          <li><a aria-label="Snapchat" class="snapchat" target="_blank" rel="noopener" href="{{ settings.social_snapchat_url }}"><span>Snapchat</span>{% render 'svg-snapchat' %}</a></li>
+        {% endif %}
+        {% if settings.social_whatsapp_url != blank %}
+          <li><a aria-label="WhatsApp" class="whatsapp" target="_blank" rel="noopener" href="{{ settings.social_whatsapp_url }}"><span>WhatsApp</span>{% render 'svg-whatsapp' %}</a></li>
+        {% endif %}
+        {% if settings.social_wechat_url != blank %}
+          <li><a aria-label="WeChat" class="wechat" target="_blank" rel="noopener" href="{{ settings.social_wechat_url }}"><span>WeChat</span>{% render 'svg-wechat' %}</a></li>
+        {% endif %}
+        {% if settings.social_linkedin_url != blank %}
+          <li><a aria-label="LinkedIn" class="linkedin" target="_blank" rel="noopener" href="{{ settings.social_linkedin_url }}"><span>LinkedIn</span>{% render 'svg-linkedin' %}</a></li>
+        {% endif %}
+        {% if settings.social_twitch_url != blank %}
+          <li><a aria-label="Twitch" class="twitch" target="_blank" rel="noopener" href="{{ settings.social_twitch_url }}"><span>Twitch</span>{% render 'svg-twitch' %}</a></li>
+        {% endif %}
+        {% if settings.social_spotify_url != blank %}
+          <li><a aria-label="Spotify" class="spotify" target="_blank" rel="noopener" href="{{ settings.social_spotify_url }}"><span>Spotify</span>{% render 'svg-spotify' %}</a></li>
+        {% endif %}
+      {% endcomment %}
+
+      {% if settings.social_custom_url != blank %}
+        <li>
+          <a aria-label="{{ icon_setting.alt | escape }}" class="social-custom" target="_blank" rel="noopener" href="{{ settings.social_custom_url }}">
+            <img src="{{ icon_setting | img_url: icon_size }}" alt="{{ icon_setting.alt }}" width="{{ icon_setting.width }}" height="{{ icon_setting.height }}"/>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+{% endcapture %}
+{% if social_icon_html contains '<li>' %}{{ social_icon_html }}{% endif %}
+
+<!--Accessibility-->
+<div data-acsb-custom-trigger="true" class="accessibility_link">
+  <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.4998 9.66602C17.428 9.66602 18.3182 9.29727 18.9746 8.64089C19.631 7.98451 19.9998 7.09427 19.9998 6.16602C19.9998 5.23776 19.631 4.34752 18.9746 3.69114C18.3182 3.03476 17.428 2.66602 16.4998 2.66602C15.5715 2.66602 14.6813 3.03476 14.0249 3.69114C13.3685 4.34752 12.9998 5.23776 12.9998 6.16602C12.9998 7.09427 13.3685 7.98451 14.0249 8.64089C14.6813 9.29727 15.5715 9.66602 16.4998 9.66602ZM8.30509 6.83802C7.60104 6.58969 6.82744 6.62927 6.15242 6.94814C5.47739 7.26702 4.9555 7.83943 4.70017 8.54096C4.44483 9.24249 4.47669 10.0165 4.78883 10.6946C5.10096 11.3728 5.66813 11.9004 6.36709 12.1627L11.6151 14.0727C11.6794 14.0961 11.7349 14.1387 11.7742 14.1948C11.8134 14.2508 11.8344 14.3176 11.8344 14.386V17.3447C11.8344 17.58 11.7891 17.8133 11.7011 18.0313L8.70775 25.4394C8.56838 25.7844 8.49832 26.1535 8.50159 26.5256C8.50486 26.8977 8.58139 27.2655 8.7268 27.608C8.87222 27.9505 9.08368 28.2611 9.3491 28.5219C9.61453 28.7827 9.92873 28.9886 10.2738 29.128C10.6188 29.2674 10.9879 29.3374 11.36 29.3342C11.7321 29.3309 12.0999 29.2544 12.4424 29.109C12.7849 28.9635 13.0955 28.7521 13.3563 28.4867C13.6171 28.2212 13.823 27.907 13.9624 27.562L16.1911 22.046C16.2159 21.9843 16.2586 21.9313 16.3137 21.8941C16.3688 21.8568 16.4339 21.8369 16.5004 21.8369C16.567 21.8369 16.632 21.8568 16.6871 21.8941C16.7422 21.9313 16.785 21.9843 16.8098 22.046L19.0384 27.562C19.3199 28.2589 19.8667 28.8155 20.5585 29.1092C21.2503 29.4029 22.0305 29.4098 22.7274 29.1283C23.4243 28.8469 23.9809 28.3001 24.2746 27.6082C24.5683 26.9164 24.5752 26.1362 24.2938 25.4394L21.3018 18.0367C21.2136 17.8185 21.1683 17.5853 21.1684 17.35V14.3853C21.1684 14.3168 21.1896 14.25 21.2289 14.1939C21.2683 14.1379 21.324 14.0953 21.3884 14.072L26.6364 12.1627C26.9861 12.0354 27.3073 11.8405 27.5816 11.5891C27.8559 11.3376 28.0781 11.0346 28.2353 10.6974C28.3925 10.3601 28.4818 9.99519 28.498 9.62343C28.5142 9.25166 28.457 8.88035 28.3298 8.53068C28.2025 8.18102 28.0075 7.85985 27.7561 7.58551C27.5047 7.31117 27.2017 7.08904 26.8645 6.9318C26.5272 6.77456 26.1623 6.68529 25.7905 6.66908C25.4187 6.65288 25.0474 6.71005 24.6978 6.83735L22.1564 7.76268C21.6098 7.96135 21.2084 8.36002 20.9531 8.79202C20.4963 9.56613 19.8454 10.2076 19.0647 10.6531C18.284 11.0986 17.4006 11.3326 16.5018 11.332C15.6029 11.3326 14.7195 11.0986 13.9388 10.6531C13.1581 10.2076 12.5072 9.56613 12.0504 8.79202C11.7944 8.36002 11.3931 7.96135 10.8464 7.76268L8.30509 6.83802Z" fill="black"/>
+  </svg>
+
+  <span>Accessibility</span>
+  <script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : true, disableBgProcess : false, language : 'en', position : 'right', leadColor : '#000', triggerColor : '#000', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'center', triggerOffsetX : 10, triggerOffsetY : 0, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script>
+</div>
+<style>
+  .accessibility_link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    min-width: 200px;
+    min-width: 250px;
+    justify-content: center;
+    margin-top: 28px;
+  }
+  .accessibility_link span {
+    color: rgba(9, 35, 49, 0.8);
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  @media only screen and (max-width: 767px) {.accessibility_link {display: none;}}
+</style>

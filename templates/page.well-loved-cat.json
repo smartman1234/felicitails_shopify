@@ -1,0 +1,111 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "a8f74bd5-3936-4cbe-a1b0-428b2bb2fddf": {
+      "type": "hero-section",
+      "disabled": true,
+      "settings": {
+        "image_link": "",
+        "container": false,
+        "image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "overlay_bg": "#ffffff",
+        "overlay_bg_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Full width image",
+        "overlay_text": "Show off your images, display a promotion with product links",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    },
+    "6ac2a84f-4b72-48e6-91ea-08b595aae046": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ab1db1e650ba49418664aca1288cc0fd.mp4",
+        "cover_image": "shopify:\/\/shop_images\/for-the-well-loved-cat-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Shop for the Well Loved Cat",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "9c5c9b22-d379-4113-83a3-5dc46434f5d5": {
+      "type": "rich-text",
+      "settings": {
+        "title": "For your feline",
+        "text": "<p>Welcome to our online marketplace where you’ll find everything your feline companion could ever need! We understand that as an essential part of your life, they deserve the best you can give them. That's why we’ve curated an extensive range of original, premium products to support and delight both of you.<\/p><p>Your four-legged family member is unique so why settle for mass-produced items when they deserve something special and one-of-a-kind? We’re passionate about supporting small businesses and bringing you premium products that you won’t find elsewhere. Our curated selection includes everything from cozy beds and stylish accessories to healthy food and tasty treats, all made with the highest quality materials and ingredients.<\/p><p>Come and shop with us today and share the joy of pampering your kitty with everything they need to live their best life!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "df94b68d-5c08-4f1a-819a-0ece51fdbd41": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Collection list",
+        "enlarge_title": false,
+        "collection_list": [
+
+        ],
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a8f74bd5-3936-4cbe-a1b0-428b2bb2fddf",
+    "6ac2a84f-4b72-48e6-91ea-08b595aae046",
+    "9c5c9b22-d379-4113-83a3-5dc46434f5d5",
+    "df94b68d-5c08-4f1a-819a-0ece51fdbd41"
+  ]
+}

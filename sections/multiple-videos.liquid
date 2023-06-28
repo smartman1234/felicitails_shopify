@@ -1,0 +1,83 @@
+<div id="multi-video-{{ section.id }}" class="multi-video">
+  <div class="multi-video-wrap page-width" background="{{ section.settings.bg_color }}">
+    <h2 class="large-title">Why Felicitails Partnered</h2>
+    <div class="videos-wrap">
+      {% for block in section.blocks %}
+        <div class="video-wrap">
+          {% if block.settings.vid != blank %}
+            <video width="100%" height="100%" controls playinline {% if block.settings.check %}autoplay loop{% endif %} {% if block.settings.poster != blank %}poster="{{ block.settings.poster |img_url: 'master' }}"{% endif %} loading='lazy'>
+            <source src="{{ block.settings.vid }}" type="video/mp4">
+            <source src="{{ block.settings.vid }}" type="video/ogg">
+            </video>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .multi-video-wrap {
+    width: 100%;
+    height: 100%;
+  }
+  .video-wrap {
+    height: 100%;
+  }
+  .video-wrap video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Multi video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sec_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_title",
+          "label": "Video Title"
+        },
+        {
+          "type": "url",
+          "id": "vid",
+          "label": "MP4 video URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "poster",
+          "label": "Poster on MP4 video"
+        },
+        {
+          "type": "checkbox",
+          "id": "check",
+          "label": "Video autoplay"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi video"
+    }
+  ]
+}
+{% endschema %}

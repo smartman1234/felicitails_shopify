@@ -1,0 +1,184 @@
+<div
+	class="{{ section.settings.custom_class }} relative container container--no-mobile-padding large-row section-{{ section.id }}"
+	data-section-id="{{ section.id }}"
+	data-section-type="rich-text-section"
+>
+	{% style %}
+		.section-{{ section.id }} .rich-text-section {
+			background: {{ section.settings.gradient_bg | default: section.settings.color_bg }};
+			color: {{ section.settings.color_text }};
+		}
+		.section-{{ section.id }} .rich-text-section .large-title,
+		.section-{{ section.id }} .rich-text-section .giant-title {
+			color: {{ section.settings.color_title }};
+		}
+	{% endstyle %}
+	<div
+		class="page-width rich-text-section large-section global-border-radius"
+		data-cc-animate
+		{% if section.id == 'template--18429154754861__2eba69fc-761b-43ad-97be-9785e5192681' %}
+			style="overflow: visible;"
+		{% endif %}
+	>
+		{% if section.id == 'template--18429154754861__2eba69fc-761b-43ad-97be-9785e5192681' %}
+			<img
+				style="position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);"
+				src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/fmp_old_icon_42ac3064-89b2-45ec-90a1-f7343e096b3a.png"
+			>
+		{% endif %}
+		<div class="{% if section.settings.full_width == false %}reading-width{% endif %} text-center">
+			{% if section.settings.title != blank %}
+				<h2 class="{% if section.settings.enlarge_title %}giant-title {% else %}large-title {% endif %} rich-text-section__title">
+					{{ section.settings.title | escape }}
+				</h2>
+			{% endif %}
+
+			{% if section.settings.text != blank %}
+				<div class="rte {% if section.settings.enlarge_text %}large-text{% endif %}">
+					{{ section.settings.text }}
+				</div>
+			{% endif %}
+
+			{% if section.settings.button_label != blank %}
+				{%- assign bg_alpha = section.settings.color_bg | color_extract: 'alpha' -%}
+				{%- assign link_inherit_color = false -%}
+				{%- if section.settings.url_style == 'link_style' -%}
+					{%- if bg_alpha > 0 and section.settings.color_bg != settings.color_body_background -%}
+						{%- assign link_inherit_color = true -%}
+					{%- endif -%}
+				{%- endif -%}
+
+				<div class="rich-text-section__btn-row">
+					<a
+						class="{% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% if link_inherit_color == true %}standard-link--inherit-color{% endif %}{% endif %}"
+						href="{{ section.settings.button_link | escape }}"
+					>
+						{{- section.settings.button_label | escape -}}
+					</a>
+				</div>
+			{% endif %}
+
+			{% if section.settings.image != blank %}
+				<div class="rich-text-img">
+					{% if section.settings.image_url != blank %}<a href="{{ section.settings.image_url }}">{% endif %}
+					<img src="{{ section.settings.image | img_url:'master' }}">
+					{% if section.settings.image_url != blank %}</a>{% endif %}
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<style>
+	.free-mypaw-icon.container .rich-text-img{
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+</style>
+
+{% schema %}
+{
+	"name": "Rich text",
+	"tag": "section",
+	"class": "section-rich-text",
+	"settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Heading",
+			"default": "Rich text"
+		},
+		{
+			"type": "richtext",
+			"id": "text",
+			"label": "Text",
+			"default": "<p>Use this text to share information about your store with your customers.</p><p>Describe products, share announcements, or welcome customers to your store.</p>"
+		},
+		{
+			"type": "text",
+			"id": "button_label",
+			"label": "Button"
+		},
+		{
+			"type": "url",
+			"id": "button_link",
+			"label": "Button link"
+		},
+		{
+			"type": "radio",
+			"id": "url_style",
+			"label": "Button style",
+			"options": [
+				{ "value": "button_1", "label": "Button - primary" },
+				{ "value": "button_2", "label": "Button - secondary" },
+				{ "value": "link_style", "label": "Link"}
+			],
+			"default": "button_1"
+		},
+		{
+			"type": "checkbox",
+			"id": "enlarge_title",
+			"label": "Enlarge heading",
+			"default": false
+		},
+		{
+			"type": "checkbox",
+			"id": "enlarge_text",
+			"label": "Enlarge text",
+			"default": false
+		},
+		{
+			"type": "checkbox",
+			"id": "full_width",
+			"label": "Wide text width",
+			"default": false
+		},
+		{
+			"type": "color",
+			"id": "color_title",
+			"label": "Heading color",
+			"default": "#333333"
+		},
+		{
+			"type": "color",
+			"id": "color_text",
+			"label": "Text color",
+			"default": "#333333"
+		},
+		{
+			"type": "color",
+			"id": "color_bg",
+			"label": "Background color",
+			"default": "#ecf1f2"
+		},
+		{
+			"type": "color_background",
+			"id": "gradient_bg",
+			"label": "Background gradient",
+			"info": "If set, replaces background color"
+		},
+		{
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image"
+		},
+		{
+			"type":"url",
+			"id":"image_url",
+			"label":"Link"
+		},
+		 {
+			"type": "text",
+			"id": "custom_class",
+			"label": "Custom Class"
+		}
+	],
+	"presets": [
+		{
+			"name": "Rich text"
+		}
+	]
+}
+{% endschema %}

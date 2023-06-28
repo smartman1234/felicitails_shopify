@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "blog_show_rss": false,
+        "blog_show_tags": true,
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "article_show_tags": true,
+        "show_featured_products": true,
+        "blog_magazine_layout": false,
+        "description": "A world of inspiration",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 10,
+        "color_overlay_text": "#333333",
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

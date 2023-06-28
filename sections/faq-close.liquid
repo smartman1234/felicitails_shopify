@@ -1,0 +1,143 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<div class="accordion section-{{ section.id }}">
+  <div class="accordion-container page-width">
+    <h2 class="large-title">{{ section.settings.title }}</h2>
+    {% for block in section.blocks %}
+      <div class="set">
+        <span>
+          {{ block.settings.que }}
+          <i class="fa fa-angle-down"></i>
+        </span>
+        <div class="content">
+          {{ block.settings.ans }}
+        </div>
+      </div>
+    {% endfor %}
+    <div class="btn-center">
+      <a class="btn_cat {% if section.settings.sub_url_style_2 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.sub_url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}" href="{{ section.settings.sub_button_link_2 }}" target="_blank">{{ section.settings.sub_button_label_2 }}</a>
+    </div>
+  </div>
+</div>
+
+<style>
+.section-{{ section.id }} h2 {
+  color: {{ section.settings.title_color }}
+}
+.accordion-container{
+  position: relative;
+}
+.accordion-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.set{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.set > span{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.set > span i{
+  float: right;
+  margin-top: 2px;
+}
+.content{
+  display:none;
+}
+.content p{
+  padding: 10px 15px;
+  margin: 0;
+  color: #333;
+}
+.btn.btn--secondary {
+  --button-border-color: #EAEAEA!important;
+  background-color: #fff!important;
+  color: #666!important;
+}
+div.btn-center {
+  display: flex;
+  justify-content: center;
+}
+</style>
+{% schema %}
+  {
+    "name": "FAQs Close",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Frequently Asked Question"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title Color",
+        "default": "#000000"
+      }, {
+        "type": "text",
+        "id": "sub_button_label_2",
+        "label": "Sub Button 2"
+      }, {
+        "type": "url",
+        "id": "sub_button_link_2",
+        "label": "Sub Button 2 link"
+      }, {
+        "type": "radio",
+        "id": "sub_url_style_2",
+        "label": "Sub Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }
+    ],
+    "blocks": [
+    {
+      "type": "faq",
+      "name": "faq",
+      "settings": [
+        {
+          "type": "text",
+          "id": "que",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "ans",
+          "label": "Answer"
+        }
+      ]
+    }
+    ],
+    "presets": [
+      {
+        "name": "FAQs Close"
+      }
+    ]
+  }
+{% endschema %}

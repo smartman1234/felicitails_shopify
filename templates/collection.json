@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "enable_feature_header": true,
+        "grid": 5,
+        "grid_mobile": "2",
+        "pagination_limit": 12,
+        "show_total": false,
+        "show_vendor": false,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true,
+        "show_featured": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

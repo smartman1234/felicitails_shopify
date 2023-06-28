@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "new-article",
+      "settings": {
+        "article_show_author": false,
+        "article_show_date": false,
+        "article_show_tags": true,
+        "article_show_share_buttons": true,
+        "required_fields": true,
+        "privacy_link": "",
+        "show_featured_products": true,
+        "blog": "pet-animal-training",
+        "post_limit": 3
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

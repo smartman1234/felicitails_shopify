@@ -1,0 +1,37 @@
+<div class="container row">
+  <div class="reading-width center large-row large-section">
+    <h3>{{ 'general.404.title' | t }}</h3>
+    <p>{{ 'general.404.subtext' | t }}</p>
+    <div class="go_back">
+      <p>{{ 'general.404.back_text' | t }}</p>
+    </div>
+    <div class="large-row">
+      <a href="{{ routes.root_url }}" class="btn btn--primary">{{ 'general.404.link' | t }}</a>
+    </div>
+
+    <div class="search_text">
+      <p>{{ 'general.404.searchtext' | t }}</p>
+    </div>
+  </div>
+  <div class="large-row center">
+    <form action="{{ routes.search_url }}" method="get" role="search" class="search-page-form">
+      <div class="search-img">
+        <input type="hidden" name="type" value="{{ settings.search_type }}">
+        <input type="hidden" name="options[prefix]" value="last">
+        <label for="Search" class="label-hidden">
+          {{- 'general.search.placeholder' | t -}}
+        </label>
+        <input
+          type="search"
+          name="q"
+          id="Search"
+          value="{{ search.terms | escape | remove: '*' }}"
+          placeholder="{{ 'general.search.placeholder' | t }}"
+        >
+      </div>
+      <button type="submit" class="btn search-page-button">
+        {{- 'general.search.submit' | t -}}
+      </button>
+    </form>
+  </div>
+</div>

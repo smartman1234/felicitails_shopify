@@ -1,0 +1,89 @@
+<div class="page-width rich-text-section large-section">
+  <div class="content">
+    <div class="title">
+      {{ section.settings.section_title }}
+    </div>
+
+    <div class="list">
+      {%- for block in section.blocks -%}
+        <div class="item">
+          <img src="{{ block.settings.icon | img_url }}" alt="{{ block.settings.image.alt | escape }}">
+          <div calss="text">{{ block.settings.text }}</div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Text list with icon",
+  "tag": "section",
+  "class": "text-list-icons-section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "section_title",
+      "label": "Section Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "icon"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text List With Icon",
+      "category": "Text",
+      "blocks": [
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+
+  .text-list-icons-section .content{
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+
+  @media (max-width: 1020px) {
+  .text-list-icons-section .content{
+      flex-wrap: wrap;
+    }
+  }
+
+  .text-list-icons-section .item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 2rem;
+  }
+
+
+  .text-list-icons-section .item p{
+    margin: 0;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

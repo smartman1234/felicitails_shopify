@@ -1,0 +1,154 @@
+{% stylesheet %}
+  .dna-td-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  table.dna-table {
+    border-radius: 16px;
+  }
+  table.dna-table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+{% endstylesheet %}
+<div class="sec-timeline sec-timeline-wag section-{{ section.id }}">
+  <div class="page-width">
+    <div class="image-title">
+      <h2 class="large-title text-center row cc-animate-init cc-animate-in">{{ section.settings.img_title }}</h2>
+    </div>
+    <div class="">
+      <table class="dna-table">
+        <tbody>
+          <tr>
+            <th></th>
+            <th><div class="dna-td-center">Breed ID DNA Test</div></th>
+            <th><div class="dna-td-center">Breed + Health DNA Test</div></th>
+          </tr>
+          <tr>
+            <td>Price</td>
+            <td><div class="dna-td-center">$129 $109</div></td>
+            <td><div class="dna-td-center">$199 $159</div></td>
+          </tr>
+          <tr>
+            <td>Overview</td>
+            <td><div class="dna-td-center">The best DNA kit for dog owners who want their dog’s breed breakdown</div></td>
+            <td><div class="dna-td-center">The best kit for dog owners who want to get their dog’s breed breakdown and genetic health screening</div></td>
+          </tr>
+          {%- for block in section.blocks -%}
+          <tr>
+            <td>{{ block.settings.text }}</td>
+            {%- if block.settings.id_value == "true" -%}
+            <td>
+              <div class="dna-td-center">
+                <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-check-icon.svg?v=1686834101">
+              </div>
+            </td>
+            {%- else -%}
+            <td>
+              <div class="dna-td-center">
+                <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-x-icon.svg?v=1686834100">
+              </div>
+            </td>
+            {%- endif -%}
+            {%- if block.settings.health_value == "true" -%}
+            <td>
+              <div class="dna-td-center">
+                <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-check-icon.svg?v=1686834101">
+              </div>
+            </td>
+            {%- else -%}
+            <td>
+              <div class="dna-td-center">
+                <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-x-icon.svg?v=1686834100">
+              </div>
+            </td>
+            {%- endif -%}
+          </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+    <div class="link_wrapper">
+      <a href="{{ section.settings.button_link }}" class="btn_timeline {% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.button_label }}</a>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "DNA Test Table",
+    "settings": [
+      {
+        "type": "text",
+        "id": "img_title",
+        "label": "Heading",
+        "default": "Compare Embark's DNA tests"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }, {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      }, {
+        "type": "radio",
+        "id": "url_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "table row",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "text content"
+          },{
+            "type": "radio",
+            "id": "id_value",
+            "label": "Breed ID DNA Test",
+            "options": [
+              { "value": "true", "label": "true" },
+              { "value": "false", "label": "false" }
+            ]
+          },{
+            "type": "radio",
+            "id": "health_value",
+            "label": "Breed + Health DNA Test",
+            "options": [
+              { "value": "true", "label": "true" },
+              { "value": "false", "label": "false" }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "DNA Test Table"
+      }
+    ]
+  }
+{% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,29 @@
+<h2 class="rich-text-section__title">{{ section.settings.section_title | escape }}</h2>
+
+{% schema %}
+{
+  "name": "Section title",
+  "tag": "section",
+  "class": "section-title",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Text",
+      "default": "Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section title",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

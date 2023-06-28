@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "5b2da562-6914-46be-994d-cf258f73ad4c": {
+      "type": "divider",
+      "settings": {
+        "height_size": 24
+      }
+    },
+    "e9574fc9-1ac0-47e6-b45d-4f6eaa55e40b": {
+      "type": "section-title",
+      "settings": {
+        "section_title": "Returns & Exchanges"
+      }
+    },
+    "73c3dc33-3372-4422-bae2-dd06d142ef3f": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/friendly-customer-service-timely-order-deliver-resolution-returns-exchanges-policy-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "In the event that your order arrives damaged in any way,",
+        "text": "<p>please email us as soon as possible at <a href=\"mailto:support@felicitials.com\" title=\"mailto:support@felicitials.com\"><strong>support@felicitials.com<\/strong><\/a> with your order number and a photo of the item’s condition. We address these on a case-by-case basis but will try our best to work towards a satisfactory solution.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "cbea8c45-2c98-4ed1-b8ac-9ea092c504ac": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ffelicitails-returns-exchanges-policy-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Refunds, Returns, and Exchanges",
+        "text": "<p>We accept returns <strong>up to 60 days after delivery<\/strong>, if the item is unused and in its original condition, and we will refund the full order amount minus the shipping costs for the return.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "{{ shop.brand.colors.primary[0].foreground }}",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "c00daf2a-4a86-4fc6-bbaf-e90c506ea753": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/french-bulldog-listening-to-music-returns-exchanges-policy-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "If you have any further questions, please don't hesitate to contact us at",
+        "text": "<h5><a href=\"mailto:support@felicitials.com\" title=\"mailto:support@felicitials.com\">support@felicitials.com<\/a><\/h5>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "{{ shop.brand.colors.primary[0].foreground }}",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5b2da562-6914-46be-994d-cf258f73ad4c",
+    "e9574fc9-1ac0-47e6-b45d-4f6eaa55e40b",
+    "73c3dc33-3372-4422-bae2-dd06d142ef3f",
+    "cbea8c45-2c98-4ed1-b8ac-9ea092c504ac",
+    "c00daf2a-4a86-4fc6-bbaf-e90c506ea753"
+  ]
+}

@@ -1,0 +1,59 @@
+{%- if section.settings.show_announcement_bar -%}
+  {%- if section.settings.home_only_announcement_bar == false or template == 'index' -%}
+    <section class="announcement-bar" style="--text-color: {{ section.settings.announcement_text_col }}; --background: {{ section.settings.announcement_bar_grad | default: section.settings.announcement_bar_col }}">
+      {%- if section.settings.announcement_bar_url != blank -%}
+      <a href="{{ section.settings.announcement_bar_url }}" class="announcement-bar__content container">{{ section.settings.announcement_bar_text }}</a>
+      {%- else -%}
+      <div class="announcement-bar__content container">{{ section.settings.announcement_bar_text }}</div>
+      {%- endif -%}
+    </section>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Announcement bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement_bar",
+        "label": "Show announcement bar",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "home_only_announcement_bar",
+        "label": "Show only on the home page",
+        "default": false
+      },
+      {
+         "type": "inline_richtext",
+         "id": "announcement_bar_text",
+         "label": "Text",
+         "default": "Add notices for your shoppers here"
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "announcement_bar_col",
+        "label": "Bar",
+        "default": "#43467f"
+      },
+      {
+        "type": "color_background",
+        "id": "announcement_bar_grad",
+        "label": "Bar gradient",
+        "info": "If set, replaces bar color"
+      },
+      {
+        "type": "color",
+        "id": "announcement_text_col",
+        "label": "Text",
+        "default": "#ffffff"
+      }
+    ]
+  }
+{% endschema %}

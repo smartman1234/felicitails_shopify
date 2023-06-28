@@ -1,0 +1,308 @@
+@media screen and (max-width: 939.98px) {
+  .nav_var {
+    display: none;
+  }
+
+  .account-title {
+    height: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .account-main-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .account-main-digitalvault,
+  .account-main-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    isolation: isolate;
+    height: 90px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .account-main-items h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .account-main-item-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+  }
+
+  .account-main-item-title > h1 {
+    margin-left: 30px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .account-main-item-title > p {
+    margin-left: 30px;
+  }
+  .account-main-item-title > svg {
+    right: 30px;
+    position: absolute;
+  }
+
+  .filter_buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .digital_vault_letter {
+    width: 100%;
+  }
+  .digital_vault_text_group {
+    width: 100%;
+    align-items: center;
+  }
+  .digital_vault_text_group > h4 {
+    width: 100%;
+  }
+  .digital_vault_table {
+    justify-content: space-between;
+  }
+  .digital_vault_button_group .download {
+    width: 100%;
+  }
+  .digital_vault_button_group .update {
+    width: 100%;
+  }
+  .digital_vault_certificate {
+    flex-direction: column;
+  }
+  .digital_vault_certificate > img {
+    width: 100%;
+    height: auto;
+  }
+  .digital_vault_text {
+    text-align: center;
+    width: 100%;
+  }
+  .digital_vault_document_list {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .digital_vault_document_list > div {
+    width: 100% !important;
+  }
+  .digital_vault_lost {
+    flex-direction: column;
+    align-items: center;
+    height: 547px;
+    width: 388px;
+    border-radius: 10px;
+  }
+
+  .digital_vault_lost > * {
+    width: 387px !important;
+  }
+  .digital_vault_lost > img {
+    height: 264px;
+  }
+  .digital_vault_lost > img + div {
+    height: 283px;
+  }
+
+  .information-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .information-title {
+    margin-top: 20px;
+  }
+
+  .item-policy {
+    align-items: flex-start;
+  }
+
+  .item-policy input {
+    margin-top: 6px;
+  }
+  .account-address-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .submit {
+    width: 100%;
+  }
+
+  .check-password > .mainbody {
+    flex-direction: column;
+  }
+  .check-password li {
+    width: 100%;
+  }
+  .profile-edit > .footer > button {
+    width: 100%;
+  }
+  .service-body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .service-body button {
+    width: 100%;
+  }
+
+  .account-cards {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .account-card {
+    width: 100%;
+    height: auto;
+  }
+  .default .card-header {
+    position: absolute;
+    bottom: 0;
+  }
+  .default .card-footer {
+    left: 110px;
+    bottom: 6px;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  }
+  .card-footer p {
+    max-width: 250px;
+  }
+  .felicitail-store-credit {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+  .credit-data .buttons {
+    flex-direction: column;
+  }
+  .button-group button {
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .line-h {
+    position: initial;
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+  }
+
+  .gift-card > div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .card-auto-reload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .subscribe-body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .subcribe-body-content button {
+    width: 100%;
+  }
+  .subscribe-step {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .subscribe-step > :not(:first-child) {
+    border-inline: none;
+  }
+  .subscribe-step p {
+    text-align: center;
+  }
+  .secret {
+    -webkit-text-security: disc;
+  }
+  .ballance-card > h1 {
+    width: auto;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .ballance-card > .button-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ballance-card {
+    width: 100%;
+  }
+  .order-counts {
+    justify-content: space-between;
+  }
+  .order-counts > * {
+    width: 100%;
+  }
+  .order-item .header {
+    flex-wrap: wrap;
+  }
+  .order-item .th {
+    width: 40% !important;
+  }
+  .order-content .button-group {
+    margin: 0px;
+    flex-direction: column;
+  }
+  .wish-list-content > div {
+    width: 100%;
+  }
+  .wish-list-button button {
+    width: 100%;
+  }
+  .wish-list-content img {
+    flex: none;
+    order: 1;
+  }
+  .conversation > .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .account-customer-service-body button {
+    width: 100%;
+  }
+  .point-of-contact .body {
+    flex-direction: column-reverse;
+  }
+}

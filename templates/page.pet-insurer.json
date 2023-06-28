@@ -1,0 +1,487 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "626c449f-3cf8-4766-99a9-74ff081ef72f": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/91c9419e6d3a47bf85582ea152299aaf.mp4",
+        "cover_image": "shopify:\/\/shop_images\/pet-insurance-through-petinsurer-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Welcome to Our Preferred Dog & Cat Insurance Provider, Providing Peace of Mind",
+        "overlay_text": "Pet insurance covers your pet against future accidents and illnesses they’re unlucky enough to suffer from. Learn how much money you can save by investing in pet insurance.",
+        "overlay_url_text_1": "FIND AN INSURANCE PLAN TODAY",
+        "overlay_url_1": "https:\/\/quote.petinsurer.com\/quote\/",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "f8b7c854-dcf8-4ef4-b17f-feae060a644c": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Petinsurer for our Patients & Clients that are in need of Pet Insurance for their trusted furry companion. Through our collaboration, you are able to order find well-priced pet insurance for your Dog or Cat.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/pet-insurance-through-petinsurer-felicitails-brand-collaboration-petinsurer-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "5ae4f801-c05c-4417-b09d-45f352513e2e": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Vet bills can be super-expensive!",
+        "text": "<p>Thankfully, filing a pet insurance claim is really easy. Most claims can be filed online and you’ll get paid really quickly, usually within just a few days or less<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "952e97fd-5739-4ba4-8108-e351edc893fe": {
+      "type": "select-buttons",
+      "settings": {
+        "img_title": "",
+        "image": "shopify:\/\/shop_images\/desktop-dog-insurance-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-dog-cat-cost-overview.png",
+        "title": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "sub_button_label_1": "FOR DOGS",
+        "sub_button_link_1": "",
+        "sub_url_style_1": "button_1",
+        "sub_button_label_2": "FOR CATS",
+        "sub_button_link_2": "",
+        "sub_url_style_2": "button_2",
+        "custom_class": "sb-one"
+      }
+    },
+    "7879db96-fe0b-4e04-bf1c-7e517bf25585": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pet-insurance-through-petinsurer-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-what-is-pet-insurance-icon.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "truck",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "What is pet insurance?",
+            "text": "<p>Pet insurance covers your pet against future accidents and illnesses they’re unlucky enough to suffer from. Learn how much money you can save by investing in pet insurance.<\/p>",
+            "button_label": "SEE MORE",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pet-insurance-through-petinsurer-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-pet-insurance-reviews-icon.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Pet insurance reviews",
+            "text": "<p>There’s a reason pet owners give Pet Insurer a 4.9\/5 review score. We love pets, and we love helping pet owners like you give their pets a long and healthy life. See what other pet owners say about us.<\/p>",
+            "button_label": "SEE MORE",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pet-insurance-through-petinsurer-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-why-buy-pet-insurance-icon.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Why buy pet insurance",
+            "text": "<p>47% of dogs will get cancer in their lifetime. Pet owners spend $16 Billion annually at the vet. Technology is helping our pets live longer, but vet bills can be really expensive.<\/p>",
+            "button_label": "SEE MORE",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-0",
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-1",
+        "template--19578581221677__7879db96-fe0b-4e04-bf1c-7e517bf25585-16872100208937adbd-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "LET'S COVER SOME OF THE BASICS",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "link_style",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3 mc-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "10ea574a-5aba-49c1-8c4e-bc1f392d9dca": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "How it Works",
+        "image": "shopify:\/\/shop_images\/dog-cat-insurance-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-couple-looking-road-with-their-dog-in-the-city.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Tell us about your pet and where you live",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "iwt-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "c69840ee-cd45-4301-9f0d-d930f7e08951": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-cat-insurance-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-emotional-support-animal-owner-on-sidewalk-with-her-dog-in-the-city.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "We’ll recommend plans based on their breed and age",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "iwt-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "458f10ea-081b-457e-8761-fbafe60c406f": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-cat-insurance-felicitails-brand-collaboration-petinsurer-felicitails-is-founded-by-lindsay-giguiere-man-holding-laptop-couch-with-his-service-dog.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Enroll your pet and sit back knowing you’re an awesome pet parent",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "iwt-three",
+        "button_label_bottom": "FIND AN INSURANCE PLAN TODAY",
+        "button_link_bottom": "https:\/\/quote.petinsurer.com\/quote\/",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "9a5b1509-06c9-46d7-bf80-7ff621c2aba7": {
+      "type": "custom-reviews",
+      "blocks": {
+        "2daffd22-dabe-43a0-8c76-cfe68070709f": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Charlotte Schmidt",
+            "review_content": "<p>This service is great, you can tell they’re pet owners too. I did my search and am...<\/p>"
+          }
+        },
+        "b7ece0a8-dfd8-40bc-984a-aa8b2639c4d3": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Susan White",
+            "review_content": "<p>So happy I got pet insurance here. Betsy got into an accident with a truck a month...<\/p>"
+          }
+        },
+        "92ee65c1-27ed-4497-8fd7-6776d6e0ce94": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Danielle Rosenbach",
+            "review_content": "<p>I've got both my Labs insured with Pet Insurer. One claim so far and got paid...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2daffd22-dabe-43a0-8c76-cfe68070709f",
+        "b7ece0a8-dfd8-40bc-984a-aa8b2639c4d3",
+        "92ee65c1-27ed-4497-8fd7-6776d6e0ce94"
+      ],
+      "settings": {
+        "title": "Don’t take our word for it, Read real pet insurance reviews",
+        "button_label": "",
+        "button_link": "",
+        "review_rating": "9.6\/10",
+        "review_rating_text": "Based on 18,354 reviews",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": "cr-one"
+      }
+    },
+    "6bceec08-dd79-4c14-a3a3-d4c142666961": {
+      "type": "faq-close",
+      "blocks": {
+        "5cb21d85-143c-4172-9650-05f8102183a1": {
+          "type": "faq",
+          "settings": {
+            "que": "What is fecal microbiome testing and what are the benefits?",
+            "ans": ""
+          }
+        },
+        "6fcd4609-ad61-4e69-906e-8e51ce8891c3": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I register my sample?",
+            "ans": ""
+          }
+        },
+        "9613f6ff-54fd-42c5-9a82-c44910260384": {
+          "type": "faq",
+          "settings": {
+            "que": "Is my sample safe in the mail?",
+            "ans": ""
+          }
+        },
+        "6b9279de-d544-4850-a4be-8cbbc115231c": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I register my sample?",
+            "ans": ""
+          }
+        },
+        "e4f08ba7-6c7d-4ec3-b983-f28d4f56e47c": {
+          "type": "faq",
+          "settings": {
+            "que": "Is my sample safe in the mail?",
+            "ans": ""
+          }
+        }
+      },
+      "block_order": [
+        "5cb21d85-143c-4172-9650-05f8102183a1",
+        "6fcd4609-ad61-4e69-906e-8e51ce8891c3",
+        "9613f6ff-54fd-42c5-9a82-c44910260384",
+        "6b9279de-d544-4850-a4be-8cbbc115231c",
+        "e4f08ba7-6c7d-4ec3-b983-f28d4f56e47c"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_color": "#000000",
+        "sub_button_label_2": "SHOW MORE",
+        "sub_button_link_2": "https:\/\/www.petinsurer.com\/faq\/",
+        "sub_url_style_2": "button_2"
+      }
+    },
+    "d64af29e-4cae-477c-b1c1-d81c5fe24ecc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-felicitails-insuring-your-psychiatric-service-dog-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "iwto-one"
+      }
+    },
+    "c309b271-8b44-4a3c-a0a2-724523b588f5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19578581221677__c309b271-8b44-4a3c-a0a2-724523b588f5-16872071695670e598-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 35,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "How PetInsurer is rethinking pet insurance",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19578581221677__c309b271-8b44-4a3c-a0a2-724523b588f5-16872071695670e598-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Everyone who works at Pet Insurer has a pet – not because it’s part of their contract or anything, but because the sort of people who want to work for a company like this just tend to have a love of pets, pure and simple. For Pet Insurer, cats and dogs are part of a family, so they’re absolutely passionate about giving dogs and cats the best life possible.<br\/><br\/>Why did the Pet Insurer for their company? They recognized that getting online insurance can be a bit of a pain - sort of like the internet version of doing the laundry or vacuuming your house. Sometimes it feels like you can waste days going round lots of different websites, getting quotes and seeing which one’s best. Don’t you just hate that? That’s why Pet Insurer is great, because it’s quick, easy and guarantees the best deal for you and your pet. Just type in your requirements, click on ‘search’ and bingo – within seconds you’ll be able to compare a host of quotes at a glance and save yourself money. It’s that easy.<br\/><br\/>That’s not to say that they simply launched Pet Insurer off the back of a love of pets and a dislike of getting insurance quotes. In fact, Pet Insurer over the last ten years has given over five million insurance quotes, and provided policies for more than 1.1 million happy customers.<br\/><br\/>At the end of the day, though, it comes back to one simple rule: getting the best for your pet comes first and that is why Felicitails chose to partner with Pet Insurer.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19578581221677__c309b271-8b44-4a3c-a0a2-724523b588f5-16872071695670e598-0",
+        "template--19578581221677__c309b271-8b44-4a3c-a0a2-724523b588f5-16872071695670e598-1"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "mc-two",
+        "button_label_bottom": "FIND AN INSURANCE PLAN TODAY",
+        "button_link_bottom": "https:\/\/quote.petinsurer.com\/quote\/",
+        "url_style_bottom": "button_1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "626c449f-3cf8-4766-99a9-74ff081ef72f",
+    "f8b7c854-dcf8-4ef4-b17f-feae060a644c",
+    "5ae4f801-c05c-4417-b09d-45f352513e2e",
+    "952e97fd-5739-4ba4-8108-e351edc893fe",
+    "7879db96-fe0b-4e04-bf1c-7e517bf25585",
+    "10ea574a-5aba-49c1-8c4e-bc1f392d9dca",
+    "c69840ee-cd45-4301-9f0d-d930f7e08951",
+    "458f10ea-081b-457e-8761-fbafe60c406f",
+    "9a5b1509-06c9-46d7-bf80-7ff621c2aba7",
+    "6bceec08-dd79-4c14-a3a3-d4c142666961",
+    "d64af29e-4cae-477c-b1c1-d81c5fe24ecc",
+    "c309b271-8b44-4a3c-a0a2-724523b588f5"
+  ]
+}

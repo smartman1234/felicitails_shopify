@@ -1,0 +1,271 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "2b39a023-0d9a-4a25-93b9-620ee4617f43": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/32f1cfb37f55410a9c27702fd360fa6a.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-local-dog-boarding-service-wags-partnership-overview-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO OUR PREFERRED PROVIDER OF LOCAL PET BOARDING SERVICES",
+        "overlay_text": "We’re thrilled you’re considering working WAG! for your local dog boarding needs. Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through WAG!",
+        "overlay_url_text_1": "BOOK ON WAG! TODAY",
+        "overlay_url_1": "https:\/\/wagwalking.com\/dog-boarding",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "4eca4af1-f13d-4d31-a9e3-36324820f4b4": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Wag! for our Patients & Clients that are in need of local pet boarding services. Through our collaboration, you are able book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through their app.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/wag-felicitails-brand-collaboration-petinsurer-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "e227fe0e-7943-42df-b53c-7867cd8e969e": {
+      "type": "timeline-wag",
+      "blocks": {
+        "6507ef76-918a-40c1-b50e-948a9f82b4b0": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Set your schedule",
+            "timeline_text": "<p>Whether it's just for the weekend or a few weeks, select your days and we'll fit your schedule<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-local-dog-boarding-scheduling-process-1.svg"
+          }
+        },
+        "ef0e1817-37ab-4899-86d9-194b85e85b14": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Meet your match",
+            "timeline_text": "<p>Review available local pet caregivers to find your pawfect match<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-local-dog-boarding-scheduling-process-2.svg"
+          }
+        },
+        "7d941e17-d18f-4114-b34a-6a70b519569c": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Follow along",
+            "timeline_text": "<p>Receive pictures and videos of your pup enjoying playtime, meals, snuggles, and fresh air<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-local-dog-boarding-scheduling-process-3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "6507ef76-918a-40c1-b50e-948a9f82b4b0",
+        "ef0e1817-37ab-4899-86d9-194b85e85b14",
+        "7d941e17-d18f-4114-b34a-6a70b519569c"
+      ],
+      "settings": {
+        "img_title": "LOCAL BOARDING SERVICES",
+        "image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-five-star-rated-local-dog-boarding.png",
+        "title": "How overnight dog boarding works",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/dog-boarding",
+        "url_style": "button_1",
+        "sub_button_label_1": "",
+        "sub_button_link_1": "",
+        "sub_url_style_1": "button_1",
+        "sub_button_label_2": "",
+        "sub_button_link_2": "",
+        "sub_url_style_2": "button_1"
+      }
+    },
+    "94321a72-8d98-486e-9f94-e72db2529217": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/83c5739b4bb64522a8134b7cb7c0c12b.mp4",
+        "poster": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-local-dog-boarding-video-cover.png",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "48324d27-3117-4501-abb5-d2649d94aa41": {
+      "type": "custom-reviews",
+      "blocks": {
+        "b66d60f0-7d9a-4d81-be64-152f667c58be": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Meredith P",
+            "review_content": "<p>I recently started using their dog boarding service! Both times I've done so have been great - and he's come home well taken care of, and I meet my dog sitters and see my dog with them as well. So happy with the level of care & service.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-german-shepard-mix-local-dog-boarding.png"
+          }
+        },
+        "7ef8b372-6c4f-43b6-9c4a-0c4c92051646": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Brenda H",
+            "review_content": "<p>I've been using Wag! for 4 years now. My boys are so much happier in a home rather than a kennel. The dog boarders have been so caring and so good about letting me know each time how much boys are doing!<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-french-bulldogs-playing-local-dog-boarding.png"
+          }
+        },
+        "2046279a-e782-4501-923f-cf8ae0cb9846": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Melissa L",
+            "review_content": "<p>I've multiple pets, cats and dogs, and I'd rather have someone come to my home instead of boarding them. My pet sitter, Corynne, has cared for my pets for years. She's dependable and my pets love her! I wouldn't use anyone else!<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-dog-cat-brother-sister-local-dog-boarding.png"
+          }
+        }
+      },
+      "block_order": [
+        "b66d60f0-7d9a-4d81-be64-152f667c58be",
+        "7ef8b372-6c4f-43b6-9c4a-0c4c92051646",
+        "2046279a-e782-4501-923f-cf8ae0cb9846"
+      ],
+      "settings": {
+        "title": "AMAZING REVIEWS FROM WAG! PET PARENTS",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/dog-boarding",
+        "review_rating": "4.8\/5",
+        "review_rating_text": "42K+ WAG! APP REVIEWS",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": ""
+      }
+    },
+    "e5e628df-78bd-42c4-92f8-670f64e6bc29": {
+      "type": "faq",
+      "blocks": {
+        "ff14abdc-2a5a-4b83-a2a6-cefebf49ce7f": {
+          "type": "faq",
+          "settings": {
+            "que": "What is Wag!?",
+            "ans": "<p>Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through the app.<\/p>"
+          }
+        },
+        "6bb1d073-8721-486a-ba3b-42dba9c98c53": {
+          "type": "faq",
+          "settings": {
+            "que": "Who's Boarding my dog?",
+            "ans": "<p>Wag! pairs your furry family member with an experienced and vetted dog boarder in your local neighborhood. Each dog boarder with Wag! is background checked and insured.<\/p>"
+          }
+        },
+        "7fe8ed39-c95b-4542-ad38-9c3d374e0eac": {
+          "type": "faq",
+          "settings": {
+            "que": "Is Wag! right for my dog?",
+            "ans": "<p>The Wag! matchmaking process is designed to find your purr-fect match. On Wag! you can find and book a dog boarder with experience caring for puppies, older dogs, disabled dog, dogs that require medication, dogs with separation anxiety, and dogs who needs lot of playtime. Being upfront about any special requirements is the best way to find the perfect match for your dog. Helpful tip: Make sure to inform your Boarder of all the information they'll need to know to best take care of your pet!<\/p>"
+          }
+        },
+        "04cdff70-8942-472b-aafd-c37e7279e61b": {
+          "type": "faq",
+          "settings": {
+            "que": "How much does a Wag! boarding service cost?",
+            "ans": "<p>On average, the cost of a boarding in a Pet Caregiver’s home for one dog is $48 - $69*. The cost is based on the price set by the Pet Caregiver and varies by region and any additional fees that may apply. The estimated rate will be displayed at the bottom of the screen during booking, with a final price provided when you match with a Pet Caregiver.<\/p><p>*These are estimated prices. The final price may be higher or lower.<\/p>"
+          }
+        },
+        "f9c92c6c-7241-429f-ab8f-4c11080fb37f": {
+          "type": "faq",
+          "settings": {
+            "que": "How does Wag! evaluate boarders?",
+            "ans": "<p>Before any dog boarder begins working for Wag!, he or she must first undergo a thorough vetting process which includes dog handling, safety tests, phone screening, and background checks. Many of the dog boarders have worked as veterinary technicians or shelter volunteers. The majority have been lifelong dog owners and caretakers. 95% of Wag! boardings result in a perfect, 5-star review.<\/p>"
+          }
+        },
+        "40c03fcb-4008-4790-8a61-fcecad8996d5": {
+          "type": "faq",
+          "settings": {
+            "que": "Can I ask my Pet Caregiver to transport my dog to\/from the boarding service?",
+            "ans": "<p>Yes, if you would like your dog to be picked up and dropped off, let your Pet Caregiver know! Transportation requests are an additional $15 charge.<\/p>"
+          }
+        },
+        "f74c9243-c230-40d6-a0c7-f8b1e34d3984": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I pay for the service?",
+            "ans": "<p>Wag! accepts all major credit cards, including VISA, MasterCard and American Express. Never pay by cash or check as this makes your booking ineligible for premium insurance and support.<\/p>"
+          }
+        },
+        "f377fee4-e097-44d2-b3c9-d96d7a3811c7": {
+          "type": "faq",
+          "settings": {
+            "que": "When will I be charged for service?",
+            "ans": "<p>Your card is charged after the service is complete. Wag! will hold onto the funds and release payment to your Boarder or Sitter within 48 hours of the service being complete.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ff14abdc-2a5a-4b83-a2a6-cefebf49ce7f",
+        "6bb1d073-8721-486a-ba3b-42dba9c98c53",
+        "7fe8ed39-c95b-4542-ad38-9c3d374e0eac",
+        "04cdff70-8942-472b-aafd-c37e7279e61b",
+        "f9c92c6c-7241-429f-ab8f-4c11080fb37f",
+        "40c03fcb-4008-4790-8a61-fcecad8996d5",
+        "f74c9243-c230-40d6-a0c7-f8b1e34d3984",
+        "f377fee4-e097-44d2-b3c9-d96d7a3811c7"
+      ],
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2b39a023-0d9a-4a25-93b9-620ee4617f43",
+    "4eca4af1-f13d-4d31-a9e3-36324820f4b4",
+    "e227fe0e-7943-42df-b53c-7867cd8e969e",
+    "94321a72-8d98-486e-9f94-e72db2529217",
+    "48324d27-3117-4501-abb5-d2649d94aa41",
+    "e5e628df-78bd-42c4-92f8-670f64e6bc29"
+  ]
+}

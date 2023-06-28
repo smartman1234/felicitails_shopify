@@ -1,0 +1,280 @@
+{
+  "sections": {
+    "be6fc02f-6c44-4164-b71b-f7f5f7bc38d8": {
+      "type": "divider",
+      "settings": {
+        "height_size": 38
+      }
+    },
+    "218af464-5f46-4618-991d-c47fdd225b35": {
+      "type": "section-title",
+      "custom_css": [
+        "h2 {max-width: 400px; margin-inline: auto;}"
+      ],
+      "settings": {
+        "section_title": "FREQUENTLY ASKED QUESTIONS \"FAQS\""
+      }
+    },
+    "44770ce7-f1c6-48b1-9b8b-58ceac7eb62b": {
+      "type": "image-with-text",
+      "custom_css": [
+        "h2 {text-transform: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/frequently-asked-questions-of-felicitails-team-beagle-dog-speaking-into-microphone-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Frequently Asked Questions",
+        "text": "<p>Many people have questions about rights accorded the disabled, including their right to have their animals accompany them in public places and commercial establishments. While we cannot offer medical or legal advice, and cannot certify whether any given consumer will meet applicable legal and regulatory definitions, we can provide basic information about some important definitions.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "8a00f3fd-0b05-4037-9ff1-cda712562dac": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {text-align: left; text-transform: none;}",
+        "p {text-align: left;}",
+        "strong {font-weight: 400; color: #ecbebe;}"
+      ],
+      "settings": {
+        "title": "Disability Self-Assessment Test",
+        "text": "<p>The Americans with Disabilities Act of 1990 (“<strong>ADA<\/strong>”) generally prohibits privately owned businesses that serve the public (such as restaurants, hotels, retail stores, taxicabs, theaters, concert halls, and sports facilities) from discriminating against individuals with “disabilities.” The ADA requires these businesses to allow people with disabilities to bring their <a href=\"#\" target=\"_blank\" title=\"#\">service animals<\/a> onto business premises in whatever areas customers are generally allowed.<\/p><p>The key is the definition of “disability.” The ADA does not list specific covered disabilities, because it would be impossible to provide a comprehensive list, given the huge variety of possible qualifying impairments (although the ADA does list<a href=\"#\" target=\"_blank\" title=\"#\"> excluded conditions<\/a>). While we cannot give you legal advice or tell you whether you are legally disabled we can help you determine for yourself whether you might qualify as having a disability under the ADA.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "<p>What is a Service Animal?<\/p>",
+            "answer": "<p>The <a href=\"http:\/\/www.ada.gov\/\" target=\"_blank\" title=\"ADA 1990\">ADA<\/a> defines a <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">Service Animal<\/a> as <span style=\"text-decoration:underline\">any<\/span> Guide Dog, Signal Dog, or other animal individually trained to provide assistance to an individual with a disability, so long as the person’s disability falls under the ADA’s definition of physical or mental impairment or condition. An animal belonging to someone who is <span style=\"text-decoration:underline\">not<\/span> disabled is <span style=\"text-decoration:underline\">not<\/span> a Service Animal under the ADA.<\/p><p><a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">Service Animals<\/a> perform some of the functions and tasks that the individual with a disability cannot perform for him or herself alone. Guide Dogs are one type of Service Animal that most people are familiar with; they are used by disabled individuals who are blind. But there are Service Animals that assist persons with other kinds of disabilities in their day-to-day activities. Some examples include: Alerting people with hearing impairments to sounds; pulling wheelchairs or carrying and picking up things for people with mobility impairments; assisting persons with mobility impairments with balance; assisting persons with mental impairments with tactile stimulation or buffering in crowded public places.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "<p>How do I qualify for accomodation of a Service Animal?<\/p>",
+            "answer": "<p>The Americans with Disabilities Act of 1990 (“<a href=\"https:\/\/free-my-paws.myshopify.com\/#ADA\">ADA<\/a>”) generally prohibits privately owned businesses that serve the public (such as restaurants, hotels, retail stores, taxicabs, theaters, concert halls, and sports facilities) from discriminating against individuals with “disabilities.”  The ADA requires these businesses to allow people with disabilities to bring their <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animals<\/a> onto business premises in whatever areas customers are generally allowed. Unfortunately, Free My Paws cannot give you legal advice or tell you whether you are legally disabled. No one can.  (Please see our <a href=\"https:\/\/free-my-paws.myshopify.com\/terms\/#Disclaimer\">Disclaimer<\/a>.) But we can provide a <a href=\"https:\/\/free-my-paws.myshopify.com\/#flowchart\">Disability Self-Assessment Test<\/a> to help you understand whether you likely qualify under the relevant rules.  You also might ask your healthcare professional to document your disability in case you are ever challenged.<\/p>"
+          }
+        },
+        "53f4b342-1ef2-4caf-b5e8-94a85829e42c": {
+          "type": "question",
+          "settings": {
+            "title": "<p>I don’t think I am disabled, so do I qualify?<\/p>",
+            "answer": "<p>You may not think that you’re disabled—yet, you still may be legally “disabled” under the ADA. Just go through our <a href=\"https:\/\/free-my-paws.myshopify.com\/#flowchart\">Disability Self-Assessment Test<\/a> which tracks the ADA’s definitional hoops.<\/p>"
+          }
+        },
+        "62521c6f-ebd0-49be-9a56-d4dfd32846b9": {
+          "type": "question",
+          "settings": {
+            "title": "<p>How do I certify, register or license my animal as a service animal?<\/p>",
+            "answer": "<p>The ADA imposes no requirement to certify or register a service animal.  In order to qualify you must fit the definition of being legally disabled and the animal must aid you in performing a <a href=\"https:\/\/free-my-paws.myshopify.com\/#majorlifeact\">major life activity<\/a>.<\/p>"
+          }
+        },
+        "35f87a9a-f13d-4665-a6c4-8f804c91eac3": {
+          "type": "question",
+          "settings": {
+            "title": "<p>Can I really take my Service Animal anywhere I want to go?<\/p>",
+            "answer": "<p>The ADA grants broad accommodation to qualified people with a disability who need their Service Animal<\/p><p>The Americans with Disabilities Act of 1990 or “ADA” makes certain provisions to protect disabled persons and to ensure they enjoy the same access as people without disabilities, without being penalized or discriminated against in any way.<\/p><p>Check for specific rules in your state but in most cases, you can gain entrance to any public establishment, rent accommodation without the need to pay a “pet” deposit and use public transportation with your service animal.<\/p>"
+          }
+        },
+        "c30cb5f9-0588-4df9-8600-f6d1bdb3eed1": {
+          "type": "question",
+          "settings": {
+            "title": "<p>I want to go to the beach. Can I take my Service Animal with me?<\/p>",
+            "answer": "<p>A: If you have a disability, a <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal <\/a>can accompany you to any beach or public space you choose to visit, not just the pet or dog beaches.<\/p>"
+          }
+        },
+        "40155305-d73a-4012-a14d-6c00771e9a46": {
+          "type": "question",
+          "settings": {
+            "title": "<p>How do I take my Service Animal on the airplane?<\/p>",
+            "answer": "<p>Most airlines require that you notify them when booking your flight that you will be traveling with your Service Animal.  Many airlines may also request that you present a note from your doctor and your Service Animal Identification when you check-in. Please visit your airline's website and\/or contact them for more details.<\/p><p><a href=\"http:\/\/www.united.com\/web\/en-US\/content\/travel\/specialneeds\/disabilities\/assistance_animals.aspx\" target=\"_blank\">United Airlines<\/a><\/p><p><a href=\"https:\/\/help.virginatlantic.com\/us\/en\/special-assistance\/assistance-dogs.html\" target=\"_blank\">Virgin America<\/a><\/p><p><a href=\"http:\/\/www.aa.com\/i18n\/travelInformation\/specialAssistance\/serviceAnimals.jsp\" target=\"_blank\">American Airlines<\/a><\/p><p><a href=\"http:\/\/help.jetblue.com\/SRVS\/CGI-BIN\/webisapi.dll\/,\/?St=52,E=0000000000023121313,K=1838,Sxi=0,Case=obj%281095%29\" target=\"_blank\">JetBlue<\/a><\/p><p><a href=\"http:\/\/www.delta.com\/content\/www\/en_US\/traveling-with-us\/special-travel-needs\/disabilities\/service-animals.html\" target=\"_blank\">Delta<\/a><\/p><p><a href=\"http:\/\/shopping.usairways.com\/en-US\/traveltools\/specialneeds\/animals.html\" target=\"_blank\">US Airways<\/a><\/p>"
+          }
+        },
+        "6bca3056-d7dd-450d-b0e3-8af6bd1096c7": {
+          "type": "question",
+          "settings": {
+            "title": "<p>My Service Animal is a large dog. Can it still travel in the plane with me?<\/p>",
+            "answer": "<p>Yes. The Air Carrier Access Act prohibits discrimination in air transportation by domestic and foreign air carriers against qualified individuals with physical or mental impairments. It applies only to air carriers that provide regularly scheduled services for hire to the public.<\/p><p>According to the U.S. Department of Transportation, Aviation Consumer Protection and Enforcement, air carriers <span style=\"text-decoration:underline\">must<\/span> permit dog guides or other service animals with appropriate identification to accompany an individual with a disability on a flight. Identification may include cards or other documentation, presence of a harness or markings on a harness, tags, or the credible verbal assurance of the passenger using the animal.<\/p><p>Carriers must permit a service animal to accompany a traveler with a disability to any seat in which the person sits, unless the animal obstructs an aisle or other area that must remain clear in order to facilitate an emergency evacuation, in which case the passenger will be assigned another seat.  The traveler is not required to bring a medical certificate evidencing disability, except under certain circumstances (such as while traveling in a stretcher or incubator).<\/p><p>In addition, different airlines will have their own rules that complement federal transportation rules regarding transportation of animals. Larger pets normally have to travel in the aircraft’s hold for a fee. However, <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animals<\/a> regardless of size are permitted to travel in the aircraft cabin, sitting with their handler.  Most airlines will not charge an additional fee.<\/p>"
+          }
+        },
+        "b4b0d165-31ed-4888-950a-7fb7ba4dc83e": {
+          "type": "question",
+          "settings": {
+            "title": "<p>My apartment does not allow pets; can my Service Animal still live with me?<\/p>",
+            "answer": "<p>Landlords are not permitted to discriminate when it comes to Service Animals.  Even if they have a strict “no pets” policy, they are not allowed to prevent you from living in their property with your Service Animal.  By law Service Animals must be allowed to live anywhere their handler chooses. Even when apartments allow pets they often charge a pet deposit; it is against the law to charge a disabled person a deposit for their Service Animal.<\/p>"
+          }
+        },
+        "c9776a87-883d-4572-ab63-35c3ee06a197": {
+          "type": "question",
+          "settings": {
+            "title": "<p>Can my service animal accompany me into any business?<\/p>",
+            "answer": "<p>The Americans with Disabilities Act of 1990 (“<a href=\"https:\/\/free-my-paws.myshopify.com\/#ADA\">ADA<\/a>”) generally prohibits privately owned businesses that serve the public (such as restaurants, hotels, retail stores, taxicabs, theaters, concert halls, and sports facilities) from discriminating against individuals with “disabilities.”  The ADA requires these businesses to allow people with disabilities to bring their <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animals<\/a> onto business premises in whatever areas customers are generally allowed. Take our <a href=\"https:\/\/free-my-paws.myshopify.com\/#flowchart\">Disability Self-Assessment Test<\/a> if you wish to learn more.<\/p>"
+          }
+        },
+        "80c459db-12a6-46d9-a547-dcc90c760714": {
+          "type": "question",
+          "settings": {
+            "title": "<p>Can I take my Service Animal into a business or hotel that has a posted “no pets” policy?<\/p>",
+            "answer": "<p>Yes. A<a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a> is not a pet. In fact, the ADA requires a business to modify its \"no pets\" policy to allow the use of a <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a> by a person with a disability.<\/p>"
+          }
+        },
+        "160d781e-0ad1-4de5-9593-0936ebdffe35": {
+          "type": "question",
+          "settings": {
+            "title": "<p>I was told that I had to pay a maintenance, and\/or cleaning fee, when I checked into a hotel with my service animal.  Is that normal?<\/p>",
+            "answer": "<p>No. Neither a deposit nor a surcharge may be imposed on an individual with a disability as a condition to allowing a <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a>to accompany the individual with a disability, even if deposits are routinely required for pets. However, a public accommodation may charge its customers with disabilities during or after the stay, if a <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a> causes damage so long as it is the regular practice of the entity to charge non-disabled customers for the same types of damages. For example, a hotel can charge a guest with a disability, for the cost of repairing or cleaning furniture damaged by a service animal, if it is the hotel's policy to charge the same when non-disabled guests cause such damage.<\/p>"
+          }
+        },
+        "ad9aa599-7d54-420b-bf35-2061d2a79478": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>Can I go in a taxi cab with my <\/strong><a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal <\/a><strong>?<\/strong><\/p>",
+            "answer": "<p>Yes. Taxicab companies may not refuse to provide services to individuals with disabilities. Private taxicab companies are also prohibited from charging higher fares or fees for transporting individuals with disabilities and their <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animals<\/a> than they charge to other persons for the same or equivalent service.<\/p>"
+          }
+        },
+        "3353d86c-ed2e-460c-95dd-00bcf4ed30ec": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>I have a <\/strong><a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a>, <strong>but was asked to leave a restaurant after my dog growled at another patron. Is the restaurant manager allowed to do that?<\/strong><\/p>",
+            "answer": "<p>Any animal, including a service animal, may be excluded from a facility when that animal's behavior poses a direct threat to the health or safety of others. For example, any <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a> that displays vicious behavior towards other guests or customers may be excluded. However, the establishment and its employees may not make assumptions about how a particular animal is likely to behave based on past experience with other animals. Each situation must be considered individually.<\/p><p>In addition, there may be a few circumstances when a public accommodation is not required to accommodate a service animal – that is, when doing so would result in a fundamental alteration to the nature of the business.  Generally, this is not likely to occur in restaurants, hotels, retail stores, theaters, concert halls, and sports facilities.  But when it does, for example, when a dog barks during a movie, the animal can be excluded.<\/p><p>Although a public accommodation may exclude any <a href=\"https:\/\/free-my-paws.myshopify.com\/#serviceanimal\">service animal<\/a> that is out of control, the businesses management should first have given you, the individual with a disability, the option of continuing to enjoy its goods and services without having the service animal on the premises.<\/p>"
+          }
+        },
+        "cb342ce7-a0a5-4d87-bbcd-75ae5efa355d": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>What do I do if someone says “You cannot bring your dog in here!”?<\/strong><\/p>",
+            "answer": "<p>Once they understand that your animal is a Service Animal, most business owners and their employees will welcome you. However, if that is not the case, simply present your Service Animal ID and repeat the following statement: “I am a disabled person and this is my Service Animal.  We are well within our rights under the Americans with Disabilities Act of 1990 to enter these premises.<\/p>"
+          }
+        },
+        "ba2b6440-c417-4db0-aa1b-78d8f29ce8d4": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>Does my pet need to be trained to be a Service Animal?<\/strong><\/p>",
+            "answer": "<p>This question can only be answered on a case by case basis.  There are many rules and trained tasks that a Service Animal is required to follow, but no organized body of government at the state or federal level exists to monitor, train, and license or authorize a Service Animal.  If your doctor determines that you are disabled and a Service Animal would aid you in leading a more normal life, your existing pet may become your Service Animal with or without training so long as he or she is able to follow all of the rules and regulations set forth in the ADA (<a href=\"http:\/\/www.ada.gov\/\" title=\"ADA\">http:\/\/www.ada.gov\/<\/a>).  If your dog is hyper active, barks often, does not get along well with people or is not fully house broken, chances are your animal will need some training before  it will be able to  accompany you everywhere.<\/p>"
+          }
+        },
+        "2b51d1e1-4b40-4d68-b6c3-53783a54022a": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>How do I learn more about ADA?<\/strong><\/p>",
+            "answer": "<p>Visit <a href=\"http:\/\/www.ada.gov\/\">http:\/\/www.ada.gov\/<\/a><\/p>"
+          }
+        },
+        "b58c67d4-9301-4c42-94a4-05e7d7e9a525": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>What is a Therapy Dog?<\/strong><\/p>",
+            "answer": "<p>A therapy dog is a dog trained to provide affection and comfort to people in hospitals, retirement homes, nursing homes, schools, people with learning difficulties, and stressful situations, such as disaster areas.<\/p>"
+          }
+        },
+        "19e46634-8bad-49c8-9061-73d43cf943ef": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>What is an Emotional Support Animal?<\/strong><\/p>",
+            "answer": "<p>Under US law an Emotional Support Animal is a pet which provides therapeutic benefit to its owner through companionship and affection. Emotional support animals are not specially trained to ameliorate disability as psychiatric service dogs are. They require only as much training as an ordinary pet requires in order to live peacefully among humans without being a nuisance or a danger to others.<\/p><p>In the U.S., two federal laws grant special rights to some owners of emotional support animals.<\/p><p>The Fair Housing Amendments Act of 1988 (42 USC 3601, et seq.) establishes a procedure for modifying \"no pets\" policies in most types of housing to permit a person with a disability to keep a pet for emotional support. The qualified applicant may either make a verbal request, or send a written request of reasonable accommodation to the landlord, in either case with a letter from a physician or prescription.[1][2] If the landlord refuses the request for accommodation, a complaint can be filed with the department of Housing and Urban Development or with the U.S. Department of Justice.<\/p><p>In housing that allows pets but charges supplemental rent or deposits for them, these fees must be waived. The ESA's owner can be charged for actual damage done by the animal, but they may not require the applicant to pay a fee or a security deposit in order to keep the animal.[3]<\/p><p>Effective March 15, 2001, The Air Carrier Access Act establishes a procedure for modifying pet policies on aircraft to permit a person with a disability to travel with a prescribed emotional support animal so long as they have appropriate documentation and the animal is not a danger to others and does not interfere with others (through unwanted attention, barking, inappropriate toileting, etc.).<\/p>"
+          }
+        },
+        "2d604364-0335-4786-b5f1-9ab0e9ab0305": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>What is a Psychiatric Service Animal?<\/strong><\/p>",
+            "answer": "<p>A psychiatric service dog is a specific type of service dog trained to assist their handler with a psychiatric disability, such as post-traumatic stress disorder or schizophrenia.<\/p><p>Although Service Animals have traditionally helped people with disabilities such as blindness or more recently deafness or mobility disabilities, there are a wide range of other disabilities that an assistance dog may be able to help with as well, including psychiatric disabilities.<\/p>"
+          }
+        },
+        "009ce545-9ee6-413f-a57e-7d63b1dd294e": {
+          "type": "question",
+          "settings": {
+            "title": "<p><strong>What is the difference between an Emotional Support Animal and a Service Animal?<\/strong><\/p>",
+            "answer": "<p>A Service Animal is trained to assist a disabled handler in completing major life activities as defined by the 1990 ADA.  Emotional Support Animals are intended to provide emotional support and so are not trained to complete a specific task intend to help the individual complete a major life activity.   <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-1",
+        "question-2",
+        "53f4b342-1ef2-4caf-b5e8-94a85829e42c",
+        "62521c6f-ebd0-49be-9a56-d4dfd32846b9",
+        "35f87a9a-f13d-4665-a6c4-8f804c91eac3",
+        "c30cb5f9-0588-4df9-8600-f6d1bdb3eed1",
+        "40155305-d73a-4012-a14d-6c00771e9a46",
+        "6bca3056-d7dd-450d-b0e3-8af6bd1096c7",
+        "b4b0d165-31ed-4888-950a-7fb7ba4dc83e",
+        "c9776a87-883d-4572-ab63-35c3ee06a197",
+        "80c459db-12a6-46d9-a547-dcc90c760714",
+        "160d781e-0ad1-4de5-9593-0936ebdffe35",
+        "ad9aa599-7d54-420b-bf35-2061d2a79478",
+        "3353d86c-ed2e-460c-95dd-00bcf4ed30ec",
+        "cb342ce7-a0a5-4d87-bbcd-75ae5efa355d",
+        "ba2b6440-c417-4db0-aa1b-78d8f29ce8d4",
+        "2b51d1e1-4b40-4d68-b6c3-53783a54022a",
+        "b58c67d4-9301-4c42-94a4-05e7d7e9a525",
+        "19e46634-8bad-49c8-9061-73d43cf943ef",
+        "2d604364-0335-4786-b5f1-9ab0e9ab0305",
+        "009ce545-9ee6-413f-a57e-7d63b1dd294e"
+      ],
+      "custom_css": [
+        ".pannel-toggle {background: #ecbebe; color: white;}"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "6ced83c0-4911-4302-bb85-7698a0aa5438": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2,p,ul {text-align: left; text-transform: none;}"
+      ],
+      "settings": {
+        "title": "Definitions",
+        "text": "<p>ADA. The ADA has several components.  Title I applies to private employers, state and local governments, government agencies, and labor unions; Title II applies to all programs, activities, and services of a public entities (such as state parks, government meetings, public schools, and public transportation); Title III applies to <a href=\"https:\/\/free-my-paws.myshopify.com\/#publicaccom\">public accommodations by certain private entities<\/a>).  Many states have laws that mirror the ADA.  Under ADA, an individual with a disability is a person who: (1) has a physical or mental impairment that substantially limits one or more major life activities; OR (2) has a record of such an impairment; OR (3) is regarded as having such an impairment.  Federal agencies, such as the EEOC, issue administrative rules under the ADA, and in cases under the ADA, judges write judicial opinions which they provide a further basis to interpret the ADA.  States also have their own disability and discrimination laws which often mirror ADA provisions.<\/p><p>Excluded conditions from the definition of “disability” under the ADA are:  pedophilia, transvestism, compulsive gambling, pyromania, and current drug use. People with past drug or alcohol problems are protected from job discrimination by the ADA, as are individuals with current alcohol problems who are able to perform their jobs.<\/p><p>Learning disabilities are neurologic disorders that cause difficulties in learning that cannot be attributed to poor intelligence, poor motivation, or inadequate teaching. Dyslexia is perhaps the most common form of learning disability.<\/p><p>Major life activities include: caring for yourself, performing manual tasks, seeing, hearing, eating, sleeping, walking, standing, lifting, bending, speaking, breathing, learning, reading, concentrating, thinking, communicating, and working.<\/p><p>Mental impairment means: Any mental or psychological disorder, such as mental retardation, organic brain syndrome, emotional or mental illness, and specific <a href=\"https:\/\/free-my-paws.myshopify.com\/#learningdisab\">learning disabilities<\/a>.<\/p><p>The ADA does not list all possible diseases or conditions, because this would be impossible.<\/p><p>However, general stress or irritability due to life pressures is not considered a mental impairment.<\/p><p>On the other hand, a phobia or severe anxiety that <a href=\"https:\/\/free-my-paws.myshopify.com\/#substantiallylimits\">substantially limits<\/a> <a href=\"https:\/\/free-my-paws.myshopify.com\/#majorlifeact\">major life activities<\/a> probably would be considered a mental impairment.<\/p><p>According to the National Institute for Mental Health, mental disorders are common in the U.S.  More than 25% of Americans ages 18 and older (or about 1 in 4 adults) suffer from a diagnosable mental disorder. <\/p><p>In regulations promulgated by the EEOC (Equal Employment Opportunity Commission), examples of mental impairments include:<\/p><ul><li>anxiety disorders (which include panic disorder, obsessive compulsive disorder, and post-traumatic stress disorder)<\/li><li>bipolar disorder<\/li><li>major depression<\/li><li>personality disorders<\/li><li>schizophrenia<\/li><\/ul><p>According to the EEOC, the current edition of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders (now the fourth edition, DSM-IV) is relevant for identifying these disorders.  This is because both the courts and mental health professionals widely recognize the DSM-IV.  However, the EEOC cautions that not every condition listed in the DSM-IV is a disability or impairment; for example, the DSM-IV includes conditions such as drug abuse that may constitute an <a href=\"https:\/\/free-my-paws.myshopify.com\/#excludedconditions\">excluded condition<\/a> under the ADA.<\/p><p>Poor judgment, irresponsible behavior, and poor impulse control and other personality traits are not in themselves mental impairments.  Manic depressive syndrome, though, is a mental impairment.<\/p><p>In general, if you are under treatment by a mental health care professional for a condition such as one of the conditions listed above (or which is otherwise covered by the DSM-IV and not an <a href=\"https:\/\/free-my-paws.myshopify.com\/#excludedconditions\">excluded condition<\/a>), then you probably have a “mental impairment.”<\/p><p>Physical impairments include:<\/p><p>     (1) any physiological disorder or condition;<\/p><p>     (2) any cosmetic disfigurement; and<\/p><p>     (3) anatomical loss. <\/p><p>Under the ADA, any of the above three kinds of impairments can affect one or more of the following body systems: neurological, musculoskeletal, special sense organs, respiratory (including speech organs), cardiovascular, reproductive, digestive, genitourinary, hemic and lymphatic, skin, and endocrine.<\/p><p>The ADA does not list all possible diseases or conditions, because this would be impossible.  However, normal physical characteristics, such as eye or hair color, left-handedness, or height or weight within a normal range, are not impairments; whereas HIV infection, for example, would be considered a physical impairment. <\/p><p>In the regulations, specific examples of physical impairments include:<\/p><ul><li>Alcoholism<\/li><li>Cancer<\/li><li>Cerebral palsy<\/li><li>Diabetes<\/li><li>Drug addiction<\/li><li>Epilepsy<\/li><li>Hearing impairments<\/li><li>Heart disease<\/li><li>HIV disease (symptomatic or asymptomatic)<\/li><li>Muscular dystrophy<\/li><li>Multiple sclerosis<\/li><li>Orthopedic impairments<\/li><li>Speech impairments<\/li><li>Tuberculosis<\/li><li>Visual impairments<\/li><\/ul><p>Public accommodations include the following private commercial entities:<\/p><ul><li>an inn, hotel, motel, or other place of lodging, except for an establishment located within a building that contains not more than five rooms for rent or hire and that is actually occupied by the proprietor of such establishment as the residence of such proprietor;<\/li><li>a restaurant, bar, or other establishment serving food or drink;<\/li><li>a motion picture house, theater, concert hall, stadium, other place of exhibition or entertainment;<\/li><li>an auditorium, convention center, lecture hall, or other place of public gathering;<\/li><li>a bakery, grocery store, clothing store, hardware store, shopping center, or other sales or rental establishment;<\/li><li>a laundromat, dry-cleaner, bank, barber shop, beauty shop, travel service, shoe repair service, funeral parlor, gas station, office of an accountant or lawyer, pharmacy, insurance office, professional office of a health care provider, hospital, other service establishment;<\/li><li>a terminal, depot, or other station used for specified public transportation;<\/li><li>a museum, library, gallery, or other place of public display or collection;<\/li><li>a park, zoo, amusement park, or other place of recreation;<\/li><li>a nursery, elementary, secondary, undergraduate, or postgraduate private school, or other place of education;<\/li><li>a day care center, senior citizen center, homeless shelter, food bank, adoption agency, or other social service center establishment; and<\/li><li>a gymnasium, health spa, bowling alley, golf course, or other place of exercise or recreation.<\/li><\/ul><p>Private clubs and religious organizations are exempt. <\/p><p>Record of an impairment means that the person has a history of a disability (this includes people who were misdiagnosed with a mental illness or learning disability).  The ADA aims to protect such individuals from discrimination).<\/p><p>Regarded as having an impairment means the person might be regarded by a public entity as having a physical or mental impairment that substantially limits a major life activity. In such case, the person is considered to have a “disability,” whether or not that person has an actual impairment.  For example, suppose someone is refused admittance to a country day care because she has a prominent facial disfigurement, or because the owner believes she has HIV; in each case, the individual is “regarded as having an impairment,” and qualifies for protection under the ADA even though he or she does not actually have an impairment.<\/p><p>“Service animal” means: any dog that is individually trained to do work or perform tasks for the benefit of an individual with a disability, including a physical, sensory, psychiatric, intellectual, or other mental disability. Other species of animals, whether wild or domestic, trained or untrained, are not service animals for the purposes of this definition.<\/p><p>The work or tasks performed by a service animal must be directly related to the handler's disability. Examples of work or tasks include, but are not limited to:<\/p><ul><li>assisting individuals who are blind or have low vision with navigation and other tasks<\/li><li>alerting individuals who are deaf or hard of hearing to the presence of people or sounds<\/li><li>providing non-violent protection or rescue work<\/li><li>pulling a wheelchair<\/li><li>assisting an individual during a seizure<\/li><li>alerting individuals to the presence of allergens<\/li><li>retrieving items such as medicine or the telephone<\/li><li>providing physical support and assistance with balance and stability to individuals with mobility disabilities<\/li><li>helping persons with psychiatric and neurological disabilities by preventing or interrupting impulsive or destructive behaviors<\/li><\/ul><p>The crime-deterrent effects of an animal´s presence and the provision of emotional support, well-being, comfort, or companionship do not constitute work or tasks for the purposes of this definition.<\/p><p>“Substantially limits.” Whether a person's impairment substantially limits a major life activity depends on:<\/p><ul><li>the nature and severity of the impairment;<\/li><li>how long the impairment will last or is expected to last; and<\/li><li>whether the impairment is permanent or long-term impact or expected impact. <\/li><\/ul><p>For example, having to wear glasses would not necessarily “substantially limit” a major life activity, but being legally blind would.<\/p><p>The inability to perform a single, particular job does not constitute a substantial limitation in someone’s ability to work.  However, a disability “substantially limits” where is significantly restricts the ability to perform either a class of jobs or a broad range of jobs in various classes as compared to the average person having comparable training, skills and abilities.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "be6fc02f-6c44-4164-b71b-f7f5f7bc38d8",
+    "218af464-5f46-4618-991d-c47fdd225b35",
+    "44770ce7-f1c6-48b1-9b8b-58ceac7eb62b",
+    "8a00f3fd-0b05-4037-9ff1-cda712562dac",
+    "faq-content-1",
+    "6ced83c0-4911-4302-bb85-7698a0aa5438"
+  ]
+}

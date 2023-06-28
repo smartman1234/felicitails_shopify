@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "4b69b45a-a29f-49f9-8d1e-3175abb899a3": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae3ed8f5e2ca48bb8d30f39d31a8d154.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-local-drop-in-visits-wags-partnership-overview-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO OUR PREFERRED PROVIDER OF LOCAL DROP-IN PET VISITING SERVICES",
+        "overlay_text": "We’re thrilled you’re considering working WAG! for your at-home pet visit needs. Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through WAG!",
+        "overlay_url_text_1": "BOOK ON WAG! TODAY",
+        "overlay_url_1": "https:\/\/wagwalking.com\/dog-walking",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "21df9c3e-fe26-4dbe-9075-938e6c583999": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Wag! for our Patients & Clients that are in need of drop-in pet visits services. Through our collaboration, you are able book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through their app.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/wag-felicitails-brand-collaboration-petinsurer-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "67e6755f-230f-4e91-8c3e-34d5c4479092": {
+      "type": "timeline-wag",
+      "blocks": {
+        "1abe0bfc-f8a7-4a0c-bc70-d0f181e4a249": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Pick the perfect time",
+            "timeline_text": "<p>Schedule a drop-in visit on-demand or pre-scheduled - select the date and time that best suits your pups needs<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-pet-drop-in-visiting-scheduling-process-1.svg"
+          }
+        },
+        "03e70098-0e86-4107-965e-b8c57d0d15ed": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Customize your care",
+            "timeline_text": "<p>Share your pet’s needs, from a potty break to play time, to ensure a great visit<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-pet-drop-in-visiting-scheduling-process-2.svg"
+          }
+        },
+        "8e5190a3-3864-4d46-a32d-7b912ea6de1e": {
+          "type": "timeline",
+          "settings": {
+            "timeline_heading": "Follow along",
+            "timeline_text": "<p>Get real-time updates and a complete report card so you're always in the know<\/p>",
+            "timeline_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-pet-drop-in-visiting-scheduling-process-3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "1abe0bfc-f8a7-4a0c-bc70-d0f181e4a249",
+        "03e70098-0e86-4107-965e-b8c57d0d15ed",
+        "8e5190a3-3864-4d46-a32d-7b912ea6de1e"
+      ],
+      "settings": {
+        "img_title": "Local Drop In Pet Visits",
+        "image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-five-star-rated-local-pet-drop-in-visting-professionals.png",
+        "title": "How Drop-In Visits work",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/drop-ins",
+        "url_style": "button_1",
+        "sub_button_label_1": "",
+        "sub_button_link_1": "",
+        "sub_url_style_1": "button_1",
+        "sub_button_label_2": "",
+        "sub_button_link_2": "",
+        "sub_url_style_2": "button_1"
+      }
+    },
+    "8972876c-98bc-4577-aedd-c05e2978f67e": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d396f0dc5207484d9271ee016d3f852c.mp4",
+        "poster": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-wag-services-pet-drop-in-visiting-scheduling-video-cover.png",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "44232ede-adc2-47c4-9fd4-3ef32ff64bcb": {
+      "type": "custom-reviews",
+      "blocks": {
+        "3f2c665f-2fdb-4b3f-a16c-4b0173ddfb27": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Sue C",
+            "review_content": "<p>The drop-in visits have been nice. My Wag! person is always very nice and caring towards my dog<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-beagle-mix-local-drop-in-visting.png"
+          }
+        },
+        "054754e9-f4f3-436b-b2e8-f19b363b5bc5": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Gene H",
+            "review_content": "<p>Wags been PAWSITIVELY-GREAT! My dogs are happier just knowing someone's coming and so am I<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-german-shepard-local-drop-in-visting.png"
+          }
+        },
+        "08eb93e7-2d6a-4385-bc6d-1a4e9898a9bd": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Shannon N",
+            "review_content": "<p>love Wag, and even better — my dog, Gucci, really really loves Wag! They take great care of him!<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-brand-collaboration-wag-felicitails-mix-breed-dog-local-drop-in-visting.png"
+          }
+        }
+      },
+      "block_order": [
+        "3f2c665f-2fdb-4b3f-a16c-4b0173ddfb27",
+        "054754e9-f4f3-436b-b2e8-f19b363b5bc5",
+        "08eb93e7-2d6a-4385-bc6d-1a4e9898a9bd"
+      ],
+      "settings": {
+        "title": "AMAZING REVIEWS FROM WAG! PET PARENTS",
+        "button_label": "BOOK ON WAG! TODAY",
+        "button_link": "https:\/\/wagwalking.com\/drop-ins",
+        "review_rating": "4.8\/5",
+        "review_rating_text": "42K+ WAG! APP REVIEWS",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": ""
+      }
+    },
+    "0357ce2a-f745-42ee-a244-6815da574791": {
+      "type": "faq",
+      "blocks": {
+        "0f712dc5-cfb1-453d-b02c-b02ad6e6f331": {
+          "type": "faq",
+          "settings": {
+            "que": "What is Wag!?",
+            "ans": "<p>Wag! is the #1 app for pet parents - offering 5-star dog walking and pet sitting services nationwide. Book convenient pet care in your neighborhood with the Wag! app. Whether you’re looking for daily walks, planning a trip, stuck at work, or just want your best friend to have some company - any day, anytime pet care is available through the app.<\/p>"
+          }
+        },
+        "1cf53e3d-61e3-4fc9-b829-fe38476b98f9": {
+          "type": "faq",
+          "settings": {
+            "que": "How do Drop-ins work?",
+            "ans": "<p>This service lasts 20 minutes and during that time, the Pet Caregiver will check in on your pet to replenish food or water, provide bathroom breaks, and more. Add notes to let your Pet Caregiver know what your pet needs, and follow along with real-time info about how the Drop-In is going.<\/p>"
+          }
+        },
+        "0080aaad-bc66-4091-9e24-3bfa27ebad7d": {
+          "type": "faq",
+          "settings": {
+            "que": "What if I need a Pet Caregiver to stay longer than 20 minutes?",
+            "ans": "<p>No problem! In the event a Pet Parent would like the Pet Caregiver to stay longer than 20 minutes, it is recommended the Pet Parent books a 30- or 60- minute walk in the app! Helpful tip: It's highly recommended that the Pet Parent leaves specific instructions for the Pet Caregiver around the type of service they'd like their dog to receive.<\/p>"
+          }
+        },
+        "587489bf-9d16-4d1c-9f07-2c9188ba4ed3": {
+          "type": "faq",
+          "settings": {
+            "que": "Who’s watching my pet?",
+            "ans": "<p>Wag! pairs your furry family member with an experienced Pet Caregiver in your neighborhood. Your highly-rated Pet Caregiver will check in on your pet while you’re away.<\/p>"
+          }
+        },
+        "696ed739-e05e-431f-bcce-20e34865b7d0": {
+          "type": "faq",
+          "settings": {
+            "que": "How much does a Wag! drop-in cost?",
+            "ans": "<p>On average, Pet Caregivers using Wag! charge $13-16 for a 20-minute Drop-In Visit. The estimated rate will be displayed at the bottom of the screen during booking, with a final price provided when a Pet Caregiver is selected for the service.<\/p>"
+          }
+        },
+        "b689a1c7-aef8-40bb-a273-88f5812f67cd": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I evaluate Pet Caregivers?",
+            "ans": "<p>Before any Pet Caregiver begins working for Wag!, he or she must first undergo a thorough vetting process which includes pet handling, safety tests, phone screening, and background checks. Many of the pet caregivers have worked as veterinary technicians or shelter volunteers. The majority have been lifelong pet owners and caretakers. 95% of Wag! services result in a perfect, 5-star review.<\/p>"
+          }
+        },
+        "d47aaac0-4587-4b70-96ca-7f0256d9207e": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I pay for the service?",
+            "ans": "<p>Wag! accepts all major credit cards, including VISA, MasterCard and American Express. Never pay by cash or check as this makes your booking ineligible for premium insurance and support.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0f712dc5-cfb1-453d-b02c-b02ad6e6f331",
+        "1cf53e3d-61e3-4fc9-b829-fe38476b98f9",
+        "0080aaad-bc66-4091-9e24-3bfa27ebad7d",
+        "587489bf-9d16-4d1c-9f07-2c9188ba4ed3",
+        "696ed739-e05e-431f-bcce-20e34865b7d0",
+        "b689a1c7-aef8-40bb-a273-88f5812f67cd",
+        "d47aaac0-4587-4b70-96ca-7f0256d9207e"
+      ],
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS",
+        "title_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4b69b45a-a29f-49f9-8d1e-3175abb899a3",
+    "21df9c3e-fe26-4dbe-9075-938e6c583999",
+    "67e6755f-230f-4e91-8c3e-34d5c4479092",
+    "8972876c-98bc-4577-aedd-c05e2978f67e",
+    "44232ede-adc2-47c4-9fd4-3ef32ff64bcb",
+    "0357ce2a-f745-42ee-a244-6815da574791"
+  ]
+}

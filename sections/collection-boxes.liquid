@@ -1,0 +1,253 @@
+{%- if section.settings.enable_custom_colors -%}
+  {%- assign bg = section.settings.gradient_bg | default: section.settings.color_bg -%}
+{%- endif -%}
+<div class="{{ section.settings.custom_class }} section-{{ section.id }} relative container {% if bg %}container--no-mobile-padding{% endif %} large-row">
+  {% style %}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.image_width != 100 %}
+        .section-{{ section.id }} #block-id-{{ block.id }} .text-column__image {
+          margin-left: {%- if section.settings.text_alignment == 'left' %}0{% else %}auto{% endif %};
+          margin-right: {%- if section.settings.text_alignment == 'right' %}0{% else %}auto{% endif %};
+          max-width: {{ block.settings.image_width }}%;
+        }
+      {%- endif -%}
+    {%- endfor -%}
+
+    {% if section.settings.enable_custom_colors %}
+      {% if bg %}
+      .section-{{ section.id }} {
+        background: {{ bg }};
+      }
+      {% endif %}
+
+      .section-{{ section.id }} {
+        color: {{ section.settings.color_text }};
+      }
+
+      .section-{{ section.id }} .rte a,
+      .section-{{ section.id }} .standard-link {
+        color: inherit;
+      }
+
+      .section-{{ section.id }} .large-title,
+      .section-{{ section.id }} .giant-title,
+      .section-{{ section.id }} .text-column__title {
+        color: {{ section.settings.color_title }};
+      }
+    {% endif %}
+  {% endstyle %}
+
+  <div class="collection-boxes section-{{ section.id }}  text-columns-section {% if bg %}section global-border-radius global-border-radius--not-extra-small container{% endif %} page-width">
+
+    {% if section.settings.title != blank %}
+      <h2 class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif %} text-center row" data-cc-animate>{{ section.settings.title | escape }}</h2>
+    {% endif %}
+
+    {%- liquid
+      if section.blocks.size == 1
+        assign grid_item_class = 'one-whole'
+      elsif section.blocks.size == 2
+        assign grid_item_class = 'one-half'
+      elsif section.blocks.size == 3
+        assign grid_item_class = 'one-third'
+      else
+        assign grid_item_class = 'one-quarter  medium-down--one-half'
+      endif
+    -%}
+
+    <div class="{% if section.blocks.size > 1 %}grid-flex flex {% endif %}large-row-over text-{{ section.settings.text_alignment }}">
+      {% for block in section.blocks %}
+        <div id="block-id-{{ block.id }}" class="{% if section.blocks.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-whole" {{ block.shopify_attributes }}
+             data-cc-animate="fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s">
+          <a href="{{ block.settings.button_link }}">
+            {% if block.settings.enable_image %}
+              <div class="text-column__image large-row-under">
+                {%- if block.settings.link != blank -%}
+                  <a class="block hover-images" href="{{ block.settings.link }}">
+                    <div class="image-one">
+                {%- endif -%}
+  
+                {%- if block.settings.image == blank -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- else -%}
+                  <img src="{{ block.settings.image | img_url: 'master' }}">                  
+                {%- endif -%}
+  
+                {%- if block.settings.link != blank -%}
+                    </div>
+                  </a>
+                {% endif -%}
+              </div>
+            {% endif %}
+  
+            <div class="row large-row-under">
+              {% if block.settings.title != blank %}
+                <h3 class="text-column__title row {% if block.settings.enlarge_title %}large-title{% else %}small-title{% endif %}">{{ block.settings.title }}</h3>
+              {% endif %}
+  
+              {% if block.settings.text != blank %}
+                <div class="text-column__text rte {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Collection Boxes",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "checkbox",
+      "id": "enlarge_title",
+      "label": "Enlarge heading",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Column content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_colors",
+      "label": "Enable custom colors",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Heading color"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background color"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_bg",
+      "label": "Background gradient",
+      "info": "If set, replaces background color"
+    },
+     {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Collection Box",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "id": "enable_image",
+          "type": "checkbox",
+          "label": "Enable image",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 10,
+          "max": 100,
+          "step": 5,
+          "label": "Image width",
+          "unit": "%",
+          "default": 100
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_title",
+          "label": "Enlarge heading",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Boxes",
+      "settings": {
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

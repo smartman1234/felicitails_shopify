@@ -1,0 +1,91 @@
+{% assign url_list = 'digital-vault,address-book,address-edit,customer-service,orders,profile-edit-email,profile-edit-password,profile,service-emotional,service-psychiatric,service-registration,service,subscriptions-first,subscriptions-second,wallet-ballance,wallet-redeem,wallet,wish-list-view,wish-list' -%}
+
+{% assign url_list_array = url_list | split: ',' %}
+
+{%- comment -%} Capture the content for header containing the tracking data {%- endcomment -%}
+
+{%- capture contentForQuerystring -%}
+  {{ content_for_header }}{%- endcapture -%}
+
+{% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
+
+{%- assign pageUrlWithHost = contentForQuerystring
+  | split: '"pageurl":"'
+  | last
+  | split: '"'
+  | first
+  | replace: '\/', '/'
+  | replace: '%20', ' '
+  | replace: '\u0026', '&' -%}
+{% assign parameter = pageUrlWithHost | split: '?page=' | last %}
+
+{% assign logout = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M16 17L21 12L16 7" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M21 12H9" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+ </svg>
+ ' %}
+
+{% assign return_arrow = '<svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path d="M6.5 1.5L1.5 6.5L6.5 11.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+ </svg>
+ ' %}
+
+<div class="nav_var">
+  <div class="title">
+    <a href="/account">
+      {%- for url in url_list_array %}
+        {% if parameter == url %}
+          {{ return_arrow }}
+        {% endif %}
+      {% endfor -%}
+      My Account</a>
+  </div>
+  <div class="nav-body">
+    <a
+      class="nav_item {% if parameter == 'digital-vault' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=digital-vault"
+      {%- endcomment -%}>Digital Vault</a>
+    <a class="nav_item {% if parameter == 'profile' %}{{ 'actived' }}{% endif %}" href="/account?page=profile">Profile</a>
+    <a
+      class="nav_item {% if parameter == 'address-book' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=address-book"
+      {%- endcomment -%}>Address Book</a>
+    <a
+      class="nav_item {% if parameter == 'service' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=service"
+      {%- endcomment -%}>Services</a>
+    <a
+      class="nav_item {% if parameter == 'subscription' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=subscriptions-first"
+      {%- endcomment -%}>Subscriptions</a>
+    <a
+      class="nav_item {% if parameter == 'orders' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=orders"
+      {%- endcomment -%}>Orders</a>
+    <a
+      class="nav_item {% if parameter == 'wallet' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=wallet"
+      {%- endcomment -%}>Wallet & Store Credit</a>
+    <a
+      class="nav_item {% if parameter == 'wish-list' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=wish-list"
+      {%- endcomment -%}>Wish List</a>
+    <a
+      class="nav_item {% if parameter == 'customer-service' %}{{ 'actived' }}{% endif %}"
+      {%- comment -%}
+      href="/account?page=customer-service"
+      {%- endcomment -%}>Customer Service</a>
+    <a class="nav_logout" href="{{ routes.account_logout_url }}">
+      {{ logout }}
+      {{ 'customer.account.log_out' | t -}}
+    </a>
+  </div>
+</div>

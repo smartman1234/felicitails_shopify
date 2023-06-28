@@ -1,0 +1,98 @@
+{% if title != blank or text != blank or url_text != blank or url_text_2 != blank %}
+  {%- assign bg_alpha = background_color | color_extract: 'alpha' -%}
+  {%- if bg_alpha == 0 or background_opacity == 0 -%}
+    {%- assign overlay_has_transparent_bg = true -%}
+  {%- else -%}
+    {%- assign overlay_has_transparent_bg = false -%}
+  {%- endif -%}
+  {%- assign link_inherit_color = false -%}
+  {%- if url_style == 'link_style' -%}
+    {%- if bg_alpha == 0 or background_color != settings.color_body_background -%}
+      {%- assign link_inherit_color = true -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- liquid
+  if styled_words != blank
+    assign words = styled_words | replace: ", ", "," | replace: " ,", "," | replace: " ", "," | split: "," | uniq
+    for word in words
+      assign trimmed_word = word | strip
+      assign replacement_text = "{{" | append: trimmed_word | append: "}}"
+      assign title = title | replace: trimmed_word, replacement_text
+    endfor
+
+    assign open_tag = "<span class='overlay__style overlay__style-" | append: words_style | append: "'><span>"
+    assign title = title | replace: "{{", open_tag
+    assign title = title | replace: "}}", "</span></span>"
+  endif
+-%}
+
+  <div class="overlay overlay-standard {% if mobile_text_below == true %} mobile-overlay-under {% if overlay_has_transparent_bg %}overlay--use-body-colours-mobile{% endif %} {% endif %} overlay--center global-border-radius-overlays {% if position != blank %}overlay--{{ position }}{% endif %} {% if url != blank and url_text != blank %}overlay--has-link{% endif %} {% if background_color == settings.color_body_background %}overlay--bg-matches-page-bg{% endif %} avoid-overlaps__item"{% if animate %}data-cc-animatedata-cc-animate-delay="0.2s"{% endif %} style="{% if render_fmp_icon and render_fmp_icon == true %}overflow: unset;{% endif %}--styled-word-bg-color: {{ highlight_color }};--styled-word-color: {{ styled_word_color }}">
+    <div class="overlay__bg {% if overlay_has_transparent_bg %}overlay__bg--transparent{% endif %}" {% if overlay_has_transparent_bg == false %}style="border-radius: 8px; background-color: {{ background_color }}; opacity: {{ background_opacity | divided_by: 100.00 }};"{% endif %}></div>
+    {% if render_fmp_icon and render_fmp_icon == true %}
+      <img style="position: relative; top: -10px; margin-top: -44px;" src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/freem-my-paws-psychiatric-service-animal-emotional-support-animal-therapist-telehealth-housing-letter-travel-letter.png?v=1685567909">
+    {% endif %}
+    <div
+      class="overlay__content{% if text_alignment %} {{ text_alignment }}{% endif %}"
+      style="color: {{ text_color }};{% if words_style == "highlight" %} --highlight-words-top: {{ highlight_words_top }}%;{% endif %}"
+      {% if animate %}
+      data-cc-animate="zoom-out-fade-in"
+      data-cc-animate-delay="0.2s"
+      {% endif %}>
+      {% if rssicon %}
+        <a
+          class="blog-rsslink"
+          href="{{ blog.url }}.atom"
+          title="{{ blog.title | escape }} RSS"
+          target="_blank">
+          <span class="feather-icon">{% render 'feather-rss' %}</span>
+        </a>
+      {% endif %}
+      <div class="wag_icons_wrapper">
+        <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-founded-by-lindsay-giguiere-brand-collaboration-with-wag-felicitails-logo-icon-dog-walking.svg?v=1685622580">
+        <p>+</p>
+        <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-founded-by-lindsay-giguiere-brand-collaboration-with-wag-wag-logo-dog-walking.png?v=1685622580">
+      </div>
+      {% if title != blank %}
+        <h2
+          class="overlay-title{% if styled_words != blank and words_style == "highlight" %}
+            overlay-title--highlight{% endif %}
+          {% if enlarge_title %}
+            {% if extra_large_text %}
+              biggest-title
+            {% else %}
+              giant-title{% endif %}
+          {% else %}
+            large-title{% endif %}">
+          {{ title | newline_to_br }}</h2>
+      {% endif %}
+      {% if subtitle != blank %}
+        <div class="overlay-subtitle">{{ subtitle }}</div>
+      {% endif %}
+      {% if text != blank %}
+        <div class="overlay-text {% if enlarge_text %}{% if extra_large_text %} extra-large-text {% else %} large-text{% endif %}{% endif %}">{{ text }}</div>
+      {% endif %}
+      {% if url_text != blank or url_text_2 != blank %}
+        <div class="overlay__links">
+        {% endif %}
+        {% if url_text != blank %}
+          <a class="{% if url_style == 'button_1' %}btn btn--small btn--primary{% elsif url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% if link_inherit_color == true %}standard-link--inherit-color{% endif %}{% endif %}" href="{{ url }}" target="_blank">{{ url_text | escape }}</a>
+        {% endif %}
+        {% if url_text_2 != blank %}
+          <a class="{% if url_style == 'button_1' %}btn btn--small btn--primary{% elsif url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% if link_inherit_color == true %}standard-link--inherit-color{% endif %}{% endif %}" href="{{ url_2 }}" target="_blank">{{ url_text_2 | escape }}</a>
+        {% endif %}
+        {% if url_text != blank or url_text_2 != blank %}
+        </div>
+      {% endif %}
+      {% if video_button %}
+        <a
+          href="#"
+          class="video-container__play feather-icon"
+          aria-label="{{ 'general.accessibility_labels.video_play' | t | escape }}">{% render 'feather-play' %}</a>
+      {% endif %}
+      {% if footer != blank %}
+        <div class="overlay-footer">{{ footer }}</div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

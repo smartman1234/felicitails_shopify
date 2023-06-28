@@ -1,0 +1,59 @@
+<div class="sec-timeline section-{{ section.id }}">
+  <div class="page-width">
+    <div class="timeline-title">
+      <h2 class="large-title text-center row cc-animate-init cc-animate-in">{{ section.settings.title }}</h2>
+    </div>
+    <div class="timeline-wrap">
+      <ul>
+        {% for block in section.blocks %}
+          <li class="timeline-box">   
+            <div class="timeline-box-wrapper">
+              {% if block.settings.timeline_icon %}
+                 <div class="timeline-icon"><img src="{{ block.settings.timeline_icon | img_url:'master' }}"></div>
+              {% endif %}
+          
+              <p>{{ block.settings.timeline_text }}</p>
+            </div>
+          </li>  
+        {% endfor %}
+        <div style="clear:both;"></div>
+      </ul>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Timeline",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "EASY PEASY PROCESS"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "timeline",
+        "name": "Timeline",
+        "settings": [
+          {
+            "type": "text",
+            "id": "timeline_text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "id": "timeline_icon",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Timeline"
+      }
+    ]
+  }
+{% endschema %}

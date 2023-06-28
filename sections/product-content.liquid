@@ -1,0 +1,42 @@
+<div class="product-content-section">
+  <div class="product-highlights">
+    <div class="product-content-heading">Product Highlights</div>
+    <div class="product-details">
+      {{product.metafields.custom.product_highlight |  metafield_tag  }}
+    </div>
+  </div>
+
+<!--    <div class="product-description">
+    <div class="product-content-heading">Description</div>
+    <div class="product-details">
+     {{ product.description }}
+    </div>
+  </div> -->
+
+    <div class="product-particulars">
+    <div class="product-content-heading">Particulars</div>
+    <div class="product-details">
+       {{product.metafields.custom.product_particulars |  metafield_tag  }}
+    </div>
+  </div>
+  
+</div>
+{% schema %}
+  {
+    "name": "Product content",
+    "settings": [
+      
+    ],
+    "presets":[
+      {
+        "name":"Product content"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

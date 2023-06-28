@@ -1,0 +1,771 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "405dae09-0a97-4de7-a973-09f01e9067aa": {
+      "type": "background-video",
+      "custom_css": [
+        ".container {padding: 0px;}"
+      ],
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cfa0df69276e4dbc9581eebf5aea61b3.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-psychiatric-service-dog-intro-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#000000",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 620,
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO YOUR PSYCHIATRIC SERVICE ANIMAL CERTIFICATION PROGRAM!",
+        "overlay_text": "We’re thrilled you’re considering working with one of our Licensed Therapists to certify your needs for a Psychiatric Service Animal (PSA). The reassurance of your trusted companion by your side opens up many opportunities and offers a welcome sense of well-being.",
+        "overlay_url_text_1": "CERTIFY TODAY",
+        "overlay_url_1": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=39304728117357&quantity=1",
+        "overlay_url_text_2": "RENEW YOUR CERTIFICATION TODAY",
+        "overlay_url_2": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=44996890591533&quantity=1",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "2eba69fc-761b-43ad-97be-9785e5192681": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Are you tired of struggling to find pet-friendly housing?  Of not being able to take your PSA on airline flights?  Not being able to enter into local establishments with your PSA?  And facing extra charges when traveling with your PSA? Then, look no further! <\/p><p>Our Licensed Therapists are here to help you unlock the freedom to live and travel with your dog without additional fees or restrictions.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/freem-my-paws-psychiatric-service-animal-emotional-support-animal-therapist-telehealth-housing-letter-travel-letter.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {text-transform: unset; font-weight: 400;}",
+        ".container {padding: 0;}",
+        ".rich-text-section__title {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "WE HAVE YOUR SOLUTION",
+        "text": "<p>Learn how to order your Certified Therapist Psychiatric Service Animal Program today. Get the protection and access you and your service dog deserve.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#000000",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "sec-cta"
+      }
+    },
+    "c1449733-00a4-4ade-a9d9-8cf7b2f79ed8": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-telephone-confirmation-felicitails-founded-by-lindsay-giguiere.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "WORK DIRECTLY WITH LICENSED MENTAL HEALTH PROFESSIONALS",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-multi-generational-family-walking-on-beach-felicitails-founded-by-lindsay-giguiere.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "THE ORIGINAL PSA AND PSD TELEHEALTH THERAPY PROVIDER PRACTICING FOR 10+ YEARS",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-fast-turnaround-service-french-bulldog-on-skateboard-felicitails-founded-by-lindsay-giguiere.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "EFFICIENT THERAPY SESSION WITH 24-HOUR CERTIFICATION TURNAROUND AND ONGOING SUPPORT",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-0",
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-1",
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-2"
+      ],
+      "custom_css": [
+        ".page-width {max-width: 100%; border-radius: 0;}",
+        ".container {padding: 0;}",
+        ".gallery {border-radius: 0;}"
+      ],
+      "settings": {
+        "grid": 3,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": false,
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 50,
+        "color_overlay_text": "#ffffff",
+        "overlay_url_style": "button_1",
+        "custom_class": "img-boxes"
+      }
+    },
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3": {
+      "type": "rich-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "YOUR ONE-STOP-SHOP FOR ALL THINGS RELATED TO PSYCHIATRIC SERVICE ANIMALS (PSAs)",
+        "text": "<h4><strong>Let’s Cover the Basics!<\/strong><\/h4>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "eff3ef26-170c-43af-821d-c9dea10771f3": {
+      "type": "list-text-with-icons",
+      "blocks": {
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-0": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>A Therapist Certified Letter is a document that verifies your need for a Psychiatric Support Animal.<\/p>"
+          }
+        },
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-1": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>If one of our Certified Therapists determines you qualify for an PSA, they will prescribe a mental health program for you which will include both a Travel and Housing Therapist Certified Letter as part of your treatment plan.<\/p>"
+          }
+        },
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-2": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>This documentation is legally required to fly with your PSA or live in housing prohibiting certain animals, including dogs. <\/p>"
+          }
+        },
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-3": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Without a Therapist Certified Letter, you risk being denied access to these benefits and even face legal consequences.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-0",
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-1",
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-2",
+        "template--19317179056429__eff3ef26-170c-43af-821d-c9dea10771f3-16855754582c760fbf-3"
+      ],
+      "settings": {
+        "section_title": "<h3>What is a Free My Paws Therapist Certified Letter, and why do you need one?<\/h3>"
+      }
+    },
+    "83ec6188-9771-49c3-bb30-8de7cde70c3d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/healthy-pet-happy-life-psychiatric-service-animal-housing-letter-travel-letter-telehealth-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "NO HASSLE ACCESS",
+            "text": "<p>Access your favorite local establishments, including hotels, grocery stores, shopping centers, and many more. <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/healthy-pet-happy-life-psychiatric-service-animal-housing-travel-letter-therapy-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "IN-CABIN FLIGHT",
+            "text": "<p>Fly with your Service Animal in-cabin on all domestic and international commercial flights.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/healthy-pet-happy-life-psychiatric-service-animal-housing-travel-letter-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "SAFE HOUSING",
+            "text": "<p>Pass all Housing pre-screening applications for access to all rental housing you desire with our Therapist Certified Housing Letter.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-0",
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-1",
+        "template--19317179056429__83ec6188-9771-49c3-bb30-8de7cde70c3d-16855809034e9be055-2"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "f930b07e-6336-4836-8e14-424e08888861": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/owner-training-his-psychiatric-service-dog-golden-husky-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Many people who need the service of a Psychiatric Service Animal need help knowing where to start - online information can be confusing. In reality, it is not all that complex.",
+        "text": "<p>First, you need to have a qualifying condition. <br\/><br\/>Secondly, your dog must be trained to service that need and pass the Canine Good Citizenship \/ Public Access Test.<br\/><br\/>Where owners often get tripped up is how to find a licensed therapist who can genuinely prescribe a mental wellness plan that would include legitimate travel and housing letters for you to use with confidence.<br\/><br\/>The Free My Paws program was developed over 10 years ago just for PSA owners like you.<br\/><br\/>Our Licensed Therapists, who specialize in mental health assessments, will prescribe a personalized treatment plan that includes both a certified travel and housing letter.<br\/><br\/>Additionally, we provide ongoing support to ensure that you are able to succeed in having your ESA by your side day over day. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "psa-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "35e45431-fdfb-422e-a610-ee9cda20f039": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/psychiatric-service-animal-certified-therapist-free-my-paws-program-secure-storage-of-therapist-housing-letter-travel-family-flying-with-service-dog-assistance-felicitails-founded-by.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "If you're looking to fly, travel, and live with your Psychiatric Service Animal, we're here to help.",
+        "text": "<p>A Therapist Certified Letter is a document that verifies your need for a Psychiatric Service Animal.<br\/><br\/>If one of our Certified Therapists determines you qualify for a PSA, they will prescribe a mental health program that includes Travel and Housing Therapist Certified Letters as part of your treatment plan. <br\/><br\/>This documentation is legally required to fly with your PSA or live in housing prohibiting certain animals, including dogs and cats. Without a PAS Therapist Certified Letter, you risk being denied access to these benefits and could even face legal consequences.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "psa-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "c31ea74d-24a3-4d83-ac43-ab2fded59c12": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "",
+        "button_label": "CERTIFY TODAY TO ENJOY YOUR PSYCHIATRIC SERVICE ANIMAL BENEFITS",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "c8d3f9f9-dc1f-439f-b27c-80d2071866e9": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-smart-jack-russel-terrier-service-dog-support-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "HOW DOES THE CERTIFICATION PROCESS WORK?",
+            "text": "<p>Our Certified Therapists will work with you to understand your physical, mental and emotional support needs. They will assess whether a PSA is required to service and support you. If it is determined that a PSA is needed to enable personal living conditions, you will be prescribed a treatment plan, providing you with two personalized Free My Paws letters, one for Travel and one for Housing that meets all legal requirements.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-elder-man-sight-imparied-service-dog-providing-assistance-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "WHAT ARE THE BENEFITS OF HAVING A THERAPIST CERTIFIED LETTER?",
+            "text": "<p>With our Therapist Certified Letter, either Travel or Housing, you'll have peace of mind knowing that you have the proper documentation to handle your PSA and have them by your side. This means you’ll be able to fly with them in the cabin, travel with your service animal or dog without worrying about being denied access, and you can live in housing that otherwise wouldn't allow pets. Additionally, having a PSA can provide support and companionship, which can improve your overall physical abilities, mental health and well -being. As part of your prescribed therapy plan Therapist Certified Letters provide maximum results.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-0",
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-1"
+      ],
+      "custom_css": [
+        ".flex {margin: 0; gap: 30px;}",
+        ".grid-flex__item {box-shadow: 0 0 20px rgb(0 0 0 \/ 15%); border-radius: 10px; padding: 20px; width: calc(50% - 15px);}",
+        ".container {margin-bottom: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "multi-column-sec",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "18244d41-2566-4099-8f6e-6c0447e73ec4": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-verteran-walking-outside-imparied-service-dog-assistance-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "WHY CHOOSE US FOR YOUR THERAPIST CERTIFIED LETTER?",
+            "text": "<p>Our Certified Therapists have years of experience working with individuals who qualify to live and travel with a Psychiatric Service Animal. We're dedicated to providing personalized therapy sessions, care and attention to each and every one of our patients. We ensure you receive the right documentation that meets all legal requirements and accurately reflects your service animal needs. Plus, our easy online application process means you can get started right away and have your prescribed therapy plan in hand in no time.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-mother-on-escalagtor-with-child-service-dog-providing-assistance-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "CERTIFY YOUR PSA WITH CONFIDENCE!",
+            "text": "<p>Our Therapist Certified Letters for Psychiatric Service Animals, which includes dogs, is a must-have for everyone who wants to register and use their PSA with confidence and peace of mind. Don't risk being denied access to airline travel, facility access or accommodations - secure your prescribed treatment plan today and start living your best life with your furry friend by your side.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0",
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-1"
+      ],
+      "custom_css": [
+        ".flex {margin: 0; gap: 30px;}",
+        ".grid-flex__item {box-shadow: 0 0 20px rgb(0 0 0 \/ 15%); border-radius: 10px; padding: 20px; width: calc(50% - 15px);}",
+        ".container {margin-top: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "multi-column-sec",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "b994ce80-3d4a-4311-8ad9-654077f0b7a9": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {padding: 0;}",
+        "a {margin-top: 0; text-transform: uppercase; font-size: 1rem; line-height: 30px; border-radius: 8px; padding: 9px 22px;}",
+        ".reading-width {padding-top: 10px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "button_label": "CERTIFY YOUR PSA TODAY",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=39304728117357&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {font-size: 26px; text-transform: uppercase;}",
+        ".btn {border-radius: 5px;}",
+        ".image-with-text__image-size {padding: 0 0 0 30px;}",
+        ".image-with-text__title {text-align: center;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-elder-gentelman-playing-chess-service-dog-assistance-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "We make certification easy",
+        "text": "<p>Having a Personalized Therapy Plan and Free My Paws Therapist Certified Letters for your PSA gives you the peace of mind that your companion is recognized and your legal rights are protected. You can eliminate the stress of not knowing whether you can take your PSA with you whenever you travel, move into a new home or go about your everyday life. Our certification process involves a comprehensive therapy session to evaluate your mental state, your animal’s (typically a dog) training \/ temperament by a Licensed Therapist, who will then prescribe a treatment plan that will include a Free My Paws Travel and Housing Letter confirming your animal's PSA status.<\/p><p>These official documents ensure that your animal is recognized as a Psychiatric Service Animal, allowing you legal access to rental housing, airline flights, and other establishments.<\/p>",
+        "button_label": "GET YOURS TODAY",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=39304728117357&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "#f69fbb",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {font-size: 26px; text-transform: uppercase; text-align: center;}",
+        ".btn {border-radius: 5px;}",
+        ".image-with-text__image-size {padding: 0 30px 0 0;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/psychiatric-service-dog-certified-therapist-father-son-on-slide-service-dog-assistance-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "WE HOLD YOUR HAND ALL THE WAY",
+        "text": "<p>During the entire Free My Paws Certification process you will be treated with the utmost care and respect. We pride ourselves on our outstanding therapy sessions and service. All our practicing therapists are licensed mental health professionals, which ensures that you’ll receive the best advice and up-to-date therapy prescriptions. In addition, our Free My Paws Therapist Confirmation Letters are promptly updated with the latest changes to meet landlord and airline requirements.<\/p><p>The decision to work with us on the purchase of a PSA Program is one which will have a significant impact on your life. To make it easy we offer a comprehensive satisfaction guarantee to ensure you’re happy with your program.<\/p>",
+        "button_label": "NO NEED TO WAIT, START NOW",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=39304728117357&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2af29aec-15f9-460f-ae61-3e426adcdca4": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "The process of getting your Therapist Certified Letter couldn't be easier",
+        "text": "<p>Simply fill out our online application form, and one of our certified therapists will be in touch typically within 24 hours to schedule a consultation. During this consultation, we'll work with you to understand your emotional support needs and evaluate whether an ESA would be beneficial for you. If it is determined that an ESA would help improve your mental health and well-being, we'll provide you with a personalized letter that meets all legal requirements.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#ecbebe",
+        "color_text": "#000000",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "process-text-sec"
+      }
+    },
+    "293da998-78e0-4136-a461-d4e2d50dc042": {
+      "type": "timeline",
+      "blocks": {
+        "176357fd-3153-4f04-83a7-3f862d2a6aa7": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "Complete your purchase online.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-shopping-icon-blue.svg"
+          }
+        },
+        "b715e6a5-4488-476c-870d-c9425bd5a9cb": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "You will receive an Email with a link to the online patient intake questionnaire, open the link and submit the form.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-email-icon-blue.svg"
+          }
+        },
+        "428c8d7c-29de-4232-b3bd-c5a6be8c3f73": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "Once one of our registered therapists has reviewed your information, they will contact you to set a time for a telehealth therapy session, typically within 24 hours.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-telehealth-icon-blue.svg"
+          }
+        },
+        "2959b229-ca07-4603-bad5-583d163ce926": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "At the end of the therapy session, our Licensed Therapist will make a diagnosis to then prescribe a treatment plan and if they estimate that you suffer from an ailment which would benefit from the presence of an Psychiatric Service Animal and your Animal (typically Dog) is properly trained as a Service Animal, they will then produce your Free My Paws PSA letters, both for Travel and Housing.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-letter-icon-blue.svg"
+          }
+        },
+        "acd9619c-d99b-4299-b6ce-793b442c0a85": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "You will receive your Free My Paws PSA letters by email almost immediately after completing your phone interview, in secure PDF format.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-therapist-review-icon-blue.svg"
+          }
+        }
+      },
+      "block_order": [
+        "176357fd-3153-4f04-83a7-3f862d2a6aa7",
+        "b715e6a5-4488-476c-870d-c9425bd5a9cb",
+        "428c8d7c-29de-4232-b3bd-c5a6be8c3f73",
+        "2959b229-ca07-4603-bad5-583d163ce926",
+        "acd9619c-d99b-4299-b6ce-793b442c0a85"
+      ],
+      "settings": {
+        "title": "SMOOTH AND EASY PROCESS"
+      }
+    },
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b": {
+      "type": "pricing-table-alex",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "IT COULDN'T BE EASIER!",
+        "title_color": "#000000",
+        "highlight_title": "ORDER YOUR PSYCHIATRIC SERVICE ANIMAL CERTIFICATION PROGRAM TODAY",
+        "highlighted_color": "#ecbebe",
+        "paragraph": "<p>You'll have the protection and access your PSA deserves in under 24 hours.<\/p>",
+        "paragraph_color": "#333333",
+        "enable_tbl1": true,
+        "pricing_title": "NEW PATIENT",
+        "pricing_txt": "<p>Travel & Housing Therapist Certified Program for Psychiatric Support Animals, including Dogs<\/p>",
+        "price": "$169.97",
+        "feature_1": "Fast Electronic Process & Delivery",
+        "feature_2": "Easy Online Questionnaire",
+        "feature_3": "Convenient Telehealth Session",
+        "feature_4": "Comprehensive Treatment Prescription",
+        "feature_5": "Licensed Therapist Certified Letters",
+        "feature_6": "24\/7 Customer Support",
+        "btn_txt": "START NOW",
+        "btn_url": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=39304728117357&quantity=1",
+        "enable_tbl2": true,
+        "pricing_title_2": "RENEWING PATIENT",
+        "pricing_txt_2": "<p>Travel & Housing Therapist Certified Letters for Psychiatric Support Animals, including Dogs<\/p>",
+        "price_2": "$99.97",
+        "feature_1_2": "Fast Electronic Process & Delivery",
+        "feature_2_2": "Easy Online Questionnaire",
+        "feature_3_2": "Convenient Telehealth Confirmation",
+        "feature_4_2": "Comprehensive Treatment Prescription",
+        "feature_5_2": "Licensed Therapist Certified Letters",
+        "feature_6_2": "24\/7 Customer Support",
+        "btn_txt_2": "RENEW NOW",
+        "btn_url_2": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=44996890591533&quantity=1",
+        "tbl_bg": "#faf2f2",
+        "tbl_txt_color": "#333333"
+      }
+    },
+    "16787712953cfc9131": {
+      "type": "apps",
+      "blocks": {
+        "10ddaf34-6d88-46b5-a91f-aa5ef9932b81": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "10ddaf34-6d88-46b5-a91f-aa5ef9932b81"
+      ],
+      "custom_css": [
+        ".large-section {padding-top: 0;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "405dae09-0a97-4de7-a973-09f01e9067aa",
+    "2eba69fc-761b-43ad-97be-9785e5192681",
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739",
+    "c1449733-00a4-4ade-a9d9-8cf7b2f79ed8",
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3",
+    "eff3ef26-170c-43af-821d-c9dea10771f3",
+    "83ec6188-9771-49c3-bb30-8de7cde70c3d",
+    "f930b07e-6336-4836-8e14-424e08888861",
+    "35e45431-fdfb-422e-a610-ee9cda20f039",
+    "c31ea74d-24a3-4d83-ac43-ab2fded59c12",
+    "c8d3f9f9-dc1f-439f-b27c-80d2071866e9",
+    "18244d41-2566-4099-8f6e-6c0447e73ec4",
+    "b994ce80-3d4a-4311-8ad9-654077f0b7a9",
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf",
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f",
+    "2af29aec-15f9-460f-ae61-3e426adcdca4",
+    "293da998-78e0-4136-a461-d4e2d50dc042",
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b",
+    "16787712953cfc9131"
+  ]
+}

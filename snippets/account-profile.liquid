@@ -1,0 +1,212 @@
+<script src="{{ 'intlTelInput.min.js' | asset_url }}" defer="defer"></script>
+{{ 'intlTelInput.css' | asset_url | stylesheet_tag: preload: true }}
+
+
+<script>
+  $(document).ready(function() {
+
+// phone
+    var countryData = window.intlTelInputGlobals.getCountryData(),
+      input = document.querySelector("#phone"),
+      addressDropdown = document.querySelector("#address-country");
+    var iti = window.intlTelInput(input, {hiddenInput: "full_phone"});
+    for (var i = 0; i < countryData.length; i++) {
+      var country = countryData[i];
+      var optionNode = document.createElement("option");
+      optionNode.value = country.iso2;
+      var textNode = document.createTextNode(country.name);
+      optionNode.appendChild(textNode);
+    }
+    $('#phone').on('keyup', function(e) {
+      var inputValue = $(this).val();
+      var cleanValue = inputValue.replace(/[^\d-+ ]/g, '');
+      $(this).val(cleanValue);
+      if (cleanValue == "") {
+        $(this).val("+");
+      }
+    });
+
+// info-mobile
+    var countryData = window.intlTelInputGlobals.getCountryData(),
+      mobileinput = document.querySelector("#info-mobile"),
+      addressDropdown = document.querySelector("#address-country");
+    var iti = window.intlTelInput(mobileinput, {hiddenInput: "full_info-mobile"});
+    for (var i = 0; i < countryData.length; i++) {
+      var country = countryData[i];
+      var optionNode = document.createElement("option");
+      optionNode.value = country.iso2;
+      var textNode = document.createTextNode(country.name);
+      optionNode.appendChild(textNode);
+    }
+    $('#info-mobile').on('keyup', function(e) {
+      var inputValue = $(this).val();
+      var cleanValue = inputValue.replace(/[^\d-+ ]/g, '');
+      $(this).val(cleanValue);
+      if (cleanValue == "") {
+        $(this).val("+");
+      }
+    });
+  })
+</script>
+
+{% assign img_account_center_profile = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-profile-management-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_profile = 'felicitails-account-center-profile-management-founded-by-lindsay-giguiere' %}
+
+<div class="account-main-body">
+  <div class="account-main-items">
+    <div class="account-main-digitalvault">
+      <div class="account-main-item-title">
+        <h1>Profile</h1>
+      </div>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_profile }}" alt="{{ alt_account_center_profile }}">
+      </div>
+    </div>
+    <div class="profile-information">
+      <div class="information-group">
+        <div class="width-fill item-email-pwd">
+          <div class="width-fill item-other">
+            <label for="info-email" class="width-fill info-label">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="info-email"
+              class="width-fill info-input"
+              value={{ customer.email }}
+              disabled>
+          </div>
+          <button class="info-edit">Edit</button>
+        </div>
+        <div class="width-fill item-email-pwd">
+          <div class="width-fill item-other">
+            <label for="info-password" class="width-fill info-label">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="info-password"
+              class="width-fill info-input"
+              value="password"
+              disabled>
+          </div>
+          <button class="info-edit">Edit</button>
+        </div>
+      </div>
+      <div class="information-group information-title">
+        <div class="width-fill item-other">
+          <label for="info-title" class="width-fill info-label">Title</label>
+          <div class="width-fill select info-input">
+            <select
+              name="title"
+              id="info-title"
+              class="width-fill">
+              <option value="mrs">Mrs</option>
+              <option value="mr">Mr</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="information-group">
+        <div class="width-fill item-other">
+          <label for="info-first-name" class="width-fill info-label">First Name</label>
+          <input
+            type="text"
+            name="first-name"
+            id="info-first-name"
+            placeholder={{ customer.first_name }}
+            class="width-fill info-input">
+        </div>
+        <div class="width-fill item-other">
+          <label for="info-last-name" class="width-fill info-label">Last Name</label>
+          <input
+            type="text"
+            name="last-name"
+            id="info-last-name"
+            placeholder={{ customer.last_name }}
+            class="width-fill info-input">
+        </div>
+      </div>
+      <div class="information-group">
+        <div class="width-fill item-other">
+          <label for="phone" class="width-fill info-label">Phone</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            {% if customer.phone %}
+            value={{ customer.phone }}
+            {% endif %}
+            class="width-fill info-input">
+        </div>
+        <div class="width-fill item-other">
+          <label for="info-mobile" class="width-fill info-label">Mobile</label>
+          <input
+            type="text"
+            name="mobile"
+            id="info-mobile"
+            class="width-fill info-input">
+        </div>
+      </div>
+      <div class="information-group">
+        <div class="width-fill item-other">
+          <label for="info-birthdaym" class="width-fill info-label">Birthday</label>
+          <div class="width-fill select info-input">
+            <select
+              name="birthdaym"
+              id="info-birthdaym"
+              class="width-fill">
+              <option value="0">Month</option>
+              <option value="1">Jan</option>
+              <option value="2">Feb</option>
+              <option value="3">Mar</option>
+              <option value="4">Apr</option>
+              <option value="5">May</option>
+              <option value="6">Jun</option>
+              <option value="7">Jul</option>
+              <option value="8">Aug</option>
+              <option value="9">Sup</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+          </div>
+        </div>
+        <div class="width-fill item-other">
+          <label for="info-birthdayd" class="width-fill info-label">Birthday</label>
+          <div class="width-fill select info-input">
+            <select
+              name="birthdayd"
+              id="info-birthdayd"
+              class="width-fill">
+              <option value="0">Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="information-group">
+        <div class="width-fill item-other item-policy">
+          <input
+            type="checkbox"
+            name="policy"
+            id="info-policy"
+            class="check">
+          <label for="info-policy" class="width-fill info-label">By updating your profile information, you agree to our Web Terms of Use and acknowledge our
+            <a>Privacy Policy</a>.</label>
+          <label for="info-policy"></label>
+        </div>
+      </div>
+      <div class="width-fill">
+        <button class="submit">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>

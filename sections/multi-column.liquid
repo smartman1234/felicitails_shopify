@@ -1,0 +1,508 @@
+{%- if section.settings.enable_custom_colors -%}
+  {%- assign bg = section.settings.gradient_bg | default: section.settings.color_bg -%}
+{%- endif -%}
+<div class="{{ section.settings.custom_class }} section-{{ section.id }} relative container {% if bg %}container--no-mobile-padding{% endif %} large-row">
+  {% style %}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.image_width != 100 %}
+        .section-{{ section.id }} #block-id-{{ block.id }} .text-column__image {
+          margin-left: {%- if section.settings.text_alignment == 'left' %}0{% else %}auto{% endif %};
+          margin-right: {%- if section.settings.text_alignment == 'right' %}0{% else %}auto{% endif %};
+          max-width: {{ block.settings.image_width }}%;
+        }
+      {%- endif -%}
+    {%- endfor -%}
+
+    {% if section.settings.enable_custom_colors %}
+      {% if bg %}
+      .section-{{ section.id }} .text-columns-section {
+        background: {{ bg }};
+      }
+      {% endif %}
+
+      .section-{{ section.id }} .text-columns-section {
+        color: {{ section.settings.color_text }};
+      }
+
+      .section-{{ section.id }} .text-columns-section .rte a,
+      .section-{{ section.id }} .text-columns-section .standard-link {
+        color: inherit;
+      }
+
+      .section-{{ section.id }} .large-title,
+      .section-{{ section.id }} .giant-title,
+      .section-{{ section.id }} .text-column__title {
+        color: {{ section.settings.color_title }};
+      }
+    {% endif %}
+    a.image-with-text__link {
+      margin-top: 40px;
+    }
+    h2.large-title {
+      margin-bottom: 40px;
+    }
+  {% endstyle %}
+
+  <div class="text-columns-section {% if bg %}section global-border-radius global-border-radius--not-extra-small container{% endif %} page-width">
+
+    {% if section.settings.title != blank %}
+      <h2 class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif %} text-center row" data-cc-animate>{{ section.settings.title | escape }}</h2>
+    {% endif %}
+
+    {%- liquid
+      if section.blocks.size == 1
+        assign grid_item_class = 'one-whole'
+      elsif section.blocks.size == 2
+        assign grid_item_class = 'one-half'
+      elsif section.blocks.size == 3
+        assign grid_item_class = 'one-third'
+      else
+        assign grid_item_class = 'one-quarter  medium-down--one-half'
+      endif
+    -%}
+
+    <div class="{% if section.blocks.size > 1 %}grid-flex flex {% endif %}large-row-over text-{{ section.settings.text_alignment }}">
+      {% for block in section.blocks %}
+        <div id="block-id-{{ block.id }}" class="{% if section.blocks.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-whole" {{ block.shopify_attributes }}
+             data-cc-animate="fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s">
+          {% if block.settings.enable_image %}
+            <div class="text-column__image global-border-radius large-row-under">
+              {%- if block.settings.link != blank -%}
+                <a class="block hover-images" href="{{ block.settings.link }}">
+                  <div class="image-one">
+              {%- endif -%}
+
+              {%- if block.settings.image == blank -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- else -%}
+                {% render 'responsive-image', image: block.settings.image %}
+              {%- endif -%}
+
+              {%- if block.settings.link != blank -%}
+                  </div>
+                </a>
+              {% endif -%}
+            </div>
+          {% endif %}
+
+          {% if block.settings.enable_icon %}
+            <div class="text-column__icon" style="--icon-size: {{ block.settings.icon_size }}px; {% if block.settings.icon_color %}color: {{ block.settings.icon_color }}{% endif %}">
+              {% render 'icon', icon: block.settings.icon, size: 'custom-size' %}
+            </div>
+          {% endif %}
+
+          <div class="row large-row-under">
+            {% if block.settings.title != blank %}
+              <h3 class="text-column__title row {% if block.settings.enlarge_title %}large-title{% else %}small-title{% endif %}">{{ block.settings.title }}</h3>
+            {% endif %}
+
+            {% if block.settings.text != blank %}
+              <div class="text-column__text rte {% if block.settings.enlarge_text %}large-text{% endif %}">{{ block.settings.text }}</div>
+            {% endif %}
+
+          </div>
+          {% if block.settings.button_label != blank %}
+            <div class="btn-row">
+              <a class="text-column__link {% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link{% endif %}" href="{{ block.settings.button_link }}">
+                {{ block.settings.button_label }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="page-width button-style">
+    {% if section.settings.button_label_bottom != blank %}
+      {%- assign inherit_colour = false -%}
+      {%- if section.settings.url_style_bottom == 'link_style' -%}
+        {%- assign alpha = section.settings.color_bg | color_extract: 'alpha' -%}
+        {%- if alpha > 0 and section.settings.color_bg != settings.color_body_background -%}
+          {%- assign inherit_colour = true -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      <a class="image-with-text__link {% if section.settings.url_style_bottom == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style_bottom == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% if inherit_colour %}standard-link--inherit-color{% endif %}{% endif %}" href="{{ section.settings.button_link_bottom }}" target="_blank">
+        {{ section.settings.button_label_bottom }}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Multi-column",
+  "class": "section-multi-column",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "checkbox",
+      "id": "enlarge_title",
+      "label": "Enlarge heading",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Column content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "radio",
+      "id": "url_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "button_1",
+          "label": "Button - primary"
+        },
+        {
+          "value": "button_2",
+          "label": "Button - secondary"
+        },
+        {
+          "value": "link_style",
+          "label": "Link"
+        }
+      ],
+      "default": "button_1"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_colors",
+      "label": "Enable custom colors",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Heading color"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background color"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_bg",
+      "label": "Background gradient",
+      "info": "If set, replaces background color"
+    },
+     {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "text",
+      "id": "button_label_bottom",
+      "label": "Button_bottom"
+    },
+    {
+      "type": "url",
+      "id": "button_link_bottom",
+      "label": "Button link"
+    },
+    {
+      "type": "radio",
+      "id": "url_style_bottom",
+      "label": "Button style",
+      "options": [
+        { "value": "button_1", "label": "Button - primary" },
+        { "value": "button_2", "label": "Button - secondary" },
+        { "value": "link_style", "label": "Link"}
+      ],
+      "default": "link_style"
+    }
+  ],
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "id": "enable_image",
+          "type": "checkbox",
+          "label": "Enable image",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 10,
+          "max": 100,
+          "step": 5,
+          "label": "Image width",
+          "unit": "%",
+          "default": 100
+        },
+        {
+          "type": "header",
+          "content": "Icon"
+        },
+        {
+          "id": "enable_icon",
+          "type": "checkbox",
+          "label": "Enable icon",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "award",
+          "options": [
+            {
+              "value": "award",
+              "label": "Award"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "calendar-days",
+              "label": "Calendar days"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "check-circle",
+              "label": "Check circle"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "credit-card",
+              "label": "Credit card"
+            },
+            {
+              "value": "dollar-sign",
+              "label": "Dollar sign"
+            },
+            {
+              "value": "eye",
+              "label": "Eye"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "help-circle",
+              "label": "Help circle"
+            },
+            {
+              "value": "leaf",
+              "label": "Leaf"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "map-pin",
+              "label": "Map pin"
+            },
+            {
+              "value": "menu",
+              "label": "Menu"
+            },
+            {
+              "value": "message-circle",
+              "label": "Message circle"
+            },
+            {
+              "value": "package",
+              "label": "Package"
+            },
+            {
+              "value": "percent",
+              "label": "Percent"
+            },
+            {
+              "value": "plane",
+              "label": "Plane"
+            },
+            {
+              "value": "tag",
+              "label": "Tag"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "scissors",
+              "label": "Scissors"
+            },
+            {
+              "value": "search",
+              "label": "Search"
+            },
+            {
+              "value": "shirt",
+              "label": "Shirt"
+            },
+            {
+              "value": "shrub",
+              "label": "Shrub"
+            },
+            {
+              "value": "shopping-bag",
+              "label": "Shopping bag"
+            },
+            {
+              "value": "shopping-cart",
+              "label": "Shopping cart"
+            },
+            {
+              "value": "star",
+              "label": "Star"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "undo",
+              "label": "Undo"
+            },
+            {
+              "value": "user",
+              "label": "User"
+            },
+            {
+              "value": "vegan",
+              "label": "Vegan"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "icon_size",
+          "min": 20,
+          "max": 150,
+          "step": 2,
+          "label": "Icon width",
+          "unit": "px",
+          "default": 48
+        },
+        {
+          "type": "color",
+          "id": "icon_color",
+          "label": "Icon color"
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_title",
+          "label": "Enlarge heading",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column",
+      "settings": {
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

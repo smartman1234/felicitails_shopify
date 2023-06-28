@@ -1,0 +1,43 @@
+{% comment %}
+  Parameters:
+  - title {string} [required] - The item title or summary
+  - escape_title {boolean} [optional] - Whether to HTML-escape the provided title. Default is false.
+  - content {string} [required] - The item content
+  - add_content_class {string} [optional] - Additional class(es) to add to the content element
+  - toggle_icon {string} [optional] - Custom icon markup, e.g. '<span class="icon">...</span>'
+  - item_open {boolean} [optional] - Whether the item should be open on page load. Default is false.
+{% endcomment %}
+
+{%- liquid
+  if escape_title
+    assign title = title | prepend
+  endif
+
+  assign item_attr = 'class="cc-accordion-item"'
+
+  if item_open == true
+    assign item_attr = 'class="cc-accordion-item is-open" open'
+  endif
+
+  if add_content_class
+    assign content_class = add_content_class | prepend: ' '
+  endif
+-%}
+
+<details {{ item_attr }}>
+  <summary class="cc-accordion-item__title">
+    {{- title -}}
+
+   <div class="pannel-toggle">
+      <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.55273 9.5L12.5527 14.5L17.5527 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <!-- {{- toggle_icon -}} -->
+  </summary>
+  <div class="cc-accordion-item__panel">
+    <div class="cc-accordion-item__content{{ content_class }}">
+      {{- content -}}
+    </div>
+  </div>
+</details>

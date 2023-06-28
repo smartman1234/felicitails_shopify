@@ -1,0 +1,31 @@
+<div style="height: {{ section.settings.height_size }}px"></div>
+{% schema %}
+{
+  "name": "Divider",
+  "tag": "div",
+  "class": "content-divider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "height_size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Height",
+      "default": 38
+    }
+  ],
+  "presets": [
+    {
+      "name": "Divider"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

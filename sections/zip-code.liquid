@@ -1,0 +1,47 @@
+<div class="{{ section.settings.custom_class }} container container--no-mobile-padding large-row full-width-image full-width-background section-{{ section.id }}" data-section-id="{{ section.id }}">
+  <div class="page-width zip-container">
+    <input type="text" class="input-class">
+    <a class="btn btn--small btn--primary" href="{{ section.settings.button_url }}" target="_blank">{{ section.settings.button_label }}</a>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Zip Code",
+    "settings": [
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button",
+        "default": "FIND YOUR PLAN"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button link"
+      },
+      {
+        "id": "custom_class",
+        "type": "text",
+        "label": "Custom Class"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Zip Code"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  div.zip-container {
+    padding: 47px 47px!important;
+    display: flex;
+  }
+  .input-class {
+    width: calc( 100% - 180px);
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

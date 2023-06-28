@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "3bb4c82c-ca2d-4360-9e3d-d2b81556fe41": {
+      "type": "hero-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/exclusive-brand-collaborations-img-felicitails.jpg",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "overlay_bg": "#000000",
+        "overlay_bg_opacity": 30,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Exclusive Brand Collaborations",
+        "overlay_text": "Explore the exclusive collaborations that are available for a limited time only. We love partnering with great brands and exposing fresh ideas to our family of customers.",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": false
+      }
+    },
+    "7b2246de-34fe-4445-9981-7b84f52ea965": {
+      "type": "contact-form",
+      "blocks": {
+        "5e7e24d9-5034-4842-99b5-ecd744138b72": {
+          "type": "fname_input",
+          "settings": {
+          }
+        },
+        "30824446-b8bd-4200-8c24-4544ea6c2f43": {
+          "type": "lname_input",
+          "settings": {
+          }
+        },
+        "67d60d5a-9b27-4413-a97a-713e2e884f9c": {
+          "type": "company_input",
+          "settings": {
+          }
+        },
+        "0eb81a87-dee9-41a7-aa33-ca8ff7ed7ca7": {
+          "type": "email_input",
+          "settings": {
+          }
+        },
+        "98f83faa-2971-4b61-9ae9-abbd0535199a": {
+          "type": "phone_input",
+          "settings": {
+            "required": false
+          }
+        },
+        "01cb1e2b-a270-4fc7-beaa-200cb604ef59": {
+          "type": "check_input",
+          "settings": {
+          }
+        },
+        "89133aa7-f225-4b52-a4fc-a07a25449200": {
+          "type": "message_input",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5e7e24d9-5034-4842-99b5-ecd744138b72",
+        "30824446-b8bd-4200-8c24-4544ea6c2f43",
+        "67d60d5a-9b27-4413-a97a-713e2e884f9c",
+        "0eb81a87-dee9-41a7-aa33-ca8ff7ed7ca7",
+        "98f83faa-2971-4b61-9ae9-abbd0535199a",
+        "01cb1e2b-a270-4fc7-beaa-200cb604ef59",
+        "89133aa7-f225-4b52-a4fc-a07a25449200"
+      ],
+      "settings": {
+        "sec_title": "<h2>INTERESTED IN TEAMING UP?<\/h2><h2>SEND US A HELLO!<\/h2>",
+        "show_title": true,
+        "title_alignment": "center",
+        "use_columns": false
+      }
+    },
+    "56ee68cd-4fc0-4120-9946-bf4e62af76a4": {
+      "type": "contact-success",
+      "settings": {
+        "contact_image": "shopify:\/\/shop_images\/exclusive-brand-collaborations-img-felicitails.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3bb4c82c-ca2d-4360-9e3d-d2b81556fe41",
+    "7b2246de-34fe-4445-9981-7b84f52ea965",
+    "56ee68cd-4fc0-4120-9946-bf4e62af76a4"
+  ]
+}

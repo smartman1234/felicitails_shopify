@@ -1,0 +1,66 @@
+{{ 'account-custom.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'account-custom-mobile.css' | asset_url | stylesheet_tag: preload: true }}
+
+{%- comment -%} Capture the content for header containing the tracking data {%- endcomment -%}
+
+{%- capture contentForQuerystring -%}
+  {{ content_for_header }}{%- endcapture -%}
+
+{% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
+
+{%- assign pageUrlWithHost = contentForQuerystring 
+  | split: '"pageurl":"'
+  | last
+  | split: '"'
+  | first
+  | replace: '\/', '/'
+  | replace: '%20', ' '
+  | replace: '\u0026', '&' -%}
+{% assign parameter = pageUrlWithHost | split: '?page=' | last %}
+<div class="container">
+  <div class="page-width large-row account-container">
+    {% include 'account-nav-bar' %}
+    {% case parameter %}
+      {% when 'digital-vault' %}
+      {% include 'account-digital-vault' %}
+      {% when 'address-book' %}
+      {% include 'account-address-book' %}
+      {% when 'address-edit' %}
+      {% include 'account-address-edit' %}
+      {% when 'customer-service' %}
+      {% include 'account-customer-service' %}
+      {% when 'orders' %}
+      {% include 'account-orders' %}
+      {% when 'profile-edit-email' %}
+      {% include 'account-profile-edit-email' %}
+      {% when 'profile-edit-password' %}
+      {% include 'account-profile-edit-password' %}
+      {% when 'profile' %}
+      {% include 'account-profile' %}
+      {% when 'service-emotional' %}
+      {% include 'account-service-emotional' %}
+      {% when 'service-psychiatric' %}
+      {% include 'account-service-psychiatric' %}
+      {% when 'service-registration' %}
+      {% include 'account-service-registration' %}
+      {% when 'service' %}
+      {% include 'account-service' %}
+      {% when 'subscriptions-first' %}
+      {% include 'account-subscriptions-first' %}
+      {% when 'subscriptions-second' %}
+      {% include 'account-subscriptions-second' %}
+      {% when 'wallet-ballance' %}
+      {% include 'account-wallet-ballance' %}
+      {% when 'wallet-redeem' %}
+      {% include 'account-wallet-redeem' %}
+      {% when 'wallet' %}
+      {% include 'account-wallet' %}
+      {% when 'wish-list-view' %}
+      {% include 'account-wish-list-view' %}
+      {% when 'wish-list' %}
+      {% include 'account-wish-list' %}
+    {% else %}
+      {% include 'account-center' %}
+    {% endcase %}
+  </div>
+</div>

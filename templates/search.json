@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search-alex",
+      "settings": {
+        "show_vendor": false,
+        "grid": 4,
+        "grid_mobile": "2",
+        "pagination_limit": 40,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

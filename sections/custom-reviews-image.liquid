@@ -1,0 +1,205 @@
+<div class="{{ section.settings.custom_class }} custom-reviews section-{{ section.id }}">
+  <div class="page-width">
+    <div class="custom-review-title">
+      <h2 class="large-title text-center row cc-animate-init cc-animate-in">{{ section.settings.title }}</h2>
+    </div>
+    <div class="reviews_wrapper">
+      <div class="review_rating_contents">
+        <div class="review_rating_contents_wrapper">
+          <div style="margin: 0px 12px;">
+            <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-reviews-ratings.png?v=1686834101">
+          </div>
+        </div>
+      </div>
+      <div class="reviews-wrap">
+        <ul>
+          {% for block in section.blocks %}
+            <li class="review-box">
+              <div class="review-box-wrapper">
+                {% if block.settings.review_icon %}
+                  <div class="review-box-icon"><img src="{{ block.settings.review_icon | img_url:'master' }}"></div>
+                {% endif %}
+
+                <div class="review_content_wrapper">
+                  <h5>{{ block.settings.review_author }}</h5>
+                  <div class="review_rating_count">
+                    <span
+                      style="margin-right: 10px; display:inline-flex; align-items: center;"
+                      title="5.0"
+                      class="stars">
+                      <ul style="display: inline-flex; margin: unset; padding: unset; text-indent: unset; list-style-type: none; gap: 2px;">
+                        <li>
+                          <svg
+                            viewBox="0 0 24 24"
+                            data-lx-fill="full"
+                            class="loox-icon star text-large"
+                            style="display: block; width: 16px; height: 16px;">
+                            <use href="#looxicons-rating-icon"></use>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg
+                            viewBox="0 0 24 24"
+                            data-lx-fill="full"
+                            class="loox-icon star text-large"
+                            style="display: block; width: 16px; height: 16px;">
+                            <use href="#looxicons-rating-icon"></use>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg
+                            viewBox="0 0 24 24"
+                            data-lx-fill="full"
+                            class="loox-icon star text-large"
+                            style="display: block; width: 16px; height: 16px;">
+                            <use href="#looxicons-rating-icon"></use>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg
+                            viewBox="0 0 24 24"
+                            data-lx-fill="full"
+                            class="loox-icon star text-large"
+                            style="display: block; width: 16px; height: 16px;">
+                            <use href="#looxicons-rating-icon"></use>
+                          </svg>
+                        </li>
+                        <li>
+                          <svg
+                            viewBox="0 0 24 24"
+                            data-lx-fill="full"
+                            class="loox-icon star text-large"
+                            style="display: block; width: 16px; height: 16px;">
+                            <use href="#looxicons-rating-icon"></use>
+                          </svg>
+                        </li>
+                      </ul>
+                    </span>
+                  </div>
+                  {{ block.settings.review_content }}
+                </div>
+
+              </div>
+            </li>
+          {% endfor %}
+          <div style="clear:both;"></div>
+        </ul>
+      </div>
+    </div>
+    {% if section.settings.button_label != blank %}
+    <div class="link_wrapper">
+      <a href="{{ section.settings.button_link }}" class="{% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.button_label }}</a>
+    </div>
+    {% unless section.settings.button_label_2 == "" %}
+      <div class="link_wrapper">
+        <a href="{{ section.settings.button_link_2 }}" class="{% if section.settings.url_style_2 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.button_label_2 }}</a>
+      </div>
+    {% endunless %}
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Custom Reviews Image",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "AMAZING REVIEWS FROM WAG! PET PARENTS"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      },
+      {
+        "type": "text",
+        "id": "review_rating",
+        "label": "Rating"
+      }, {
+        "type": "text",
+        "id": "review_rating_text",
+        "label": "Rating Text"
+      }, {
+        "type": "radio",
+        "id": "url_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "type": "text",
+        "id": "button_label_2",
+        "label": "Button 2"
+      }, {
+        "type": "url",
+        "id": "button_link_2",
+        "label": "Button 2 link"
+      }, {
+        "type": "radio",
+        "id": "url_style_2",
+        "label": "Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      },
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom Class"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "reviews",
+        "name": "Reviews",
+        "settings": [
+          {
+            "type": "text",
+            "id": "review_author",
+            "label": "Author"
+          }, {
+            "type": "richtext",
+            "id": "review_content",
+            "label": "Content"
+          }, {
+            "type": "image_picker",
+            "id": "review_icon",
+            "label": "Icon"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Reviews Image"
+      }
+    ]
+  }
+{% endschema %}

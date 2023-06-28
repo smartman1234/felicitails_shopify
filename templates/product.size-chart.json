@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "79833a04-ea19-4d7e-acab-b5de7b33b5ad": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_and_price": {
+          "type": "title_and_price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "94a8f672-b75a-4d30-a9e2-f6124fa39acc": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
+        "5f4c9301-086e-45c3-95b8-c23c1d96e26e": {
+          "type": "reviews_summary",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart_enabled": true,
+            "size_chart_option_name": "Size",
+            "size_chart_page_id": "dog-vest-size-chart"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "show_backorder_text": true,
+            "show_inventory_notice": "never",
+            "show_inventory_count": "low",
+            "inventory_notice_threshold": 10
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "full_width": false,
+            "show_tabs": true,
+            "tab_direction": "vertical",
+            "icon_1": "",
+            "tab_1_title": "Highlights",
+            "icon_2": "",
+            "tab_2_title": "Description",
+            "tab_2_content": "",
+            "tab_2_page": "",
+            "icon_3": "",
+            "tab_3_title": "Particulars",
+            "tab_3_content": "",
+            "tab_3_page": "",
+            "icon_4": "",
+            "tab_4_title": "Loved By Lindsay",
+            "tab_4_content": "",
+            "tab_4_page": "about-us"
+          }
+        }
+      },
+      "block_order": [
+        "title_and_price",
+        "94a8f672-b75a-4d30-a9e2-f6124fa39acc",
+        "5f4c9301-086e-45c3-95b8-c23c1d96e26e",
+        "variant_picker",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_media": true,
+        "media_size": "small",
+        "media_layout": "thumbnails-left",
+        "enable_video_looping": false
+      }
+    },
+    "recent": {
+      "type": "recently-viewed",
+      "settings": {
+        "show_recently_viewed": true,
+        "show_vendor": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You May Also Like",
+        "grid": 6,
+        "show_vendor": false
+      }
+    },
+    "230f1b03-0036-4822-b9c4-ba093219037e": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Hear What Others Have to Say",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#000000",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "review-title"
+      }
+    },
+    "1678429583dde8e649": {
+      "type": "apps",
+      "blocks": {
+        "1dcfc1fa-c957-4bf7-8fb1-a7ef75067636": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "1dcfc1fa-c957-4bf7-8fb1-a7ef75067636"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "79833a04-ea19-4d7e-acab-b5de7b33b5ad",
+    "main",
+    "recent",
+    "recommendations",
+    "230f1b03-0036-4822-b9c4-ba093219037e",
+    "1678429583dde8e649"
+  ]
+}

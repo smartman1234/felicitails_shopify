@@ -1,0 +1,129 @@
+<div class="{{ section.settings.custom_class }} sec-timeline sec-timeline-wag section-{{ section.id }}">
+  <div class="page-width">
+    {% unless section.settings.sub_button_label_1 == "" or section.settings.sub_button_label_2 == "" %}
+      <div class="sub_button_wrapper">
+        <div class="link_wrapper">
+          <a class="btn_dog {% if section.settings.sub_url_style_1 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.sub_url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.sub_button_label_1 }}</a>
+        </div>
+        <div class="link_wrapper">
+          <a class="btn_cat {% if section.settings.sub_url_style_2 == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.sub_url_style_2 == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link {% endif %}">{{ section.settings.sub_button_label_2 }}</a>
+        </div>
+      </div>
+    {% endunless %}
+    <div class="timeline_image_wrapper">
+      <img
+        src="{{ section.settings.image | img_url: '1024x1024' }}"
+        alt="{{ section.settings.image.alt | escape }}"
+        class="timeline_image">
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Select Buttons",
+    "settings": [
+      {
+        "type": "text",
+        "id": "img_title",
+        "label": "Image Heading",
+        "default": "Local Dog Walking"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "EASY PEASY PROCESS"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
+      }, {
+        "type": "radio",
+        "id": "url_style",
+        "label": "Button style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "type": "text",
+        "id": "sub_button_label_1",
+        "label": "Sub Button 1"
+      }, {
+        "type": "url",
+        "id": "sub_button_link_1",
+        "label": "Sub Button 1 link"
+      }, {
+        "type": "radio",
+        "id": "sub_url_style_1",
+        "label": "Sub Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "type": "text",
+        "id": "sub_button_label_2",
+        "label": "Sub Button 2"
+      }, {
+        "type": "url",
+        "id": "sub_button_link_2",
+        "label": "Sub Button 2 link"
+      }, {
+        "type": "radio",
+        "id": "sub_url_style_2",
+        "label": "Sub Button 2 style",
+        "options": [
+          {
+            "value": "button_1",
+            "label": "Button - primary"
+          }, {
+            "value": "button_2",
+            "label": "Button - secondary"
+          }, {
+            "value": "link_style",
+            "label": "Link"
+          }
+        ],
+        "default": "button_1"
+      }, {
+        "id": "custom_class",
+        "type": "text",
+        "label": "Custom Class"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Select Buttons"
+      }
+    ]
+  }
+{% endschema %}

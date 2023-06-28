@@ -1,0 +1,796 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "f233daab-ecab-43f6-ade3-981c6a185502": {
+      "type": "hero-section",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/girl-with-dog-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+        "image_link": "",
+        "container": false,
+        "image_position": "center center",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "overlay_bg": "#000000",
+        "overlay_bg_opacity": 50,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Welcome to Our Preferred Range of Organic CBD Products to Support Your Pet’s Well-being",
+        "overlay_text": "We understand the reassurance of having your 4-legged companion by your side. To ensure you both get the best from life, protect their emotional and physical wellness with these premium CBD-enriched tincture & treats that no pooch can resist!",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": false
+      }
+    },
+    "45883b8a-16b1-425f-91d5-51bca556602c": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f8775e16b974d6fb8a81e9806ecbe11.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-greencompass-calming-aids-for-pets.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 0,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "rgba(0,0,0,0)",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Welcome to Our Preferred Range of Organic CBD Products to Support Your Pet’s Well-being",
+        "overlay_text": "We understand the reassurance of having your 4-legged companion by your side. To ensure you both get the best from life, protect their emotional and physical wellness with these premium CBD-enriched tincture & treats that no pooch can resist!",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "2eba69fc-761b-43ad-97be-9785e5192681": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h2>When life gets challenging, having a furry pal by your side is a great comfort.  But did you realize that they can get overwhelmed too?  Crowded and noisy environments or even a short separation from their beloved human can cause anxiety and distress.  Now, there’s a safe and easy way to help them cope!<\/h2>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/brand-collaboration-with-felicitails-free-my-paws-green-compass-logo-pet-people-calming-aides-felicitails-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon rt-one"
+      }
+    },
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {text-transform: unset; font-weight: 400;}",
+        ".page-width {max-width: 100%; border-radius: 0;}",
+        ".container {padding: 0;}",
+        ".rich-text-section__title {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "THE SOLUTION COULDN’T BE EASIER - OR TASTIER!",
+        "text": "<p>Every pup will adore these safe, organic bacon and beef-flavored tincture and natural flavored treats crafted by our friends at Green Compass Global! Infused with premium organic CBD, they gently and naturally stabilize your companion’s mood, helping them face stressful situations and get the most enjoyment from your adventures together.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#000000",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "sec-cta"
+      }
+    },
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "WELCOME TO YOUR ONE-STOP-SHOP FOR ALL THINGS RELATED TO PSYCHIATRIC SERVICE DOGS (PSDS)",
+        "text": "<h4><strong>Let’s Cover Some of the Basics.<\/strong><\/h4><p>What is a Therapist Certified Letter and why do you need one?<\/p><p>A Therapist Certified Letter is a document that verifies your need for a Psychiatric Support Dog. It's required by law in order to fly with your PSD or live in housing that prohibits dogs. Without this letter, you risk being denied access to these benefits and even face legal consequences.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#ecbebe",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "815964e3-2186-4960-853b-014ce8abd940": {
+      "type": "multi-column",
+      "blocks": {
+        "11abdf17-f6e2-48a0-b199-fd04fb9e7d13": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pet-wellness-tincture-felicitails-brand-collaboration-green-compass-500-mg-bottle-box-felicitails-is-founded-by-lindsay-giguiere.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "HEMP FLOWER EXTRACT for PETS",
+            "text": "",
+            "button_label": "Get Yours Today",
+            "button_link": "https:\/\/greenfieldgroves.greencompassglobal.com\/product\/500MGPETBCNO",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "dd4361d9-7b34-4de2-8ab7-7b75b0eea328": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pet-wellness-chews-felicitails-brand-collaboration-green-compass-30-count-5-mg-per-chew-bag-front-felicitails-is-founded-by-lindsay-giguiere.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "CBD PET TREATS",
+            "text": "",
+            "button_label": "Get Yours Today",
+            "button_link": "https:\/\/greenfieldgroves.greencompassglobal.com\/product\/PETTREAT",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "11abdf17-f6e2-48a0-b199-fd04fb9e7d13",
+        "dd4361d9-7b34-4de2-8ab7-7b75b0eea328"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "multi-column-sec",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {text-align: center;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/your-pet-wellness-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Your Pet’s Wellness - Our Number One Priority",
+        "text": "<p>A happy life starts with a happy, healthy four-legged companion. We love the Green Compass CBD range for pets because:<\/p><ul><li>Organic hemp flower extract reduces anxiety and promotes a sense of calm in pets <\/li><li>Fortified with glucosamine to help increase activity in pets and promote overall wellness <\/li><li>Supports a healthy inflammatory response  <\/li><li>Enhances bone and joint health <\/li><li>Supports healthy cartilage <\/li><li>Helps stay healthy and move smoothly <\/li><li>Safe for all dog breeds, ages, and sizes<\/li><li>We’ve never met a pooch who doesn’t love the taste!<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "#",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "#f69fbb",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "checkmark-list",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {text-align: center;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/even-support-animals-need-a-helping-hand-sometimes-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Even Support Animals Need a Helping Hand Sometimes",
+        "text": "<p>All canines are incredibly susceptible to our moods and to their surroundings. And this means that at times, they may need a helping hand. For example, they may feel nervous or stressed:<\/p><ul><li>In unfamiliar situations - in airports, during plane travel etc.<\/li><li>In noisy and crowded environments – sports stadiums, concerts, shopping malls, etc.<\/li><li>When you do things they perceive as risky – swimming, boating, taking part in team sports – because they want to keep you safe!<\/li><li>When they’re separated from you for any reason<\/li><\/ul><p>Helping them out with a yummy beef-flavored treat or a tasty drop of tincture that contains just the right amount of calming CBD can be just what your pal needs to stay relaxed and happy. <\/p><p><br\/>And when they’re relaxed and happy, you’ll feel better, too!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "checkmark-list",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "18244d41-2566-4099-8f6e-6c0447e73ec4": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/the-purest-hemp-seeds-for-calming-cbd-supplement.png",
+            "image_width": 15,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "The Purest Hemp Seeds",
+            "text": "<p>Green Compass seeds are organic and non-GMO, with elevated levels of beneficial CBD and other helpful plant compounds to support your faithful companion's health and emotional wellness.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "febfbf8f-3149-46ee-880f-cc5930ca4884": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/icon-usda-organic-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+            "image_width": 20,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "USDA Certified Organic",
+            "text": "<p>Green Compass hemp is grown on their own USDA-certified organic soil. The crops are rotated every 3 years to rest the land, ensuring their products are as nutrient-dense and clean as Felicitails customers deserve.<\/p><p>We love that they care for our environment as well as our pets<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "b9abe0a0-b8a6-4cac-b2d3-297b4b2caa9a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/icon-production-standards-icon-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+            "image_width": 20,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Exacting Production Standards",
+            "text": "<p>We love Green Compass CBD products for pets because they laser-focus on delivering the highest-quality end product. It starts with their hemp fields and organic farming practices through extraction, formulation, and bottling.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "b1fe4ff9-fb5e-41fd-b54f-c551b8ee681a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/icon-in-your-hand.png",
+            "image_width": 20,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "It’s in Your Hands",
+            "text": "<p>Green Compass methods may take a bit more time –but the result is a tasty range for pets that you can really trust.<\/p><p>Each product is packed with premium CBD and additional phytonutrients to support your faithful friend’s mood and overall well-being.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0",
+        "febfbf8f-3149-46ee-880f-cc5930ca4884",
+        "b9abe0a0-b8a6-4cac-b2d3-297b4b2caa9a",
+        "b1fe4ff9-fb5e-41fd-b54f-c551b8ee681a"
+      ],
+      "custom_css": [
+        ".flex {margin: 0; gap: 30px;}",
+        ".grid-flex__item {box-shadow: 0 0 20px rgb(0 0 0 \/ 15%); border-radius: 10px; padding: 20px; width: calc(50% - 15px); background: #faf2f2;}",
+        ".container {margin-top: 0;}",
+        "h2 {margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "title": "Why Ours",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "multi-column-sec",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "e6565949-3b6f-4ca3-a8ea-db7193265975": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/instant-calmer-greencompass-cbd-pet-treats-felicitails-brand-collaboration.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Instant Calmer!",
+        "text": "<p>Green Compass offers a convenient subscription service to make life even easier - you’ll never need to worry about running out of your pet’s favorite treat!  In addition, it’s totally flexible, so you can pause or cancel any time.<\/p><p>Enjoy peace of mind and know that when life gets challenging, you’re ready to protect the well-being of your beloved companion with Green Compass organic CBD-enriched products for pets.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "checkmark-list",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2010a5ea-3e9f-4386-8cfa-6e9e892b92e3": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0c87d619b6b1403797c0df5051f1462b.mp4",
+        "poster": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-greencompass-brand-collaboration-video-overlay-instant-calmer.png",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b": {
+      "type": "pricing-table",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "IT DOESN’T GET BETTER!",
+        "title_color": "#000000",
+        "highlight_title": "ORDER YOURS TODAY",
+        "highlighted_color": "#ecbebe",
+        "paragraph": "<p>Enjoy the peace of mind our pup is taking a premium product and realizing the maximum benefit deserved<\/p>",
+        "paragraph_color": "#333333",
+        "enable_tbl1": true,
+        "pricing_title": "500MG ORGANIC CBD TINCTURE - BACON FLAVOR",
+        "pricing_txt": "<h2><\/h2><h2>$67.96<\/h2><h5><\/h5><h5>DELIVERY FREQUENCY:<\/h5><p>As a Preferred Customer, <em><strong>Subscribe and Save $16.99<\/strong><\/em> and have your auto-order delivered every 30 days. Modify or cancel any-time!<\/p>",
+        "price": "",
+        "feature_1": "SUBSCRIBE & SAVE: $67.96",
+        "feature_2": "ONE-TIME PURCHASE: $84.95",
+        "feature_3": "Earn free shipping after your second consecutive Subscribe and Save order.",
+        "feature_4": "",
+        "feature_5": "",
+        "feature_6": "",
+        "btn_txt": "Get Yours Today",
+        "btn_url": "https:\/\/greenfieldgroves.greencompassglobal.com\/product\/500MGPETBCNO",
+        "enable_tbl2": true,
+        "pricing_title_2": "BIO-ENHANCED BROAD SPECTRUM NANO CBD CHEWS",
+        "pricing_txt_2": "<h2><\/h2><h2>$47.96<\/h2><h5><\/h5><h5>DELIVERY FREQUENCY:<\/h5><p>As a Preferred Customer,<em><strong>Subscribe and Save $11.99<\/strong><\/em>and have your auto-order delivered every 30 days. Modify or cancel any-time!<\/p>",
+        "price_2": "",
+        "feature_1_2": "SUBSCRIBE & SAVE: $47.96",
+        "feature_2_2": "ONE-TIME PURCHASE: $59.95",
+        "feature_3_2": "Earn free shipping after your second consecutive Subscribe and Save order.",
+        "feature_4_2": "",
+        "feature_5_2": "",
+        "feature_6_2": "",
+        "btn_txt_2": "Get Yours Today",
+        "btn_url_2": "https:\/\/greenfieldgroves.greencompassglobal.com\/product\/PETTREAT",
+        "tbl_bg": "#faf2f2",
+        "tbl_txt_color": "#333333"
+      }
+    },
+    "600cf24d-560c-487e-9eff-808ff1721d88": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18461730013485__600cf24d-560c-487e-9eff-808ff1721d88-1679907480c98d864a-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>I give my dog CBD because she is naturally anxious given her breed. Bella likes when everyone is together! When we’re not all together she is running around and can get very nervous!CBD really relaxes her and helps with that nervousness. We also use it as a preventative for hip and joint problems.CBD also helps her focus enough to eat, which we love, as it helps with healthy weight maintenance.If I am picky about what kind of quality CBD I use you better believe I am picky about what kind our fur babies use. Green Compass has helped Bella so much!!<\/p>",
+            "image": "shopify:\/\/shop_images\/erica-helms-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.jpg",
+            "author": "Erica Helms"
+          }
+        },
+        "template--18461730013485__600cf24d-560c-487e-9eff-808ff1721d88-1679907480c98d864a-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>July 4th will be here before we know it! And that means the much awaited fireworks for entertainment.  But for some of your sweet, precious pets, that also means hiding under the bed, terrified whining or even heavy breathing. It can be a scary time for them.There is CBD made specifically for your pet's system. You will be amazed at the difference it makes for them!<\/p>",
+            "image": "shopify:\/\/shop_images\/elaine-martschenko-hughes-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.png",
+            "author": "Elaine Martschenko Hughes"
+          }
+        },
+        "da4000f0-70db-480b-b9ab-fe59e41a838a": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>I’ve been blessed to have the most fabulous Yorkshire Terrier as my best friend for the last 15 years named Belle. About a year and a half ago I noticed she was starting to slow down. She was noticeably playing less and clearly thinking before she jumped and used steps. At her age arthritis is common and can be hard to manage as your best friend ages. Luckily my sister in-law, Molly Fulghom had started with Green Compass and suggested I try the pet CBD drops. I have to admit I was VERY apprehensive at first. I thought how could this possibly help and honestly thought it was a fad. She was persistent, so I did some research of my own to ensure I wasn’t going to cause harm. Shortly after we gave it a try, like Within DAYS...yes days she was noticeably upbeat and not as sore. She was acting like a 5 year old instead of a 15 year old. The results were unimaginable and quite frankly I couldn’t believe it myself since I was so skeptical at first.<\/p>",
+            "image": "shopify:\/\/shop_images\/jessica-tulgetska-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.jpg",
+            "author": "Jessica Tulgetska"
+          }
+        },
+        "913cff80-989c-48f1-a7ab-bde4dac30c04": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>I've used CBD oil in the past for my (at the time)14 yr old lab who was slowing down from old age (vet approved it). It was amazing. I could see it made him overall feel better and not achy as the days I didn't give it to him, he seemed less mobile and more achy. Now I use the bacon flavor for my 5 yr old\/75# lab who suffers from anxiety due to the fear aggression she had when she was a pup. The first few days, I gave her 1ml once a day. I didn't really notice a difference, but then I was told to try and up the dosage. It's been 1 week, given 2 ml twice a day in her food and it has helped significantly! Her anxiety is minimal. She loves it so much, she won't eat her food without it. She will often even lick the dropper before I can get it on her food. This isn't something you give\/take \"once in a while\", it needs to be consistent or you won't notice a difference. Knowing that this works AND is good for my pets (who are my children and world), it's a win\/win and I no longer need to try other products.<\/p>",
+            "image": "shopify:\/\/shop_images\/angie-cooper-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.jpg",
+            "author": "Angie Cooper"
+          }
+        },
+        "ee7aa391-52b8-4824-832d-e38bebf5060c": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>Y’all this is the calmest 4th of July season ever for our pups! I say “season” because in our area people start setting off their personal fireworks  on July 1 and continue a few days afterwards. Something about home fireworks is a BIG THING here.But what I DO KNOW is that both Duke and Dixie have been calmer and more chill during this time. I am so grateful for our Pet CBD! It doesn't knock them out but just calms them down. And that makes for a happier home for us all! And if you didn’t know, all creatures with a spinal cord can benefit from CBD! Yep, humans and animals both! <br\/>          Thank you!<\/p>",
+            "image": "shopify:\/\/shop_images\/christa-smith-delgado-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.jpg",
+            "author": "Christa Smith Delgado"
+          }
+        },
+        "f3493ab6-df3c-48b8-b811-93a38c381860": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 0,
+            "testimonial": "<p>Because, everything’s better with bacon..... Meet Maxwell Leonard Macomber. He’s just the sweetest boy ever. He is 13 years old. He has been having a hard time with his joints especially his hind end. He couldn’t sit until he started the CBD oil. He either stood up or laid down.He has started on CBD for pets the 500mg bacon  flavor and he has been moving so much better and even running a little which he has not done in 6 months.<\/p>",
+            "image": "shopify:\/\/shop_images\/rena-ragioni-testimonial-positive-effects-on-pets-felicitails-is-founded-by-lindsay-giguiere.jpg",
+            "author": "Rena Raggiani"
+          }
+        }
+      },
+      "block_order": [
+        "template--18461730013485__600cf24d-560c-487e-9eff-808ff1721d88-1679907480c98d864a-0",
+        "template--18461730013485__600cf24d-560c-487e-9eff-808ff1721d88-1679907480c98d864a-1",
+        "da4000f0-70db-480b-b9ab-fe59e41a838a",
+        "913cff80-989c-48f1-a7ab-bde4dac30c04",
+        "ee7aa391-52b8-4824-832d-e38bebf5060c",
+        "f3493ab6-df3c-48b8-b811-93a38c381860"
+      ],
+      "custom_css": [
+        ".testimonial-content {padding: 0;}",
+        ".testimonial-author-name {font-size: 20px; line-height: 30px; font-weight: 600; margin-top: 20px;}"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "color_title": "#000000",
+        "color_text": "#ffffff",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "color_star": "#ffdd00",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "circle_images": false
+      }
+    },
+    "e6b441b1-c1e8-4281-b824-9203bd4293a0": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18461730013485__e6b441b1-c1e8-4281-b824-9203bd4293a0-1679908833578ce934-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "077b6573-c6db-424f-8fc9-bde3e47abe70": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "26618ef0-11d9-44b6-87e5-c5df319dc53e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-3.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "e2daa222-3ba0-43c6-9e1b-6a3c1141fe82": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-2.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "d6c1af13-63c5-449e-ac5b-d6ffd2aec79f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-5.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "c5b4ad8f-76cf-4691-821a-cf7d291a945f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitials-founded-by-lindsay-giguiere-positive-facebook-review-6.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18461730013485__e6b441b1-c1e8-4281-b824-9203bd4293a0-1679908833578ce934-0",
+        "077b6573-c6db-424f-8fc9-bde3e47abe70",
+        "26618ef0-11d9-44b6-87e5-c5df319dc53e",
+        "e2daa222-3ba0-43c6-9e1b-6a3c1141fe82",
+        "d6c1af13-63c5-449e-ac5b-d6ffd2aec79f",
+        "c5b4ad8f-76cf-4691-821a-cf7d291a945f"
+      ],
+      "custom_css": [
+        ".flex {margin: 0; gap: 30px;}",
+        ".grid-flex__item {padding: 0; width: calc(50% - 15px);}",
+        ".text-column__image {box-shadow: 0 0 20px rgb(0 0 0 \/ 15%); border-radius: 10px;}",
+        ".container {margin-top: 0;}",
+        "h2 {margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "title": "What Happy Customers Are Saying On Facebook",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "fb-review",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2cb9bb47-0342-42b4-b809-96e26afb1e18": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "h2 {color: #000000;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"sec-partner\">\n\t<div class=\"partner-title\">\n\t\t<h2 class=\"large-title\">WHY FELICITAILS PARTNERED WITH GREENCOMPASS<\/h2>\n\t<\/div>\n\t<div class=\"video-wrapper\">\n\t\t<div class=\"video-wrap\">\n\t\t\t<div class=\"video-title\">\n\t\t\t\t<h4>Pets:<\/h4>\n\t\t\t<\/div>\n\t\t\t<video width=\"100%\" height=\"100%\" poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0068\/5454\/1410\/files\/felicitails-founded-by-lindsay-giguiere-greencompass-brand-collaboration-video-overlay-even-for-your-pets.png?v=1682071151\" controls playinline loading='lazy'>\n\t\t\t\t<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c667075328c3446d8404e0b4d3e7f6a9.mp4\" type=\"video\/mp4\">\n            <\/video>\n\t\t<\/div>\n\t\t<div class=\"video-wrap\">\n\t\t\t<div class=\"video-title\">\n\t\t\t\t<h4>Their Story:<\/h4>\n\t\t\t<\/div>\t\t\t\n\t\t\t<video width=\"100%\" height=\"100%\" poster=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0068\/5454\/1410\/files\/felicitails-founded-by-lindsay-giguiere-greencompass-brand-collaboration-video-overlay-watch-thei.png?v=1682071151\" controls playinline loading='lazy'>\n\t\t\t  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4cc066f2121b4e638554c59a19bdced1.mp4\" type=\"video\/mp4\">\n\t\t\t<\/video>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<style>\n.sec-partner {\n\ttext-align: center;\n\tbackground: #faf2f2;\n    border-radius: 10px;\n    padding: 70px 50px;\n}\n.sec-partner h2 {\n    color: #ecbebe;\n\tmargin-bottom: 30px;\n}\n.sec-partner .video-wrapper {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    gap: 50px;\n}\n.sec-partner .video-wrap {\n    width: 100%;\n    max-width: calc(50% - 25px);\n}\n.sec-partner .video-wrap .video-title {\n\tmargin-bottom: 20px;\n}\n.sec-partner .video-wrap iframe {\n    height: 310px;\n}\n@media (max-width: 939px) {\n\t.sec-partner {\n\t\tpadding: 50px 20px;\n\t}\n\t.sec-partner .video-wrap iframe {\n\t\theight: 180px;\n\t}\n}\n@media (max-width: 767px) {\n\t.sec-partner .video-wrapper {\n\t\tgap: 30px;\n\t\tflex-direction: column;\n\t}\n\t.sec-partner .video-wrap {\n\t\tmax-width: 100%;\n\t}\n}\n<\/style>"
+      }
+    },
+    "5bf2e048-5217-417f-8a2e-6e5953b41a70": {
+      "type": "faq",
+      "blocks": {
+        "299ed4f9-c161-49fc-906d-e498b0221624": {
+          "type": "faq",
+          "settings": {
+            "que": "CBD: What is the difference between CBD and Marijuana?",
+            "ans": "<p>There are two main sources for CBD found in nature. The hemp plant and the marijuana plant.  Green Compass products are derived from hemp only and extracted from the same hemp flower harvested on our Green Compass Farms. Our hemp has been engineered to be high in CBD, while containing only trace amounts of THC.<\/p>"
+          }
+        },
+        "de70afbb-e900-4b6a-a0a4-f8b9cee56c0e": {
+          "type": "faq",
+          "settings": {
+            "que": "What is the best way to store your products?",
+            "ans": "<p>Make sure to keep the lid secure and store it in a cool, dry place away from light.<\/p><p>An example of this would be inside a cabinet.<\/p>"
+          }
+        },
+        "d5d3c744-4845-4275-a312-ad2454ec8368": {
+          "type": "faq",
+          "settings": {
+            "que": "Are your products vegan friendly?",
+            "ans": "<p>That is certainly our goal! All of our products are made from plants; however, not all of them are vegan certified yet. While most of our products are vegan certified, our skincare line, Reduce line, Soothe Cream, and Jellies are not, though we are currently working on a certification for the topical products! <\/p>"
+          }
+        },
+        "1bb30ee0-e079-4f7b-92db-eb1933cf3b60": {
+          "type": "faq",
+          "settings": {
+            "que": "Are your topical products hypoallergenic?",
+            "ans": "<p>Our creams are not certified hypoallergenic, but we do use only natural ingredients! You can access a full ingredient list for the topical creams on the website, which you can refer to if there is a specific ingredient you are looking for. If you have sensitive skin or are concerned about your body's reaction to the cream, we would recommend trying a little bit of the cream on your forearm first to be sure you do not experience any negative symptoms. <\/p><p>We always recommend consulting with your physician if you have any concerns before using a product.<\/p>"
+          }
+        },
+        "bb427140-e03f-469d-9001-6c6feef449a0": {
+          "type": "faq",
+          "settings": {
+            "que": "Are Green Compass Products Organic?",
+            "ans": "<p>Green Compass products that are USDA Organic will feature the logo. While not all our products are officially USDA Organic certified, the ones that are still pending will feature the same organic ingredients that consumers have begun to rely on from Green Compass. Our products are also certified Gluten Free, Kosher, Vegan, Eco-Friendly, Lab-Tested, and Made in the USA!<\/p>"
+          }
+        },
+        "6885a542-d63c-415f-97e2-516e9b31fa01": {
+          "type": "faq",
+          "settings": {
+            "que": "What is Nano Emulsion?",
+            "ans": "<p>Classic CBD oil tinctures are absorbed (sublingually) at a rate of 10-15%, due to the large particle size of the oil droplets. <\/p><p>When we nanotize our oil we reduce the particle size which allows for a higher absorption rate by the body, by up to 90%!  <\/p><p>The 5mg Nano Jellies will have a 5-10x higher bio availability than other gummies on the market, because others are not water-soluble and will break down with minimal to no absorption. The Nano Jellies are the first ever USDA organic, water-soluble, broad spectrum jelly on the market! <\/p><p>Essentially, we are looking at a product that can make a big impact, in a smaller size.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "299ed4f9-c161-49fc-906d-e498b0221624",
+        "de70afbb-e900-4b6a-a0a4-f8b9cee56c0e",
+        "d5d3c744-4845-4275-a312-ad2454ec8368",
+        "1bb30ee0-e079-4f7b-92db-eb1933cf3b60",
+        "bb427140-e03f-469d-9001-6c6feef449a0",
+        "6885a542-d63c-415f-97e2-516e9b31fa01"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_color": "#000000"
+      }
+    },
+    "98606388-34ab-4102-863a-4cc13a70f2d4": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Statements found on this Website regarding the above products have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f233daab-ecab-43f6-ade3-981c6a185502",
+    "45883b8a-16b1-425f-91d5-51bca556602c",
+    "2eba69fc-761b-43ad-97be-9785e5192681",
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739",
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3",
+    "815964e3-2186-4960-853b-014ce8abd940",
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf",
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f",
+    "18244d41-2566-4099-8f6e-6c0447e73ec4",
+    "e6565949-3b6f-4ca3-a8ea-db7193265975",
+    "2010a5ea-3e9f-4386-8cfa-6e9e892b92e3",
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b",
+    "600cf24d-560c-487e-9eff-808ff1721d88",
+    "e6b441b1-c1e8-4281-b824-9203bd4293a0",
+    "2cb9bb47-0342-42b4-b809-96e26afb1e18",
+    "5bf2e048-5217-417f-8a2e-6e5953b41a70",
+    "98606388-34ab-4102-863a-4cc13a70f2d4"
+  ]
+}

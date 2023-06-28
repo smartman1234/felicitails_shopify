@@ -1,0 +1,413 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "2902e84f-091f-422d-80cf-cf96cfb460f7": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/76461fbd97d142f78a209d9c90ae470c.mp4",
+        "cover_image": "shopify:\/\/shop_images\/for-the-well-loved-dog-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "SHOP FOR THE WELL LOVED DOG",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "e6e2d539-3bf4-4a06-bd16-58a143876121": {
+      "type": "rich-text",
+      "settings": {
+        "title": "FOR YOUR PUP",
+        "text": "<p>Welcome to our online marketplace where you’ll find everything your canine companion could ever need! We understand that as an essential part of your life, they deserve the best you can give them. That's why we’ve curated an extensive range of original, premium products to support and delight both of you.<\/p><p>Your four-legged family member is unique so why settle for mass-produced items when they deserve something special and one-of-a-kind? We’re passionate about supporting small businesses and bringing you premium products that you won’t find elsewhere. Our curated selection includes everything from cozy beds and stylish accessories to healthy food and tasty treats, all made with the highest quality materials and ingredients.<\/p><p>Come and shop with us today and share the joy of pampering your pup with everything they need to live their best life!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#000000",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "collection-des"
+      }
+    },
+    "902aea11-4ffb-40cf-b69e-5376ca224b4d": {
+      "type": "collection-list",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "collection_list": [
+          "dog-beds-blankets",
+          "dog-collars-harnesses-leashes",
+          "dog-clothing-accessories",
+          "dog-toys-balls",
+          "dog-treats-chews",
+          "dog-food-diets",
+          "dog-bowls-feeders",
+          "pee-poop-cleaning-supplies-for-dog-owners",
+          "dog-related-services-products-for-your-home",
+          "dog-carriers-travel-supplies",
+          "dog-crates-pens-gates",
+          "dog-training-behavior-enhancement",
+          "dog-grooming-bathing-products",
+          "dog-flea-tick-control",
+          "dog-healthcare",
+          "vitamins-supplements-for-dogs",
+          "books-on-owning-training-loving-dogs",
+          "gifts-for-dog-lovers",
+          "memorials-keepsakes-for-dog-lovers",
+          "id-kits"
+        ],
+        "grid": 5
+      }
+    },
+    "78e102f4-102a-4e8e-958c-24cdc029b5bd": {
+      "type": "collection-boxes",
+      "disabled": true,
+      "blocks": {
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-beds-blankets-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Beds, Blankets",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-beds-blankets",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-collars-harnesses-leashes-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Collars, Harnesses, Leashes",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-collars-harnesses-leashes",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-clothing-accessories-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Clothing & Accessories",
+            "text": "",
+            "button_link": "shopify:\/\/collections\/dog-clothing-accessories",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "cc3263ed-91c2-4a6f-a1ca-36918d0322b7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-toys-balls-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Toys & Balls",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-toys-balls",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "b9c94626-cf84-4def-8db2-1ab3f54eee03": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-treats-chews-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Treats & Chews",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-treats-chews",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "d9378cd2-0c52-41eb-b60d-e580bf2f1826": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-food-diets-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Food & Diets",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-food-diets",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "bd0e4f0e-9a8e-4e95-bdf0-c18e9640ddd2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-bowls-feeders-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Bowls & Feeders",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-bowls-feeders",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "2598785f-761e-4be0-8a2e-b4eeccbf9817": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-poop-potty-cleaning-supplies-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Pee & Poop Cleaning Supplies",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-pee-poop-cleaning-supplies",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "f07ed4f7-d7c1-48f5-8644-3c57615cbe02": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-for-your-home-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Related Services & Products For Your Home",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-related-services-products-for-your-home",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "48292146-54cf-4b16-b380-dd32789a1e03": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-carriers-traveling-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Carriers & Travel Supplies",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-carriers-travel-supplies",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "7703324c-8dad-4a20-abfd-f11a781265ee": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-crates-pens-gates-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Crates, Pens & Gates",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-crates-pens-gates",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "2a872185-9403-49a8-8e1e-4fda7b9215e3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-training-behavior-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Training & Behavior Enhancement Supplies",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-training-behavior-enhancement-supplies",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "2766a291-c3a0-44a0-8bd3-0fd352700d8f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-grooming-bath-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Grooming & Bathing Products",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-grooming-bathing-products",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "764f612f-4c0b-4e2e-a381-b3c79dc57cb7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-flea-tick-control-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Flea & Tick Control",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-flea-tick-control",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "6aad345f-3d3b-4450-8d0a-281be5c31297": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-healthcare-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Healthcare",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-healthcare",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "4e053a3c-5cac-4fdc-a3bf-5bb96c61bc06": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-vitamins-supplements-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Vitamins & Supplements for Dogs",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/vitamins-supplements-for-dogs",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "90c3d623-990b-460f-a065-eba8376e4040": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-owning-training-loving-dogs-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Dog Books on Ownership & Training",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/dog-books-on-ownership-training",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "f6f2730a-d928-4328-898e-52c95e61238d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-gifts-for-dog-lovers-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Gifts for Dog Lovers",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/gifts-for-dog-lovers",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "58a33c40-e02f-4c30-b354-180c7731beb2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/felicitails-website-parent-collection-dog-memorials-keepsakes-created-by-felicitails-founder-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "title": "Memorials & Keepsakes",
+            "text": "",
+            "button_link": "shopify:\/\/pages\/memorials-keepsakes",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-0",
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-1",
+        "template--18350440710445__78e102f4-102a-4e8e-958c-24cdc029b5bd-1679377228927e621e-2",
+        "cc3263ed-91c2-4a6f-a1ca-36918d0322b7",
+        "b9c94626-cf84-4def-8db2-1ab3f54eee03",
+        "d9378cd2-0c52-41eb-b60d-e580bf2f1826",
+        "bd0e4f0e-9a8e-4e95-bdf0-c18e9640ddd2",
+        "2598785f-761e-4be0-8a2e-b4eeccbf9817",
+        "f07ed4f7-d7c1-48f5-8644-3c57615cbe02",
+        "48292146-54cf-4b16-b380-dd32789a1e03",
+        "7703324c-8dad-4a20-abfd-f11a781265ee",
+        "2a872185-9403-49a8-8e1e-4fda7b9215e3",
+        "2766a291-c3a0-44a0-8bd3-0fd352700d8f",
+        "764f612f-4c0b-4e2e-a381-b3c79dc57cb7",
+        "6aad345f-3d3b-4450-8d0a-281be5c31297",
+        "4e053a3c-5cac-4fdc-a3bf-5bb96c61bc06",
+        "90c3d623-990b-460f-a065-eba8376e4040",
+        "f6f2730a-d928-4328-898e-52c95e61238d",
+        "58a33c40-e02f-4c30-b354-180c7731beb2"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "2e3c689d-b15f-41ed-9aa8-d6be4a2e780d": {
+      "type": "product-list",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "enlarge_title": false,
+        "link_text": "",
+        "link_url": "",
+        "product_list": [
+          "1-piece-sliding-glass-pet-door-for-dogs-cats-by-petsafe",
+          "emotional-support-animal-designer-vests",
+          "travel-housing-therapist-program-for-emotional-support-animals-dogs-esa",
+          "travel-housing-therapist-program-for-psychiatric-service-animals-dogs-psa-psd"
+        ],
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2902e84f-091f-422d-80cf-cf96cfb460f7",
+    "e6e2d539-3bf4-4a06-bd16-58a143876121",
+    "902aea11-4ffb-40cf-b69e-5376ca224b4d",
+    "78e102f4-102a-4e8e-958c-24cdc029b5bd",
+    "2e3c689d-b15f-41ed-9aa8-d6be4a2e780d"
+  ]
+}

@@ -1,0 +1,34 @@
+<div class="Contact-success hide">
+  <div class="contact-image"><img src="{{ section.settings.contact_image | img_url:'master'}}"></div>
+  <div class="form-success-data">
+    <div class="post_success">{{ 'contact.form.post_success' | t }}</div>
+    <div class="form_success_desc">{{ 'contact.form.post_success_desc' | t }}</div>
+    <a href="{{ routes.root_url }}" class="btn">BACK TO HOME PAGE</a>
+    <div class="contact_social_title">Connect with us Socially</div>
+    <div class="contact_social_icons">{% render 'social-icons' %}</div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact success",
+  "settings": [
+    {
+      "type":"image_picker",
+      "id":"contact_image",
+      "label":"Image"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Contact success"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

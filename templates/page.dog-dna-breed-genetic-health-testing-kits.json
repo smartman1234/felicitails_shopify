@@ -1,0 +1,750 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "bc593412-7022-4e87-88e8-cf645e8eb7d3": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/af3c4be81d084746aa8f023561aa9a3c.mp4",
+        "cover_image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#000000",
+        "video_overlay_opacity": 30,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Welcome to Our Preferred DNA Testing Partner To Learn About & Support Your Dog’s Well-being",
+        "overlay_text": "A dog's health isn't solely a product of genetics, but of diet, environment, and lifestyle. We'll help you give your dog the best of everything. Decode breed mix, screen for health conditions, find relatives — all this and more with Embark!",
+        "overlay_url_text_1": "ORDER YOUR TEST KIT TODAY",
+        "overlay_url_1": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#000000",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "b7817bfd-6665-4288-b7eb-827718bdb9fd": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Embark for our Patients & Clients that are in need of DNA Testing and Health Screening. Through our collaboration, you are able to order at a DISCOUNT DNA Breed Tests and Health Condition Tests.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon rt-one"
+      }
+    },
+    "7f1e5049-cbbb-4677-84bd-e68d3018cb0b": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/gut-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-collage-of-interesting-dog-breeds.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Did you know some dogs have a genetic mutation that makes them sensitive to many commonly used drugs, including some anesthetics?",
+        "text": "<p>Drug-sensitive dogs can experience symptoms ranging from diarrhea, lethargy, seizures - even a coma. With proper DNA testing, you'll know if your dog has drug sensitivities so you can avoid potentially dangerous medications.<br\/><br\/>Your dog’s saliva swab is analyzed at Embakr’s state-of-the-art, CLIA-certified, dog-approved lab facility. At the lab, they extract your pup's DNA and run it on their custom-built genetics chip, which is a proprietary DNA microarray with over 200,000 markers. This chip produces a detailed view of a dog's genome, which they then run through our proprietary bioinformatics pipeline - created by the top dog DNA scientists in the world.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "embark-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "73bd0f47-699d-40e7-b8cf-0cb881cef49d": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Backed by Science",
+            "text": "<p>Founded by Scientists, Developed by Veterinarians for Dog owners<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-over-350-breeds-tested-for-felicitails-is-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Accurate Breed Testing",
+            "text": "<p>Advanced Technology for Accurate Results on over 350 Breeds<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-health-insights-felicitails-is-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Health Risk Screening",
+            "text": "<p>Screening for Over 230 health Risks on impacting your Dog<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-0",
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-1",
+        "template--19639685251373__73bd0f47-699d-40e7-b8cf-0cb881cef49d-1687486752b32ae642-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "DNA Testing and Health Screening",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3 mc-one",
+        "button_label_bottom": "ORDER YOUR TEST KIT TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "544256d4-339a-4a30-a9a5-f740b397d65f": {
+      "type": "image-with-text-icon",
+      "blocks": {
+        "c439f918-b3a3-474d-a124-ad476675ef1c": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Breed breakdown and confirmation<\/p>"
+          }
+        },
+        "2441a90c-5f12-4792-b88c-2f1c11dcfe0e": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Ancestry and geographic origin<\/p>"
+          }
+        },
+        "a265d17c-5d69-4af9-b67f-1ac9f6325343": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Relative finder<\/p>"
+          }
+        },
+        "39c7bb66-6076-436b-9c2e-c027d469a853": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Support from genetic specialists<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c439f918-b3a3-474d-a124-ad476675ef1c",
+        "2441a90c-5f12-4792-b88c-2f1c11dcfe0e",
+        "a265d17c-5d69-4af9-b67f-1ac9f6325343",
+        "39c7bb66-6076-436b-9c2e-c027d469a853"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-easy-three-step-process-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "All DNA Tests include:",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwti-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "6adad4b3-dfc2-4cfc-8d6b-208fa26d57d5": {
+      "type": "image-with-text-icon",
+      "blocks": {
+        "b94b2fae-b827-4f49-b191-2d7b52bec49b": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Genetic health screening<\/p>"
+          }
+        },
+        "1826640d-8e94-420e-a15a-4f542e89bf15": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Personalized recommendations (if applicable)<\/p>"
+          }
+        },
+        "50a382f7-832a-44fe-a5f2-c8948126d43c": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Trait insights<\/p>"
+          }
+        },
+        "c43017f3-34a9-4155-bcd5-7a8d94c4062d": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Genetic diversity measurement<\/p>"
+          }
+        },
+        "6f965481-11fc-436a-8960-7d301b9675fa": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Predicted adult weight<\/p>"
+          }
+        },
+        "49363df0-5048-4655-b52e-493085a0b07c": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Send results directly to your veterinarian<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b94b2fae-b827-4f49-b191-2d7b52bec49b",
+        "1826640d-8e94-420e-a15a-4f542e89bf15",
+        "50a382f7-832a-44fe-a5f2-c8948126d43c",
+        "c43017f3-34a9-4155-bcd5-7a8d94c4062d",
+        "6f965481-11fc-436a-8960-7d301b9675fa",
+        "49363df0-5048-4655-b52e-493085a0b07c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-dog-patient-male-vet.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Health Tests also include:",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwti-two",
+        "button_label_bottom": "ORDER YOUR TEST KIT TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "fbd5e8f6-7128-4041-b500-ed9c42201438": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-oral-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-handshake-cornell-university-research-partners-icon.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Research partners of Cornell University College of Veterinary Medicine<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-oral-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-veterinarian-developed-icon.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Veterinarian developed<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-oral-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-certificate-icon-westminster-kennel-club-dog-show.png",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Official dog DNA test of the Westminster Kennel Club Dog Show<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-0",
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-1",
+        "template--19639685251373__fbd5e8f6-7128-4041-b500-ed9c42201438-1687521648d522ed48-2"
+      ],
+      "custom_css": [
+        "p {font-weight: 600;}"
+      ],
+      "settings": {
+        "title": "BETTER SCIENCE FOR HAPPIER DOGS",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3 mc-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2df3bc46-2570-4f92-ba49-7e4721c675f1": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/af5b00338c2245eeb7293007ddeb2846.mp4",
+        "poster": "shopify:\/\/shop_images\/why-felicitials-partnered-with-embark-dna-testing-overview-video-felicitails-is-founded-by-lindsay-giguiere-swab-stories.jpg",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "674623dc-f332-4524-aa2e-64d27e2e4b64": {
+      "type": "faq-image",
+      "blocks": {
+        "72fb3985-b7c2-4431-b2b8-cd0205ecc279": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-breed-breakdown-icon.svg",
+            "title": "Breed breakdown",
+            "desc": "350+ breeds tested",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-breed-felicitails-is-founded-by-lindsay-giguiere.png",
+            "content": "<p>Embark tests for over 350 breeds, types, and varieties. We sniff out more breeds than any other DNA test.<\/p>"
+          }
+        },
+        "bc2bc85b-1444-4c87-90ff-6d6d4d70165d": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-ancestry-icon.svg",
+            "title": "Ancestry",
+            "desc": "Family tree and geographical origins",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-ancestory-felicitails-is-founded-by-lindsay-giguiere.png",
+            "content": "<p>Our genetic analysis can reveal most dogs' breed mix going back to their great-grandparents.<br\/>There's more: with the information embedded in your dog's DNA, we can identify the routes that distant ancestors took around the world before they came home to you.<\/p>"
+          }
+        },
+        "68bb1e58-bdd3-4e2b-93d0-7ccbc4c60d37": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-relative-finder-icon.svg",
+            "title": "Relative finder",
+            "desc": "Meet your pup’s relatives in our database",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-relatives-felicitails-is-founded-by-lindsay-giguiere.png",
+            "content": "<p>We'll tell you how much DNA your dog shares with others in our database and give you the option to connect with them. Embark dogs have reunited with their parents, siblings, and even children!<\/p>"
+          }
+        },
+        "82be027e-f5ee-40d5-b65d-a3242164b1ed": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-heath-screening-icon.svg",
+            "title": "Health screening",
+            "desc": "For 230+ genetic health risks",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-health-conditions-screening-felicitails-is-founded-by-lindsay-giguiere.png",
+            "content": "<p>Give your dog a health screening that goes beyond breed to their unique DNA. Imagine being able to take actions today to manage, treat, or even prevent certain health conditions later in your dog's life.<br\/>With Embark, you can! From diet and lifestyle changes to medical interventions, you'll have the knowledge and ability to give your dog its best life. Identify potential:<br\/>Drug sensitivities<br\/>Degenerative diseases<br\/>Bleeding tendencies<br\/>And many more<\/p>"
+          }
+        },
+        "84b79935-4b2e-4a57-a103-d28f41ab6184": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-health-conditions-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-traits-icon.svg",
+            "title": "Traits",
+            "desc": "35+ traits tested",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-traits-felicitails-is-founded-by-lindsay-giguiere.png",
+            "content": "<p>Size, coat, grooming needs — your dog's traits don't just make them adorable. Knowing their characteristics in advance makes you a more informed and empowered pet owner.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "72fb3985-b7c2-4431-b2b8-cd0205ecc279",
+        "bc2bc85b-1444-4c87-90ff-6d6d4d70165d",
+        "68bb1e58-bdd3-4e2b-93d0-7ccbc4c60d37",
+        "82be027e-f5ee-40d5-b65d-a3242164b1ed",
+        "84b79935-4b2e-4a57-a103-d28f41ab6184"
+      ],
+      "settings": {
+        "title": "WHAT TESTING WILL SHOW",
+        "title_color": "#000000"
+      }
+    },
+    "271605b1-b57f-48c6-849e-53bb15e578e8": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "How it Works",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-over-step-one-swab-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Swab",
+        "text": "<p>Gently swab the inside of your dog’s cheek pouch and under the tongue to collect saliva for at least 30 seconds.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "7a535504-427f-4669-a339-367b9f01b8d4": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-over-step-two-activate-mail-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Activate & Mail",
+        "text": "<p>Activate each kit online and send samples to our lab in their prepaid envelopes. Note: Samples remain stable for at least 6 months. However, kits expire two years after purchase, so please plan accordingly.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-three",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "ac8d0bb6-6fba-4036-a78c-63a4e17ff72a": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-over-step-three-results-in-under-four-weeks-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Results in 2-4 Weeks",
+        "text": "<p>We’ll do the rest and notify you by email when your results are ready. Log in to your account to learn all about your pup!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-four",
+        "button_label_bottom": "TEST YOUR DOG’S DNA NOW",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "33597826-e4f2-4bef-aa4d-40e017ec3eea": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "See For Yourself",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4543899085fd4f94adcbeda40d7e0a0c.mp4",
+        "poster": "shopify:\/\/shop_images\/why-felicitials-partnered-with-embark-dna-testing-video-felicitails-is-founded-by-lindsay-giguiere.jpg",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "a1fe88a1-c05c-4e3c-8010-51246283d957": {
+      "type": "dna-test-table",
+      "blocks": {
+        "c05be20b-d6ec-461a-b0f0-2c0d857c0de0": {
+          "type": "image",
+          "settings": {
+            "text": "Breed breakdown",
+            "id_value": "false",
+            "health_value": "false"
+          }
+        },
+        "52ffc2d0-fe92-4e73-8459-980d2ec6d6cd": {
+          "type": "image",
+          "settings": {
+            "text": "Ancestry",
+            "id_value": "true",
+            "health_value": "true"
+          }
+        },
+        "856ec08c-6451-479b-b339-5b81ddd7cd4a": {
+          "type": "image",
+          "settings": {
+            "text": "Relative finder",
+            "id_value": "true",
+            "health_value": "true"
+          }
+        },
+        "f6b67f74-fdfb-4679-8d18-17dbd4ebcc93": {
+          "type": "image",
+          "settings": {
+            "text": "Talk with a vet geneticist",
+            "id_value": "true",
+            "health_value": "true"
+          }
+        },
+        "3621ae16-2b1c-414a-b80d-d7ab4f99e630": {
+          "type": "image",
+          "settings": {
+            "text": "Predicted adult weight",
+            "id_value": "false",
+            "health_value": "true"
+          }
+        },
+        "d5c80aa5-a5ae-4046-8e3f-8b4e52c17548": {
+          "type": "image",
+          "settings": {
+            "text": "Health screening",
+            "id_value": "false",
+            "health_value": "true"
+          }
+        },
+        "746fe61a-b18b-41bc-8b34-aa350f98f545": {
+          "type": "image",
+          "settings": {
+            "text": "Trait insights",
+            "id_value": "false",
+            "health_value": "true"
+          }
+        },
+        "90a41037-bc04-49fd-8b54-8319bd5501c4": {
+          "type": "image",
+          "settings": {
+            "text": "Measure genetic diversity",
+            "id_value": "false",
+            "health_value": "true"
+          }
+        }
+      },
+      "block_order": [
+        "c05be20b-d6ec-461a-b0f0-2c0d857c0de0",
+        "52ffc2d0-fe92-4e73-8459-980d2ec6d6cd",
+        "856ec08c-6451-479b-b339-5b81ddd7cd4a",
+        "f6b67f74-fdfb-4679-8d18-17dbd4ebcc93",
+        "3621ae16-2b1c-414a-b80d-d7ab4f99e630",
+        "d5c80aa5-a5ae-4046-8e3f-8b4e52c17548",
+        "746fe61a-b18b-41bc-8b34-aa350f98f545",
+        "90a41037-bc04-49fd-8b54-8319bd5501c4"
+      ],
+      "settings": {
+        "img_title": "Compare Embark's DNA tests",
+        "button_link": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "button_label": "ORDER YOUR DOG’S DNA TEST TODAY",
+        "url_style": "button_1"
+      }
+    },
+    "4044c355-e537-42cd-94b4-d0caa97e0cea": {
+      "type": "custom-reviews-image",
+      "blocks": {
+        "e25596bf-57be-447e-bab9-8c6099e0b4cf": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Darius K.",
+            "review_content": "<p>We have been able to tailor Loki’s training and exercise regime much better to suit her needs now that we know she is composed of primarily working breeds. Our dog found her passion in scent work and has been much happier since.<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-testimonial-1-felicitails-is-founded-by-lindsay-giguiere.png"
+          }
+        },
+        "d8def17c-c84b-411b-9922-e31df140140c": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Vicky Y.",
+            "review_content": "<p>One of my dogs has a hereditary issue. Embark notified me immediately before completing the rest of the tests. I took Allie to the vet, unknown health issues were fixed and she is now on preventative treatment (prescription dog food). So grateful!<\/p>",
+            "review_icon": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-testimonial-2-felicitails-is-founded-by-lindsay-giguiere.png"
+          }
+        }
+      },
+      "block_order": [
+        "e25596bf-57be-447e-bab9-8c6099e0b4cf",
+        "d8def17c-c84b-411b-9922-e31df140140c"
+      ],
+      "settings": {
+        "title": "A better DNA test for happier dogs",
+        "button_label": "",
+        "button_link": "",
+        "review_rating": "",
+        "review_rating_text": "",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": ""
+      }
+    },
+    "756d71d8-b392-4fb8-bb4b-de81dc55a29d": {
+      "type": "image-with-text-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-felicitails-brand-collaboration-embark-founder-adam-boyko-in-peru-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "About Embark A different kind of dog DNA company",
+        "text": "<p>Not all dog DNA tests are created equal - and neither are the companies that make them. While some of of Embark’s competitors are part of big conglomerates, Embark is a startup founded by dog-loving scientists and veterinarians. They only focus on one thing: canine health.<br\/><br\/>Their founders, Ryan and Adam Boyko, spent years traveling the world and swabbing dogs in remote areas of Europe, Asia, and South America. But they knew there was more they could do to support all dogs.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwtb-one",
+        "button_label_bottom": "TEST YOUR DOG’S DNA AND KNOW MORE",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "url_style_bottom": "button_1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bc593412-7022-4e87-88e8-cf645e8eb7d3",
+    "b7817bfd-6665-4288-b7eb-827718bdb9fd",
+    "7f1e5049-cbbb-4677-84bd-e68d3018cb0b",
+    "73bd0f47-699d-40e7-b8cf-0cb881cef49d",
+    "544256d4-339a-4a30-a9a5-f740b397d65f",
+    "6adad4b3-dfc2-4cfc-8d6b-208fa26d57d5",
+    "fbd5e8f6-7128-4041-b500-ed9c42201438",
+    "2df3bc46-2570-4f92-ba49-7e4721c675f1",
+    "674623dc-f332-4524-aa2e-64d27e2e4b64",
+    "271605b1-b57f-48c6-849e-53bb15e578e8",
+    "7a535504-427f-4669-a339-367b9f01b8d4",
+    "ac8d0bb6-6fba-4036-a78c-63a4e17ff72a",
+    "33597826-e4f2-4bef-aa4d-40e017ec3eea",
+    "a1fe88a1-c05c-4e3c-8010-51246283d957",
+    "4044c355-e537-42cd-94b4-d0caa97e0cea",
+    "756d71d8-b392-4fb8-bb4b-de81dc55a29d"
+  ]
+}

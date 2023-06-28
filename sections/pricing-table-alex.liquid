@@ -1,0 +1,408 @@
+<style>
+  .section-{{ section.id }} .pricing-title {
+    color: {{ section.settings.title_color }};
+  }
+  .section-{{ section.id }} .pricing-title span {
+    color: {{ section.settings.highlighted_color }};
+  }
+  .section-{{ section.id }} .pricing-content p {
+    color: {{ section.settings.paragraph_color }};
+  }
+  .section-{{ section.id }} .tbl_wrap {
+    background-color: {{ section.settings.tbl_bg }};
+    color: {{ section.settings.tbl_txt_color }};
+  }
+  .section-{{ section.id }} .tbl_wrap svg path {
+    fill: {{ section.settings.tbl_txt_color }};
+  }
+</style>
+<div class="sec-pricing-table section-{{ section.id }}">
+  <div class="page-width d-flex">
+    <div class="pricing-content">
+      <h2 class="pricing-title">
+        {{ section.settings.title }}
+        <span class="highlight-title">
+          <em>{{ section.settings.highlight_title }}</em>
+        </span>
+      </h2>
+      <p>{{ section.settings.paragraph }}</p>
+    </div>
+    <div class="pricing-table d-flex">
+      {% if section.settings.enable_tbl1 %}
+      <div class="tbl_wrap">
+        <h6>{{ section.settings.pricing_title }}</h6>
+        {{ section.settings.pricing_txt }}
+        <h2>{{ section.settings.price }}</h2>
+        <ul class="pricing_fetures">
+          {%- if section.settings.feature_1 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_1 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_3 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_3 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_4 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_4 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_5 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_5 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_6 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_6 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+        </ul>
+        <div class="pricing_btn">
+          <a class="btn btn--small btn--primary" href="{{ section.settings.btn_url }}">{{ section.settings.btn_txt }}</a>
+        </div>
+      </div>
+      {% endif %}
+      {% if section.settings.enable_tbl2 %}
+      <div class="tbl_wrap">
+        <h6>{{ section.settings.pricing_title_2 }}</h6>
+        {{ section.settings.pricing_txt_2 }}
+        <h2>{{ section.settings.price_2 }}</h2>
+        <ul class="pricing_fetures">
+          {%- if section.settings.feature_1_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_1_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_2_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_2_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_3_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_3_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_4_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_4_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_5_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_5_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+          {%- if section.settings.feature_6_2 != blank -%}
+          <li>
+            <div style="width: 20px; float: left;">
+              <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5294 0.410502C15.819 0.684369 15.9881 1.06207 15.9994 1.46057C16.0107 1.85906 15.8632 2.24572 15.5895 2.53553L7.06932 11.5569C6.93124 11.7028 6.7653 11.8196 6.58131 11.9004C6.39732 11.9811 6.19902 12.0241 5.99812 12.0269C5.79722 12.0298 5.59779 11.9923 5.41163 11.9167C5.22546 11.8411 5.05633 11.729 4.91422 11.587L0.403539 7.07629C0.13795 6.79126 -0.00663846 6.41428 0.000234249 6.02475C0.00710696 5.63523 0.164905 5.26358 0.440383 4.9881C0.715861 4.71262 1.08751 4.55482 1.47704 4.54795C1.86656 4.54108 2.24355 4.68566 2.52857 4.95125L5.94667 8.36734L13.4043 0.470644C13.6782 0.180952 14.0559 0.0118806 14.4544 0.000602513C14.8529 -0.0106756 15.2395 0.136763 15.5294 0.410502Z"/>
+              </svg>
+            </div>
+            <div style="width: calc(100% - 20px); float: left;">
+              <p style="margin: 0;">{{ section.settings.feature_6_2 }}</p>
+            </div>
+          </li>
+          {%- endif -%}
+        </ul>
+        <div class="pricing_btn">
+          <a class="btn btn--small btn--primary" href="{{ section.settings.btn_url_2 }}">{{ section.settings.btn_txt_2 }}</a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Pricing Table",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Choose Your"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title Color",
+        "default": "#000000"
+      },
+      {
+        "type": "text",
+        "id": "highlight_title",
+        "label": "Highlight Title",
+        "default": "Perfect Plan"
+      },
+      {
+        "type": "color",
+        "id": "highlighted_color",
+        "label": "Highlighted Color",
+        "default": "#f388ac"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Paragraph"
+      },
+      {
+        "type": "color",
+        "id": "paragraph_color",
+        "label": "Paragraph Color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Pricing Table 1"
+      },
+      {
+        "id": "enable_tbl1",
+        "type": "checkbox",
+        "label": "Enable Pricing Table",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "pricing_title",
+        "label": "Title",
+        "default": "Starter"
+      },
+      {
+        "type": "richtext",
+        "id": "pricing_txt",
+        "label": "Paragraph"
+      },
+      {
+        "type": "text",
+        "id": "price",
+        "label": "Price",
+        "default": "$150"
+      },
+      {
+        "type": "text",
+        "id": "feature_1",
+        "label": "Feature 1",
+        "default": "20 Workouts"
+      },
+      {
+        "type": "text",
+        "id": "feature_2",
+        "label": "Feature 2",
+        "default": "Meal Plans in Mobile"
+      },
+      {
+        "type": "text",
+        "id": "feature_3",
+        "label": "Feature 3",
+        "default": "One Men Coaching"
+      },
+      {
+        "type": "text",
+        "id": "feature_4",
+        "label": "Feature 4",
+        "default": "50% Group Coaching"
+      },
+      {
+        "type": "text",
+        "id": "feature_5",
+        "label": "Feature 5",
+        "default": "24/7 Customer Support"
+      },
+      {
+        "type": "text",
+        "id": "feature_6",
+        "label": "Feature 6",
+        "default": "24/7 Customer Support"
+      },
+      {
+        "type": "text",
+        "id": "btn_txt",
+        "label": "Button Text",
+        "default": "Get an Appointment"
+      },
+      {
+        "type": "url",
+        "id": "btn_url",
+        "label": "Button link"
+      },
+      {
+        "type": "header",
+        "content": "Pricing Table 2"
+      },
+      {
+        "id": "enable_tbl2",
+        "type": "checkbox",
+        "label": "Enable Pricing Table",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "pricing_title_2",
+        "label": "Title",
+        "default": "Starter"
+      },
+      {
+        "type": "richtext",
+        "id": "pricing_txt_2",
+        "label": "Paragraph"
+      },
+      {
+        "type": "text",
+        "id": "price_2",
+        "label": "Price",
+        "default": "$150"
+      },
+      {
+        "type": "text",
+        "id": "feature_1_2",
+        "label": "Feature 1",
+        "default": "20 Workouts"
+      },
+      {
+        "type": "text",
+        "id": "feature_2_2",
+        "label": "Feature 2",
+        "default": "Meal Plans in Mobile"
+      },
+      {
+        "type": "text",
+        "id": "feature_3_2",
+        "label": "Feature 3",
+        "default": "One Men Coaching"
+      },
+      {
+        "type": "text",
+        "id": "feature_4_2",
+        "label": "Feature 4",
+        "default": "50% Group Coaching"
+      },
+      {
+        "type": "text",
+        "id": "feature_5_2",
+        "label": "Feature 5",
+        "default": "24/7 Customer Support"
+      },
+      {
+        "type": "text",
+        "id": "feature_6_2",
+        "label": "Feature 6",
+        "default": "24/7 Customer Support"
+      },
+      {
+        "type": "text",
+        "id": "btn_txt_2",
+        "label": "Button Text",
+        "default": "Get an Appointment"
+      },
+      {
+        "type": "url",
+        "id": "btn_url_2",
+        "label": "Button link"
+      },
+      {
+        "type": "color",
+        "id": "tbl_bg",
+        "label": "Table Background",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "tbl_txt_color",
+        "label": "Table Text Color",
+        "default": "#fff"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Pricing Table"
+      }
+    ]
+  }
+{% endschema %}

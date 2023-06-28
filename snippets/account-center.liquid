@@ -1,0 +1,156 @@
+{% assign alt_text = 'felicitails account center, emotional support animal certification, psychiatric service animal certification,  dog and cat training, pet insurance, dog walking, pet sitting, dog boarding, dog dna testing, curated supplies and products, felicitails and free my paws founder lindsay giguiere ' %}
+
+{% assign img_account_center_digital_vault = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-doberman-pinscher-dogs-securing-felicitails-user-privacy-felicitails-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_digital_vault = 'felicitails-account-center-doberman-pinscher-dogs-securing-felicitails-user-privacy-felicitails-founded-by-lindsay-giguiere' %}
+
+{% assign img_account_center_profile = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-profile-management-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_profile = 'felicitails-account-center-profile-management-founded-by-lindsay-giguiere' %}
+
+{% assign img_account_center_address_book = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-address-book-felicitails-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_address_book = 'felicitails-account-center-address-book-felicitails-founded-by-lindsay-giguiere' %}
+
+{% assign img_account_center_services = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-services-ordered-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_services = 'felicitails-account-center-services-ordered-founded-by-lindsay-giguiere' %}
+
+{% assign img_account_center_subscriptions = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-subscriptions-ordered-founded-by-lindsay-giguiere-overlay.png?v=1685640384' %}
+{% assign alt_account_center_subscriptions = 'felicitails-account-center-subscriptions-ordered-founded-by-lindsay-giguiere-overlay' %}
+
+{% assign img_account_center_orders = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-order-management-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_orders = 'felicitails-account-center-order-management-founded-by-lindsay-giguiere' %}
+
+{% assign img_account_center_wallet_store_credit = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-founded-by-lindsay-giguiere-account-center-store-credit-rewards.png?v=1685640384' %}
+{% assign alt_account_center_wallet_store_credit = 'felicitails-founded-by-lindsay-giguiere-account-center-store-credit-rewards' %}
+
+{% assign img_account_center_wish_list = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-wish-list-founded-by-lindsay-giguiere-overlay.png?v=1685640384' %}
+{% assign alt_account_center_wish_list = 'felicitails-account-center-wish-list-founded-by-lindsay-giguiere-overlay' %}
+
+{% assign img_account_center_customer_service = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-customer-support-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign alt_account_center_customer_service = 'felicitails-account-center-customer-support-founded-by-lindsay-giguiere' %}
+
+{% assign account_arrow = '<svg class="account-arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <rect width="30" height="30" rx="6" fill="#E7C3C3"/>
+ <path d="M12.5 20L17.5 15L12.5 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+ </svg>' %}
+
+<div class="account-main-body">
+  <div class="account-title">
+    {% if customer %}
+      <h1>Welcome back {{ customer.name }}</h1>
+    {% endif %}
+  </div>
+  <div class="account-main-items">
+    <div class="account-main-digitalvault">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=digital-vault"
+        {%- endcomment -%}>
+        <p>digital vault</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_digital_vault }}" alt="{{ alt_account_center_digital_vault }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a class="account-main-item-title" href="/account?page=profile">
+        <p>profile</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_profile }}" alt="{{ alt_text }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=orders"
+        {%- endcomment -%}>
+        <p>orders</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_orders }}" alt="{{ alt_account_center_orders }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=address-book"
+        {%- endcomment -%}>
+        <p>address book</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_address_book }}" alt="{{ alt_account_center_address_book }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=wallet"
+        {%- endcomment -%}>
+        <p>wallet & store credit</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_wallet_store_credit }}" alt="{{ alt_account_center_wallet_store_credit }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=service"
+        {%- endcomment -%}>
+        <p>services</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_services }}" alt="{{ alt_account_center_services }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=wish-list"
+        {%- endcomment -%}>
+        <p>wish list</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_wish_list }}" alt="{{ alt_account_center_wish_list }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=subscriptions-first"
+        {%- endcomment -%}>
+        <p>subscriptions</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_subscriptions }}" alt="{{ alt_account_center_subscriptions }}">
+      </div>
+    </div>
+    <div class="account-main-item">
+      <a
+        class="account-main-item-title"
+        {%- comment -%}
+        href="/account?page=customer-service"
+        {%- endcomment -%}>
+        <p>customer service</p>
+        {{ account_arrow }}
+      </a>
+      <div class="account-main-item-image">
+        <img src="{{ img_account_center_customer_service }}" alt="{{ alt_account_center_customer_service }}">
+      </div>
+    </div>
+  </div>
+</div>

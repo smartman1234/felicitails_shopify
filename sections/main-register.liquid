@@ -1,0 +1,335 @@
+<script src="{{ 'intlTelInput.min.js' | asset_url }}" defer="defer"></script>
+{{ 'intlTelInput.css' | asset_url | stylesheet_tag: preload: true }}
+
+<script>
+  $(document).ready(function() {
+      var countryData = window.intlTelInputGlobals.getCountryData(),
+      input = document.querySelector("#phone"),
+      addressDropdown = document.querySelector("#address-country");
+      
+      // init plugin
+      var iti = window.intlTelInput(input, {
+        hiddenInput: "full_phone", 
+      });
+      
+      // populate the country dropdown
+      for (var i = 0; i < countryData.length; i++) {
+        var country = countryData[i];
+        var optionNode = document.createElement("option");
+        optionNode.value = country.iso2;
+        var textNode = document.createTextNode(country.name);
+        optionNode.appendChild(textNode);
+      }
+
+    $(".pwd_field .show_pwd_icon svg").click(function() {    
+      $(this).parent().toggleClass("hide_pwd_icon");
+      var input = $(".pwd_field input");
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+
+    $('#phone').on('keyup', function(e) {
+      // Get current input value
+      var inputValue = $(this).val();
+      // Remove non-digit, non-hyphen, non-space characters
+      var cleanValue = inputValue.replace(/[^\d-+ ]/g, '');
+      // Update input field with clean value
+  	
+      $(this).val(cleanValue);
+    	if(cleanValue == ""){
+        	$(this).val("+");
+    	}
+    });
+    
+    $(document).on('click','.register-form-submit', function(e){
+      // Get current input value
+      var FirstName = $("#FirstName").val();
+      var LastName = $("#LastName").val();
+      var Email = $("#Email").val();
+      var phone = $("#phone").val();
+      var CreatePassword = $("#CreatePassword").val();
+      
+      var activeFlag = $(".iti__flag-container .iti__country-list li.iti__active").attr('data-dial-code');
+      var dialCode = "+" + activeFlag + "";
+
+      // if (FirstName != '' || LastName != '' || Email != '' || CreatePassword != '' || (phone.trim() != dialCode && phone.trim() != "+")) {
+      //   $(".email-errors.all").hide();
+      // } else {
+      // e.preventDefault();
+      //   $(".email-errors.all").show();
+      // }
+
+      // Phone US Number
+      if(activeFlag == 1){
+        var phonePattern = /^\+\d{1}-\d{3}-\d{3}-\d{4}$/;
+        if(phone.trim() != "+1" && phone.trim() != "+"){
+          if (phonePattern.test(phone)) {
+            $(".email-errors.phone").hide();
+          } else {
+            e.preventDefault();
+            $(".email-errors.phone").show();
+          } 
+        } else {
+          $(".email-errors.phone").hide();
+        }
+      }
+
+      // First Name
+      if (!FirstName == '') {
+        $(".email-errors.fname").hide();
+      } else {
+        e.preventDefault();
+        $(".email-errors.fname").show();
+      }
+      
+      // Last Name
+      if (!LastName == '') {
+        $(".email-errors.lname").hide();
+      } else {
+        e.preventDefault();
+        $(".email-errors.lname").show();
+      }
+      
+      // Email
+      if (isValidEmail(Email) && Email != "") {
+        $(".email-errors.email").hide();
+      } else {
+        e.preventDefault();
+        $(".email-errors.email").show();
+      }
+      
+      // Password
+      if (isValidPassword(CreatePassword) && CreatePassword != "") {
+        $(".email-errors.pwd").hide();
+      } else {
+        e.preventDefault();
+        $(".email-errors.pwd").show();
+      }
+      
+      // Check Email and Password are same
+     
+      if (Email === CreatePassword) {
+        e.preventDefault();
+      }
+
+    });
+
+    function isValidEmail(email) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+    function isValidPassword(password) {
+      
+      var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?.&])[A-Za-z\d@$!%*#?.&]{8,100}$/;
+      //var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?.&]){8,100}$/;
+      return passwordRegex.test(password);
+    }
+
+    // Password Protection
+    $( document ).on('keyup', '#Email', password_validation);
+    $( document ).on('keyup', '#CreatePassword', password_validation);
+    function password_validation () {
+      var passInput = document.getElementById("CreatePassword");
+      var letter = document.getElementById("letter");
+      var capital = document.getElementById("capital");
+      var number = document.getElementById("number");
+      var length = document.getElementById("length");
+      var spacial = document.getElementById("spacial");
+      var not_email = document.getElementById("not_email");
+      var Email = $("#Email").val();
+        // Validate lowercase letters
+        var lowerCaseLetters = /[a-z]/g;
+        if(passInput.value.match(lowerCaseLetters)) {  
+          letter.classList.remove("invalid");
+          letter.classList.add("valid");
+        } else {
+          letter.classList.remove("valid");
+          letter.classList.add("invalid");
+        }
+        
+        // Validate capital letters
+        var upperCaseLetters = /[A-Z]/g;
+        if(passInput.value.match(upperCaseLetters)) {  
+          capital.classList.remove("invalid");
+          capital.classList.add("valid");
+        } else {
+          capital.classList.remove("valid");
+          capital.classList.add("invalid");
+        }
+      
+        // Validate numbers
+        var numbers = /[0-9]/g;
+        if(passInput.value.match(numbers)) {  
+          number.classList.remove("invalid");
+          number.classList.add("valid");
+        } else {
+          number.classList.remove("valid");
+          number.classList.add("invalid");
+        }
+        
+        // Validate length
+        if(passInput.value.length >= 8) {
+          length.classList.remove("invalid");
+          length.classList.add("valid");
+        } else {
+          length.classList.remove("valid");
+          length.classList.add("invalid");
+        }
+    
+        spacials = /[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g; 
+        if(passInput.value.match(spacials)) { 
+          spacial.classList.remove("invalid");
+          spacial.classList.add("valid");
+        } else {
+          spacial.classList.remove("valid");
+          spacial.classList.add("invalid");
+        }
+        
+        // check email and password are same
+        if(passInput.value != ""){
+          if(Email != ""){
+             if(passInput.value !== Email) { 
+              not_email.classList.remove("invalid");
+              not_email.classList.add("valid");
+            } else {
+              not_email.classList.remove("valid");
+              not_email.classList.add("invalid");
+            } 
+          } 
+        }
+        else {
+            not_email.classList.remove("valid");
+            not_email.classList.add("invalid");
+        }
+    };
+   
+   $('.errors ul li').each(function(){
+    var errortext = $(this).text(); 
+    // if(errortext == "Password is too short (minimum is 5 characters)" || errortext == "Password can't be blank."){
+    //   $(this).text("Password is too short (minimum is 8 characters)");
+    // }
+     if(errortext == 'This email address is already associated with an account. If this account is yours, you can reset your password'){
+      $(this).html("The Email you entered below is already associated with an Account, please <a href='/account/login'>LOGIN HERE</a>");
+    }
+     if(errortext == "Email can't be blank."){
+      $(this).text("We need a proper Email so we can email you");
+    }         
+  });
+});
+</script>
+
+<div class="register-wrap page-width">
+  <div class="register-img">
+    <img src="https://cdn.shopify.com/s/files/1/0068/5454/1410/files/create-account-with-felicitails-black-white-puppy-french-bulldog-in-blanket-felicitails-founded-by-lindsay-giguiere.png?v=1680175706">
+  </div>
+  <div class="account-form">
+    <div class="form-content">
+      <h2>Welcome To</h2>
+      <div class="site-logo">
+        <img src="//cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-founded-by-lindsay-giguiere-website-logo.png?v=1677366348">
+      </div>
+  
+      {% form 'create_customer' %}
+        {{ form.errors | default_errors }}
+        <!-- <div style="display: none;" class="email-errors all"><ul><li>The only field NOT mandatory is Phone Number</li></ul></div> -->        
+        <div style="display: none;" class="email-errors fname"><ul><li>We need your First Name to properly greet you</li></ul></div>
+        <div style="display: none;" class="email-errors lname"><ul><li>We need your Last Name to formally create your account</li></ul></div>
+        <div style="display: none;" class="email-errors email"><ul><li>We need a proper Email so we can email you</li></ul></div>
+        <div style="display: none;" class="email-errors pwd"><ul><li>Your Password does not meet our security requirements</li></ul></div>
+        <div style="display: none;" class="email-errors phone"><ul><li>We need a proper Phone Number so we can call or text you</li></ul></div>
+        <div class="input-wrapper form-row width-half field-left">
+          <label for="FirstName">
+            {{ 'customer.register.first_name' | t }}
+          </label>
+          <input type="text"
+            name="customer[first_name]"
+            id="FirstName"
+            data-desktop-autofocus
+            {% if form.first_name %}value="{{ form.first_name }}"{% endif %}>          
+        </div>
+  
+        <div class="input-wrapper form-row width-half field-right">
+          <label for="LastName">
+            {{ 'customer.register.last_name' | t }}
+          </label>
+          <input type="text"
+            name="customer[last_name]"
+            id="LastName"
+            {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
+        </div>
+  
+        <div class="input-wrapper form-row">
+          <label for="Email">
+            {{ 'customer.register.email' | t }}
+          </label>
+          <input type="email"
+            name="customer[email]"
+            id="Email"
+            class="{% if form.errors contains 'email' %}input-error{% endif %}"
+            value="{% if form.email %}{{ form.email }}{% endif %}"
+            spellcheck="false"
+            autocomplete="off"
+            autocapitalize="off">
+        </div>
+  
+        <div class="input-wrapper form-row pwd_field">
+          <label for="CreatePassword">
+            {{ 'customer.register.password' | t }}
+          </label>
+          <span class="show_pwd_icon">
+            <svg class="show_eye" width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="black"/>
+            </svg>
+            <svg class="hide_eye" width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.83 6L14 9.16V9C14 8.20435 13.6839 7.44129 13.1213 6.87868C12.5587 6.31607 11.7956 6 11 6H10.83ZM6.53 6.8L8.08 8.35C8.03 8.56 8 8.77 8 9C8 9.79565 8.31607 10.5587 8.87868 11.1213C9.44129 11.6839 10.2044 12 11 12C11.22 12 11.44 11.97 11.65 11.92L13.2 13.47C12.53 13.8 11.79 14 11 14C9.67392 14 8.40215 13.4732 7.46447 12.5355C6.52678 11.5979 6 10.3261 6 9C6 8.21 6.2 7.47 6.53 6.8ZM1 1.27L3.28 3.55L3.73 4C2.08 5.3 0.78 7 0 9C1.73 13.39 6 16.5 11 16.5C12.55 16.5 14.03 16.2 15.38 15.66L15.81 16.08L18.73 19L20 17.73L2.27 0M11 4C12.3261 4 13.5979 4.52678 14.5355 5.46447C15.4732 6.40215 16 7.67392 16 9C16 9.64 15.87 10.26 15.64 10.82L18.57 13.75C20.07 12.5 21.27 10.86 22 9C20.27 4.61 16 1.5 11 1.5C9.6 1.5 8.26 1.75 7 2.2L9.17 4.35C9.74 4.13 10.35 4 11 4Z" fill="black"/>
+            </svg>          
+            <input type="password"
+              name="customer[password]"
+              id="CreatePassword"
+              class="{% if form.errors contains 'password' %}input-error{% endif %}">
+          </span>
+            <div id="pwd_protection">
+              <p class="protection_title">For Your Protection, Your Password Is To:</p>
+              <p id="length" class="invalid">Have a minimum of 8 characters</p>
+              <p id="spacial" class="invalid">Have 1 special character like #</p>
+              <p id="letter" class="invalid">Have 1 lower case letter</p>
+              <p id="number" class="invalid">Have 1 number</p>
+              <p id="capital" class="invalid">Have 1 Upper Case Letter</p>
+              <p id="not_email" class="invalid">Not be your email</p>
+            </div>
+        </div>
+
+        <div class="input-wrapper form-row phone_field">
+          <label for="phone">Phone Number (Optional)</label>
+          <input name="customer[tel]" type="tel" id="phone" placeholder="+1-111-111-1111" value="+1">
+        </div>
+
+        <div class="input-wrapper form-row select_field">
+          <input type="checkbox" id="send_update_checkbox" name="customer[send_update_checkbox]" value="Send me Update" checked>
+          <label for="send_update_checkbox">It’s Ok to Send me timely updates from Felicitails.</label>
+        </div>
+
+        <div class="input-wrapper form-row select_field">
+          <input type="checkbox" id="text_update_checkbox" name="customer[text_update_checkbox]" value="Text me Update">
+          <label for="text_update_checkbox">It’s Ok to Text me timely updates from Felicitails.</label>
+        </div>
+  
+        <div class="large-row btn-row">
+          <input type="submit" value="Create My Account" class="btn register-form-submit">
+          
+          <div class="login-url">
+            <p>Already have an account?</p>
+            <a href="{{ routes.account_login_url }}">LOG IN HERE</a>
+            {% comment %}
+            <a href="{{ routes.root_url }}">{{ 'customer.register.cancel' | t }}</a>
+            {% endcomment %}
+          </div>
+        </div>
+          
+      {% endform %}
+    </div>
+  </div>
+</div>

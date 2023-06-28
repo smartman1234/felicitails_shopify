@@ -1,0 +1,744 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "left"
+      }
+    },
+    "405dae09-0a97-4de7-a973-09f01e9067aa": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/771b73c115b14867bf924bdc44426f1c.mp4",
+        "cover_image": "shopify:\/\/shop_images\/felicitails-emotional-support-animal-intro-video-felicitails-is-founded-by-lindsay-giguiere-matched.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "#000000",
+        "video_overlay_opacity": 50,
+        "height_desktop": 600,
+        "height_mobile": 620,
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 0,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "WELCOME TO YOUR EMOTIONAL SUPPORT ANIMAL CERTIFICATION PROGRAM!",
+        "overlay_text": "We’re thrilled you’re considering working with one of our Licensed Therapists to certify your needs for an Emotional Support Animal (ESA). We understand that having the reassurance of your trusted companion by your side opens up so many opportunities and offers a sense of well-being.",
+        "overlay_url_text_1": "CERTIFY TODAY",
+        "overlay_url_1": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=16132173496418&quantity=1",
+        "overlay_url_text_2": "RENEW YOUR CERTIFICATION TODAY",
+        "overlay_url_2": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=20072897642594&quantity=1",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "2eba69fc-761b-43ad-97be-9785e5192681": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Are you tired of struggling to find pet-friendly housing or facing extra charges when traveling with your Emotional Support Animal? <br\/><br\/>Then, look no further! Our Licensed Therapists are here to help you unlock the freedom to live with your pet without additional fees or restrictions.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/freem-my-paws-psychiatric-service-animal-emotional-support-animal-therapist-telehealth-housing-letter-travel-letter.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon"
+      }
+    },
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {text-transform: unset; font-weight: 400;}",
+        ".page-width {max-width: 100%; border-radius: 0;}",
+        ".container {padding: 0;}",
+        ".rich-text-section__title {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "WE HAVE YOUR SOLUTION",
+        "text": "<p>Learn how to order your Certified Therapist Emotional Support Animal Program today, and you'll get the protection and access you and your Support Animal deserve.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "sec-cta"
+      }
+    },
+    "c1449733-00a4-4ade-a9d9-8cf7b2f79ed8": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/emotional-support-animal-certified-therapist-telephone-confirmation-felicitails-website-felicitails-founded-by-lindsay-giguiere.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "WORK DIRECTLY WITH LICENSED MENTAL HEALTH PROFESSIONALS",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/landing-page-emotional_support_animals.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "THE ORIGINAL ESA TELEHEALTH THERAPY PROVIDER PRACTICING FOR 10+ YEARS",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/landing-page-psychiatric_service_dogs.jpg",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "",
+            "title": "EFFICIENT THERAPY SESSION WITH 24-HOUR CERTIFICATION TURNAROUND AND ONGOING SUPPORT",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-0",
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-1",
+        "template--18164928512301__c1449733-00a4-4ade-a9d9-8cf7b2f79ed8-1677739796f380b0a7-2"
+      ],
+      "custom_css": [
+        ".page-width {max-width: 100%; border-radius: 0;}",
+        ".container {padding: 0;}",
+        ".gallery {border-radius: 0;}"
+      ],
+      "settings": {
+        "grid": 3,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": false,
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "color_overlay_bg": "#000000",
+        "overlay_opacity": 50,
+        "color_overlay_text": "#ffffff",
+        "overlay_url_style": "button_1",
+        "custom_class": "img-boxes"
+      }
+    },
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3": {
+      "type": "rich-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "YOUR ONE-STOP-SHOP FOR ALL THINGS RELATED TO EMOTIONAL SUPPORT ANIMALS (ESAs)",
+        "text": "<h4>Let’s Cover the Basics!<\/h4>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "8c09d737-725d-4ec6-93b9-69598d8c353c": {
+      "type": "list-text-with-icons",
+      "blocks": {
+        "template--19402226893101__8c09d737-725d-4ec6-93b9-69598d8c353c-1686347551a5bd5ffc-0": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>A Therapist Certified Letter is a document that verifies your need for an Emotional Support Animal. <\/p>"
+          }
+        },
+        "58e4bdc5-3224-4ecd-97b9-8e19c5403077": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>If one of our Certified Therapists determines you qualify for an ESA, they will prescribe a mental health program for you which will include both a Travel and Housing Therapist Certified Letter as part of your treatment plan. <\/p>"
+          }
+        },
+        "0ee6431f-979d-4bab-84a8-5a61ac9cae73": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>In addition, this documentation is legally required to live with your Emotional Support Animal in housing that prohibits certain animals, including dogs and cats. <\/p>"
+          }
+        },
+        "2dd15ba9-2dda-4922-ad08-2974a709c4b0": {
+          "type": "image",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/paw-print-icons-psychiatric-service-dog-certification-felicitails-founded-by-lindsay-giguiere.svg",
+            "text": "<p>Without a Therapist Certified Letter, you risk being denied access to these benefits and even face legal consequences.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19402226893101__8c09d737-725d-4ec6-93b9-69598d8c353c-1686347551a5bd5ffc-0",
+        "58e4bdc5-3224-4ecd-97b9-8e19c5403077",
+        "0ee6431f-979d-4bab-84a8-5a61ac9cae73",
+        "2dd15ba9-2dda-4922-ad08-2974a709c4b0"
+      ],
+      "settings": {
+        "section_title": "<h3>What is a Free My Paws Therapist Certified Letter, and why do you need one? <\/h3>"
+      }
+    },
+    "c8d3f9f9-dc1f-439f-b27c-80d2071866e9": {
+      "type": "multi-column",
+      "blocks": {
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/emotional-support-animal-certified-therapist-free-my-paws-program-secure-access-local-establishments-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "MENTAL HEALTH STABILITY",
+            "text": "<p>Naturally reduce loneliness and ease depression through daily support animal interactions.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/emotional-support-animal-running-with-owner-therapist-confirmed-free-my-paws-esa-letter-benefits-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "POSITIVE PHYSICAL IMPACT",
+            "text": "<p>Better manage high blood pressure and normalize heart rate by lowering overall stress load due to your support animal’s presence.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "29324b23-243b-4827-aed4-7edd033b3640": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/emotional-support-animal-certified-therapist-free-my-paws-program-safe-accessible-housing-emotional-support-animal-previlages-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "SAFE HOUSING",
+            "text": "<p>Pass all Housing pre-screening applications for access to all rental housing you desire with our Therapist Certified Housing Letter.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-0",
+        "template--18164928512301__c8d3f9f9-dc1f-439f-b27c-80d2071866e9-167774621644c83ee5-1",
+        "29324b23-243b-4827-aed4-7edd033b3640"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "a6d5a49a-4f6a-42e3-85a5-6b2a9cad526f": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/free-my-paws-therapist-confirmed-esa-letter-benefits-felicitails-couple-enjoying-retirement-with-emotional-support-animal-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Many people who need the support of an Emotional Support Animal need help knowing where to start - online information can be confusing. In reality, it is not all that complex.",
+        "text": "<p>First, you need to have a qualifying mental health condition. <br\/><br\/>Secondly, your pet (typically a dog) must be well mannered to be in public venues while providing you mental support while away from your home.<br\/><br\/>Where owners often get tripped up is how to find a licensed therapist who can genuinely prescribe a mental wellness plan that would include legitimate travel and housing letters for you to use with confidence.<br\/><br\/>The Free My Paws program was developed over 10 years ago just for ESA owners like you.<br\/><br\/>Our Licensed Therapists, who specialize in mental health assessments, will prescribe a personalized treatment plan that includes both a certified travel and housing letter.<br\/><br\/>Additionally, we provide ongoing support to ensure that you are able to succeed in having your ESA by your side day over day.<br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "esa-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "599d09fd-c190-4adf-b384-f2fbebf31930": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/emotional-support-animal-with-single-man-riding-bike-in-city-therapist-confirmed-free-my-paws-esa-letter-benefits-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "If you want to travel and live hassle-free with an Emotional Support Animal, we are here to help.",
+        "text": "<p>A Therapist Certified Letter is a document that verifies your need for an Emotional Support Animal.<br\/><br\/>If one of our Certified Therapists determines you qualify for an ESA, they will prescribe a mental health program for you which will include both a Travel and Housing Therapist Certified Letter as part of your treatment plan. <br\/><br\/>This documentation is legally required to travel with your ESA or live in housing prohibiting certain animals, including dogs and cats. Without an ESA Therapist Certified Letter, you risk being denied access to these benefits and could even face legal consequences.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "esa-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "e2323327-482e-4f3d-a408-ce0ed342b612": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "",
+        "button_label": "CERTIFY TODAY TO ENJOY YOUR EMOTIONAL SUPPORT ANIMAL BENEFITS",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "18244d41-2566-4099-8f6e-6c0447e73ec4": {
+      "type": "multi-column",
+      "blocks": {
+        "afa56653-b157-4b98-ba0a-f77a7523daa6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/blonde-yorkshire-terrire-emotional-support-animal-dog-pink-bow-laying-upside-down-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "HOW DOES THE CERTIFICATION PROCESS WORK?",
+            "text": "<p>Our certified therapists will work with you to understand your emotional support needs and evaluate whether an ESA would benefit you. <br\/><br\/>They will prescribe a treatment plan if they determine that you need a PSA to support you in your daily activities.<br\/><br\/>This includes two personalized Licensed Therapist Prepared and Signed, one for Travel and one for Housing, that meet all legal requirements. The letters include the diagnosis and the legal language required by housing agencies and airlines.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "1eaf8747-d015-4bcf-9877-4bf581de24b9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/happy-family-enjoying-emotional-support-dog-felicitails-founded-by-lindsay-giguiere-1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "WHAT ARE THE BENEFITS OF HAVING A THERAPIST CERTIFIED LETTER?",
+            "text": "<p>An ESA can provide valuable emotional support and companionship, improving mental health and well-being.<br\/><br\/>With our Therapist Certified Letters for Travel or Housing, you'll have peace of mind knowing that you have the correct documentation to have your ESA by your side when you need them most. <br\/><br\/>This means you can move around with your Emotional Support Animal without worrying about being denied access and live in housing that otherwise wouldn't allow animals.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/happy-couple-enjoying-emotional-support-dog-outdoor-walk-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "WHY CHOOSE US FOR YOUR THERAPIST CERTIFIED LETTER?",
+            "text": "<p>Our Certified Therapists have years of experience working with individuals who qualify to live and travel with an Emotional Support Animal. We're dedicated to providing personalized therapy sessions, care and attention to each and every one of our patients. We ensure you receive the right documentation that meets all legal requirements and accurately reflects your support animal needs. Plus, our easy online application process means you can get started right away and have your prescribed therapy plan in hand in no time.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/woman-walking-across-snowy-bridge-with-emotional-support-dog-on-leash-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "CERTIFY YOUR ESA WITH CONFIDENCE!",
+            "text": "<p>Our Therapist Certified Letters for Emotional Support Animals, which includes dogs, is a must-have for anyone who wants to register and use their ESA with confidence and peace of mind. Don't risk being denied access to accommodations - secure your prescribed treatment plan today and start living your best life with your furry friend by your side.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "afa56653-b157-4b98-ba0a-f77a7523daa6",
+        "1eaf8747-d015-4bcf-9877-4bf581de24b9",
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-0",
+        "template--18164928512301__18244d41-2566-4099-8f6e-6c0447e73ec4-16777470633cdf57bc-1"
+      ],
+      "custom_css": [
+        ".flex {margin: 0; gap: 30px;}",
+        ".grid-flex__item {box-shadow: 0 0 20px rgb(0 0 0 \/ 15%); border-radius: 10px; padding: 20px; width: calc(50% - 15px);}",
+        ".container {margin-top: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": true,
+        "color_title": "#000000",
+        "color_text": "#000000",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "multi-column-sec",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "b994ce80-3d4a-4311-8ad9-654077f0b7a9": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {padding: 0;}",
+        "a {margin-top: 0; text-transform: uppercase; font-size: 1rem; line-height: 30px; border-radius: 8px; padding: 9px 22px;}",
+        ".reading-width {padding-top: 10px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "button_label": "CERTIFY YOUR ESA TODAY",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=16132173496418&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {font-size: 26px; text-transform: uppercase;}",
+        ".btn {border-radius: 5px;}",
+        ".image-with-text__image-size {padding: 0 0 0 30px;}",
+        ".image-with-text__title {text-align: center;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/emotional-support-animal-certified-therapist-free-my-paws-program-safe-accessible-housing-emotional-support-animal-previlages-felicitails-founded-by-lindsay-giguiere-we-make-certifica.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "WE MAKE CERTIFICATION EASY",
+        "text": "<p>Having a Personalized Therapy Plan and Free My Paws Therapist Certified Letters for your ESA gives you the peace of mind that your companion is recognized and your legal rights are protected. You can eliminate the stress of not knowing whether you can take your ESA with you whenever you travel, move into a new home or go about your everyday life. Our certification process involves a comprehensive therapy session to evaluate your mental state, your animal’s (typically a dog) training \/ temperament by a Licensed Therapist, who will then prescribe a treatment plan that will include a Free My Paws Travel and Housing Letter confirming your animal's ESA status. <\/p><p>This official document ensures that your pet is recognized as an Emotional Support Animal, allowing you legal access to rental housing, select flights, and other establishments.<\/p>",
+        "button_label": "GET YOURS TODAY",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=16132173496418&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "#f69fbb",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text__title {font-size: 26px; text-transform: uppercase; text-align: center;}",
+        ".btn {border-radius: 5px;}",
+        ".image-with-text__image-size {padding: 0 30px 0 0;}",
+        ".text-align {text-align: center;}",
+        ".image-with-text__text {text-align: left;}"
+      ],
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/happy-family-enjoying-emotional-support-dog-black-labrador-felicitails-founded-by-lindsay-giguiere.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "WE HOLD YOUR HAND ALL THE WAY",
+        "text": "<p>During the entire Free My Paws Certification process you will be treated with the utmost care and respect. We pride ourselves on our outstanding therapy sessions and service. All our practicing therapists are licensed mental health professionals, which ensures that you’ll receive the best advice and up-to-date therapy prescriptions. In addition, our Free My Paws Therapist Confirmation Letters are promptly updated with the latest changes to meet landlord and select airline requirements.<\/p><p>The decision to work with us on the purchase of a ESA Program is one which will have a significant impact on your life. To make it easy we offer a comprehensive satisfaction guarantee to ensure you’re happy with your program.<\/p>",
+        "button_label": "NO NEED TO WAIT, START NOW",
+        "button_link": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=16132173496418&quantity=1",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "subtitle_color": "",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": "",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2af29aec-15f9-460f-ae61-3e426adcdca4": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "The process of getting your Therapist Certified Letter couldn't be easier",
+        "text": "<p>Simply fill out our online application form, and one of our certified therapists will be in touch typically within 24 hours to schedule a consultation. During this consultation, we'll work with you to understand your emotional support needs and evaluate whether an ESA would be beneficial for you. If it is determined that an ESA would help improve your mental health and well-being, we'll provide you with a personalized letter that meets all legal requirements.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#ecbebe",
+        "color_text": "#000000",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": "process-text-sec"
+      }
+    },
+    "293da998-78e0-4136-a461-d4e2d50dc042": {
+      "type": "timeline",
+      "blocks": {
+        "176357fd-3153-4f04-83a7-3f862d2a6aa7": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "Complete your purchase online.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-shopping-icon-blue.svg"
+          }
+        },
+        "b715e6a5-4488-476c-870d-c9425bd5a9cb": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "You will receive an Email with a link to the online patient intake questionnaire, open the link and submit the form.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-email-icon-blue.svg"
+          }
+        },
+        "428c8d7c-29de-4232-b3bd-c5a6be8c3f73": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "Once one of our registered therapists has reviewed your information, they will contact you to set a time for a telehealth therapy session, typically within 24 hours.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-telehealth-icon-blue.svg"
+          }
+        },
+        "2959b229-ca07-4603-bad5-583d163ce926": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "At the end of the therapy session, our Licensed Therapist will make a diagnosis to then prescribe a treatment plan and if they estimate that you suffer from an ailment which would benefit from the presence of an Emotional Support Animal, they will then produce your Free My Paws ESA letters, both for Travel and Housing.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-therapist-review-icon-blue.svg"
+          }
+        },
+        "acd9619c-d99b-4299-b6ce-793b442c0a85": {
+          "type": "timeline",
+          "settings": {
+            "timeline_text": "You will receive your Free My Paws ESA letters by email almost immediately after completing your phone interview, in secure PDF format.",
+            "timeline_icon": "shopify:\/\/shop_images\/therapist-certified-travel-housing-letters-emotional-support-animals-psychiatric-service-animals-free-my-paws-felicitails-founded-by-lindsay-giguiere-letter-icon-blue.svg"
+          }
+        }
+      },
+      "block_order": [
+        "176357fd-3153-4f04-83a7-3f862d2a6aa7",
+        "b715e6a5-4488-476c-870d-c9425bd5a9cb",
+        "428c8d7c-29de-4232-b3bd-c5a6be8c3f73",
+        "2959b229-ca07-4603-bad5-583d163ce926",
+        "acd9619c-d99b-4299-b6ce-793b442c0a85"
+      ],
+      "settings": {
+        "title": "SMOOTH AND EASY PROCESS"
+      }
+    },
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b": {
+      "type": "pricing-table-alex",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "IT COULDN'T BE EASIER!",
+        "title_color": "#000000",
+        "highlight_title": "ORDER YOUR EMOTIONAL SUPPORT ANIMAL CERTIFICATION PROGRAM TODAY",
+        "highlighted_color": "#ecbebe",
+        "paragraph": "<p>You'll have the protection and access your ESA deserves in under 24 hours.<\/p>",
+        "paragraph_color": "#333333",
+        "enable_tbl1": true,
+        "pricing_title": "NEW PATIENT",
+        "pricing_txt": "<p>One-on-one Licensed Therapist Session<\/p><p>Annual Therapeutic Prescription<\/p><p>Travel & Housing Therapist Certified Letters for Emotional Support Animals, including Dogs<\/p>",
+        "price": "$169.97",
+        "feature_1": "Fast Electronic Process & Delivery",
+        "feature_2": "Easy Online Questionnaire",
+        "feature_3": "Convenient Telehealth Session",
+        "feature_4": "Comprehensive Treatment Prescription",
+        "feature_5": "Licensed Therapist Certified Letters",
+        "feature_6": "24\/7 Customer Support",
+        "btn_txt": "START NOW",
+        "btn_url": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=16132173496418&quantity=1",
+        "enable_tbl2": true,
+        "pricing_title_2": "RENEWING PATIENT",
+        "pricing_txt_2": "<p>One-on-one Licensed Therapist Session<\/p><p>Updated Annual Therapeutic Prescription<\/p><p>Travel & Housing Therapist Certified Letters for Emotional Support Animals, including Dogs<\/p>",
+        "price_2": "$99.97",
+        "feature_1_2": "Fast Electronic Process & Delivery",
+        "feature_2_2": "Easy Online Questionnaire",
+        "feature_3_2": "Convenient Telehealth Confirmation",
+        "feature_4_2": "Comprehensive Treatment Prescription",
+        "feature_5_2": "Licensed Therapist Certified Letters",
+        "feature_6_2": "24\/7 Customer Support",
+        "btn_txt_2": "RENEW NOW",
+        "btn_url_2": "https:\/\/free-my-paws.myshopify.com\/\/cart\/add?id=20072897642594&quantity=1",
+        "tbl_bg": "#faf2f2",
+        "tbl_txt_color": "#333333"
+      }
+    },
+    "16787712953cfc9131": {
+      "type": "apps",
+      "blocks": {
+        "10ddaf34-6d88-46b5-a91f-aa5ef9932b81": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "10ddaf34-6d88-46b5-a91f-aa5ef9932b81"
+      ],
+      "custom_css": [
+        ".large-section {padding-top: 0;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "405dae09-0a97-4de7-a973-09f01e9067aa",
+    "2eba69fc-761b-43ad-97be-9785e5192681",
+    "1c836ef3-b1a2-44c6-a67d-394abd6c1739",
+    "c1449733-00a4-4ade-a9d9-8cf7b2f79ed8",
+    "e401dacb-c8ac-4bd0-9a01-4f7e5123a8c3",
+    "8c09d737-725d-4ec6-93b9-69598d8c353c",
+    "c8d3f9f9-dc1f-439f-b27c-80d2071866e9",
+    "a6d5a49a-4f6a-42e3-85a5-6b2a9cad526f",
+    "599d09fd-c190-4adf-b384-f2fbebf31930",
+    "e2323327-482e-4f3d-a408-ce0ed342b612",
+    "18244d41-2566-4099-8f6e-6c0447e73ec4",
+    "b994ce80-3d4a-4311-8ad9-654077f0b7a9",
+    "b1ec187b-cea9-495e-a4ea-6ae3d2c308cf",
+    "902c34ac-4973-4709-9c07-78e3e4f4bd5f",
+    "2af29aec-15f9-460f-ae61-3e426adcdca4",
+    "293da998-78e0-4136-a461-d4e2d50dc042",
+    "4fe61b79-2a2f-4618-b40d-8189db0c0d9b",
+    "16787712953cfc9131"
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "current": {
+    "color_body_background": "#ffffff",
+    "accent_color": "#ffffff",
+    "accent_gradient": "",
+    "color_body_text": "#000000",
+    "color_body_link": "#ecbebe",
+    "color_sale_text": "#d72923",
+    "color_rating_star": "#ffa18a",
+    "header_bck_color": "#ffffff",
+    "logo_text_color": "#000000",
+    "header_text_color": "#000000",
+    "mobile_open_search_bar_color": "#faf2f2",
+    "main_menu_bck_color": "#faf2f2",
+    "main_menu_link_color": "#000000",
+    "mobile_menu_bck_color": "#fffbf4",
+    "store_messages_bck_color": "#dbdbed",
+    "store_messages_txt_color": "#286070",
+    "footer_text_color": "#092331",
+    "footer_bck_color": "#ffffff",
+    "primary_btn_background": "#ecbebe",
+    "primary_btn_text": "#ffffff",
+    "secondary_btn_background": "#000000",
+    "secondary_btn_text": "#ffffff",
+    "quickbuy_form_background": "#fffbf4",
+    "quickbuy_form_text": "#171717",
+    "zoom_bg": "#fffbf4",
+    "collection_feature_header_background": "#fffbf4",
+    "type_heading_font": "poppins_n7",
+    "font_size_heading_int": 26,
+    "line_height_heading": 1.2,
+    "letter_spacing_heading": 0,
+    "uppercase_headings": true,
+    "type_base_font": "poppins_n4",
+    "font_size_body_int": 15,
+    "line_height_body": 1.5,
+    "letter_spacing_body": 0,
+    "type_nav_font": "poppins_n3",
+    "font_size_nav_int": 14,
+    "letter_spacing_nav": 25,
+    "uppercase_navigation": true,
+    "type_logo_font": "serif",
+    "font_size_logo_int": 24,
+    "uppercase_product_titles": false,
+    "uppercase_buttons": true,
+    "site_width": 1300,
+    "global_border_radius": 10,
+    "button_border_radius": 5,
+    "hover_image_enabled": true,
+    "sale_label_enabled": true,
+    "sold_label_enabled": false,
+    "product_grid_image_shape": "square",
+    "variant_style": "listed",
+    "hide_unavailable_quantity_opts": false,
+    "quickbuy_buttons_toggle": false,
+    "quickbuy_labels_toggle": false,
+    "show_tax_and_shipping": false,
+    "quickbuy_show_quantity_selector": false,
+    "quickbuy_show_backorder_text": false,
+    "enable_payment_button": false,
+    "swatch_enabled_productpage": true,
+    "swatch_option_name": "Color",
+    "swatch_method": "image",
+    "swatch_enabled_grid": false,
+    "swatch_enabled": true,
+    "social_twitter_url": "",
+    "social_facebook_url": "https:\/\/www.facebook.com\/felicitailspet",
+    "social_instagram_url": "https:\/\/www.instagram.com\/felicitails\/",
+    "social_youtube_url": "https:\/\/www.youtube.com\/watch?v=7ELCARnNW-w",
+    "social_tiktok_url": "#",
+    "social_pinterest_url": "http:\/\/www.pinterest.com\/felicitails",
+    "on_add_to_cart": "ajax",
+    "search_type": "product",
+    "enable_live_search": true,
+    "live_search_show_price": true,
+    "live_search_show_vendor": false,
+    "favicon": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-favicon-48x48.png",
+    "product_currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/felictails-logo-full-color-white-background-512x190.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_accent_color": "#3f8545",
+    "checkout_button_color": "#ecbebe",
+    "primary_btn_border": "#212b36",
+    "secondary_btn_border": "#dfe3e8",
+    "announcement_bar_bck_color": "#266070",
+    "announcement_bar_txt_color": "#ffffff",
+    "align_product_titles": true,
+    "overlay_opacity": 90,
+    "quickbuy_background": "#ffffff",
+    "quickbuy_text": "#080a1c",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "3ed27df3-0316-44c9-b994-583095152b21": {
+            "type": "menu_promo",
+            "settings": {
+              "dropdown_link_title": "Supplies",
+              "image": "shopify:\/\/shop_images\/blonde-yorkshire-terrire-dog-pink-bow-laying-upside-down-felicitails-founded-by-lindsay-giguiere.png",
+              "text": "What’s Trending for Dogs",
+              "link_text": "",
+              "link_url": "shopify:\/\/collections\/for-the-well-loved-dog"
+            }
+          },
+          "4c2129e4-1380-4e23-8c2a-6620bfaf8885": {
+            "type": "menu_promo",
+            "settings": {
+              "dropdown_link_title": "Supplies",
+              "image": "shopify:\/\/shop_images\/egyptian-mau-cat-proudly-posing-felicitails-founded-by-lindsay-giguiere.png",
+              "text": "What’s Trending for Cats",
+              "link_text": "",
+              "link_url": "shopify:\/\/collections\/for-the-well-loved-cat"
+            }
+          }
+        },
+        "block_order": [
+          "3ed27df3-0316-44c9-b994-583095152b21",
+          "4c2129e4-1380-4e23-8c2a-6620bfaf8885"
+        ],
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-website-logo.png",
+          "logo_width": 235,
+          "desktop_layout": "center",
+          "show_search_bar_desktop": true,
+          "show_search_bar_mobile": false,
+          "logo_position_mobile": "inline",
+          "dock_nav": true,
+          "cart_icon": "shopping-cart",
+          "main_linklist": "",
+          "show_country_selector": false,
+          "show_language_selector": true,
+          "show_messages": false,
+          "home_only_messages": false,
+          "slideshow_messages": false,
+          "message_1_text": "",
+          "message_1_url": "",
+          "message_2_text": "",
+          "message_2_url": "",
+          "message_3_text": "",
+          "message_3_url": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "03a727b8-dcd1-4c0a-8118-3243edcb11bb": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-website-logo-footer.png",
+              "logo_width": 200
+            }
+          },
+          "menu-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "SUPPORT",
+              "menu": "customer-care",
+              "show_accessibility": false
+            }
+          },
+          "menu-2": {
+            "type": "link_list",
+            "settings": {
+              "heading": "ABOUT",
+              "menu": "about-us2",
+              "show_accessibility": false
+            }
+          },
+          "social": {
+            "type": "social",
+            "settings": {
+              "heading": "FOLLOW",
+              "show_accessibility_sm": true
+            }
+          }
+        },
+        "block_order": [
+          "03a727b8-dcd1-4c0a-8118-3243edcb11bb",
+          "menu-1",
+          "menu-2",
+          "social"
+        ],
+        "settings": {
+          "small_linklist": "footer-1",
+          "credit_text": "<p>Felicitails a distinct brand of Greenfield Groves Inc.<\/p>",
+          "show_payment_icons": false,
+          "sticky_footer": false,
+          "show_country_selector": false,
+          "show_language_selector": false,
+          "show_subscribe_form": false,
+          "subscribe_title": "Let’s Stay Connected",
+          "subscribe_label": "Enter your email",
+          "subscribe_button": "JOIN IN",
+          "subscribe_description": ""
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_delay_seconds": 6,
+          "popup_dismiss_for_days": 30,
+          "position": "bottom-right",
+          "title": "Sign up and save",
+          "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
+          "show_newsletter": true,
+          "show_social_icons": true
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement_bar": false,
+          "home_only_announcement_bar": false,
+          "announcement_bar_text": "FREE SHIPPING ON ORDERS OVER $80",
+          "announcement_bar_col": "#000000",
+          "announcement_bar_grad": "",
+          "announcement_text_col": "#ffffff"
+        }
+      },
+      "banner": {
+        "type": "banner",
+        "settings": {
+          "show_banner": false,
+          "height": "fixed",
+          "height_desktop": 500,
+          "height_mobile": 400,
+          "mobile_text_below": true,
+          "slide_transition": "fade",
+          "slideshow_autoplay": true,
+          "slideshow_autoplay_speed": 6
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Let’s Stay Connected",
+          "section_subtitle": "<p>Receive email updates on fun things from Felicitails that we think you’ll find interesting. From timely updates, to new products, trendy collaborations and services that could benefit you.<\/p>",
+          "newsletter_bg": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-lets-stay-connected-precious-owner-golden-retriever-connection-cropped.png",
+          "sm_newsletter_bg": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-lets-stay-connected-precious-owner-golden-retriever-connection.png",
+          "color_title": "#000000",
+          "color_text": "#000000",
+          "color_bg": "#faf2f2",
+          "gradient_bg": "",
+          "button_style": "button_1",
+          "enlarge_title": false,
+          "enlarge_text": false
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "settings": {
+          "title": "",
+          "enlarge_title": false,
+          "collection_list": [
+            "dog-collars",
+            "dog-harnesses",
+            "dog-leashes"
+          ],
+          "grid": 3
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "15079184273603081885": {
+        "type": "shopify:\/\/apps\/essential-free-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6097499278999377719": {
+        "type": "shopify:\/\/apps\/globo-mega-menu-navigation\/blocks\/app-embed\/7a00835e-fe40-45a5-a615-2eb4ab697b58",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11825749942329260384": {
+        "type": "shopify:\/\/apps\/fueled-google-analytics-ga4\/blocks\/fueled-embed\/b7733e10-32a6-41fd-a62d-3195dc211aa9",
+        "disabled": false,
+        "settings": {
+          "track": true
+        }
+      },
+      "3847134708050210359": {
+        "type": "shopify:\/\/apps\/transcy-ai-language-translate\/blocks\/switcher_embed_block\/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8764476057892802672": {
+        "type": "shopify:\/\/apps\/restock-rocket\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Spark": {
+      "color_body_background": "#ffffff",
+      "accent_color": "#d5f3f3",
+      "accent_gradient": "linear-gradient(180deg, rgba(196, 236, 236, 1), rgba(255, 255, 255, 1) 98%)",
+      "color_body_text": "#230051",
+      "color_body_link": "#47c1bf",
+      "color_sale_text": "#cd201a",
+      "color_rating_star": "#f5c346",
+      "header_bck_color": "#ffffff",
+      "logo_text_color": "#230051",
+      "header_text_color": "#230051",
+      "mobile_open_search_bar_color": "#f4f6f8",
+      "main_menu_bck_color": "#f4f6f8",
+      "main_menu_link_color": "#230051",
+      "mobile_menu_bck_color": "#f9dddd",
+      "store_messages_bck_color": "#47c1bf",
+      "store_messages_txt_color": "#fff",
+      "footer_text_color": "#ffffff",
+      "footer_bck_color": "#00848e",
+      "primary_btn_background": "#50248f",
+      "primary_btn_text": "#ffffff",
+      "primary_btn_border": "#50248f",
+      "secondary_btn_background": "#ffffff",
+      "secondary_btn_text": "#230051",
+      "secondary_btn_border": "#f9fafb",
+      "quickbuy_form_background": "#ebf5fa",
+      "quickbuy_form_text": "#230051",
+      "zoom_bg": "#230051",
+      "collection_feature_header_background": "#42467e",
+      "type_heading_font": "nunito_n8",
+      "font_size_heading_int": 34,
+      "line_height_heading": 1.2,
+      "letter_spacing_heading": 0,
+      "uppercase_headings": false,
+      "type_base_font": "nunito_n4",
+      "font_size_body_int": 18,
+      "line_height_body": 1.6,
+      "type_nav_font": "nunito_n7",
+      "font_size_nav_int": 17,
+      "type_logo_font": "nunito_n8",
+      "font_size_logo_int": 24,
+      "uppercase_product_titles": false,
+      "animation_speed": "fast",
+      "site_width": 1600,
+      "global_border_radius": 30,
+      "button_border_radius": 25,
+      "hover_image_enabled": false,
+      "sale_label_enabled": true,
+      "sold_label_enabled": true,
+      "variant_style": "listed",
+      "quickbuy_buttons_toggle": true,
+      "quickbuy_labels_toggle": true,
+      "show_tax_and_shipping": false,
+      "quickbuy_show_backorder_text": true,
+      "enable_payment_button": true,
+      "swatch_enabled_productpage": true,
+      "swatch_option_name": "Color",
+      "swatch_method": "standard",
+      "on_add_to_cart": "ajax",
+      "search_type": "product",
+      "enable_live_search": true,
+      "live_search_show_price": true,
+      "live_search_show_vendor": false,
+      "announcement_bar_bck_color": "#43467f",
+      "announcement_bar_txt_color": "#ffffff",
+      "align_product_titles": false,
+      "grid_show_vendor": false,
+      "filter_bar_colour": "#47c1bf",
+      "overlay_opacity": 80,
+      "quickbuy_background": "#ffffff",
+      "quickbuy_text": "#230051",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "announcement_bar_col": "#43467f",
+            "announcement_text_col": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 100,
+            "desktop_layout": "center",
+            "show_search_bar_desktop": true,
+            "show_search_bar_mobile": false,
+            "logo_position_mobile": "inline",
+            "dock_nav": true,
+            "cart_icon": "shopping-bag",
+            "show_messages": false,
+            "home_only_messages": false,
+            "slideshow_messages": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-1": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-2": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "social": {
+              "type": "social",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu-0",
+            "menu-1",
+            "menu-2",
+            "social"
+          ],
+          "settings": {
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "mode": "enabled",
+            "popup_delay_seconds": 5,
+            "popup_dismiss_for_days": 30,
+            "position": "center",
+            "show_newsletter": true,
+            "show_social_icons": true
+          }
+        }
+      }
+    },
+    "Flourish": {
+      "color_body_background": "#ffffff",
+      "accent_color": "#e7cff9",
+      "accent_gradient": "linear-gradient(180deg, rgba(244, 244, 244, 1), rgba(255, 255, 255, 1) 100%)",
+      "color_body_text": "#212b36",
+      "color_body_link": "#461ea1",
+      "color_sale_text": "#cd201a",
+      "color_rating_star": "#43467f",
+      "header_bck_color": "#ffffff",
+      "logo_text_color": "#212b36",
+      "header_text_color": "#212b36",
+      "mobile_open_search_bar_color": "#f4f4f4",
+      "main_menu_bck_color": "#ffffff",
+      "main_menu_link_color": "#212b36",
+      "mobile_menu_bck_color": "#f4f4f4",
+      "store_messages_bck_color": "#e7cff9",
+      "store_messages_txt_color": "#212b36",
+      "footer_text_color": "#212b36",
+      "footer_bck_color": "#f4f4f4",
+      "primary_btn_background": "#212b36",
+      "primary_btn_text": "#ffffff",
+      "primary_btn_border": "#212b36",
+      "secondary_btn_background": "#ffffff",
+      "secondary_btn_text": "#212b36",
+      "secondary_btn_border": "#dfe3e8",
+      "quickbuy_form_background": "#f4f4f4",
+      "quickbuy_form_text": "#212b36",
+      "zoom_bg": "#212b36",
+      "collection_feature_header_background": "#f4f4f4",
+      "type_heading_font": "questrial_n4",
+      "line_height_heading": 1.3,
+      "letter_spacing_heading": 25,
+      "uppercase_headings": false,
+      "type_base_font": "questrial_n4",
+      "font_size_body_int": 16,
+      "line_height_body": 1.5,
+      "letter_spacing_body": 25,
+      "type_nav_font": "questrial_n4",
+      "font_size_nav_int": 16,
+      "type_logo_font": "poppins_n5",
+      "font_size_logo_int": 34,
+      "letter_spacing_logo": -50,
+      "uppercase_product_titles": false,
+      "button_hover": false,
+      "global_border_radius": 0,
+      "hover_image_enabled": true,
+      "sale_label_enabled": true,
+      "sold_label_enabled": true,
+      "variant_style": "listed",
+      "quickbuy_buttons_toggle": true,
+      "quickbuy_labels_toggle": true,
+      "show_tax_and_shipping": false,
+      "quickbuy_show_quantity_selector": true,
+      "quickbuy_show_backorder_text": true,
+      "enable_payment_button": false,
+      "swatch_enabled_productpage": true,
+      "swatch_option_name": "Color",
+      "swatch_method": "image",
+      "swatch_crop_align": "top",
+      "swatch_enabled_grid": true,
+      "swatch_enabled": true,
+      "on_add_to_cart": "ajax",
+      "search_type": "product",
+      "enable_live_search": true,
+      "live_search_show_price": true,
+      "live_search_show_vendor": false,
+      "announcement_bar_bck_color": "#43467f",
+      "announcement_bar_txt_color": "#ffffff",
+      "align_product_titles": false,
+      "grid_show_vendor": false,
+      "filter_bar_colour": "#ffffff",
+      "overlay_opacity": 80,
+      "quickbuy_background": "#ffffff",
+      "quickbuy_text": "#212b36",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 100,
+            "desktop_layout": "center",
+            "show_search_bar_desktop": true,
+            "show_search_bar_mobile": false,
+            "logo_position_mobile": "inline",
+            "dock_nav": true,
+            "cart_icon": "shopping-bag",
+            "main_linklist": "main-menu",
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_messages": true,
+            "home_only_messages": false,
+            "slideshow_messages": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-1": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-2": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "social": {
+              "type": "social",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu-0",
+            "menu-1",
+            "menu-2",
+            "social"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "sticky_footer": false,
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_subscribe_form": true
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "mode": "disabled",
+            "popup_delay_seconds": 5,
+            "popup_dismiss_for_days": 30,
+            "position": "center",
+            "show_newsletter": true,
+            "show_social_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement_bar": false,
+            "home_only_announcement_bar": false,
+            "announcement_bar_col": "#43467f",
+            "announcement_text_col": "#ffffff"
+          }
+        }
+      }
+    },
+    "Bloom": {
+      "color_body_background": "#fffbf4",
+      "accent_color": "#e8f3f6",
+      "color_body_text": "#171717",
+      "color_body_link": "#286070",
+      "color_sale_text": "#d72923",
+      "color_rating_star": "#ffa18a",
+      "header_bck_color": "#fffbf4",
+      "logo_text_color": "#171717",
+      "header_text_color": "#171717",
+      "mobile_open_search_bar_color": "#333333",
+      "main_menu_bck_color": "#fffbf4",
+      "main_menu_link_color": "#171717",
+      "mobile_menu_bck_color": "#fffbf4",
+      "store_messages_bck_color": "#dbdbed",
+      "store_messages_txt_color": "#286070",
+      "footer_text_color": "#092331",
+      "footer_bck_color": "#dff1ee",
+      "primary_btn_background": "#286070",
+      "primary_btn_text": "#ffffff",
+      "primary_btn_border": "#212b36",
+      "secondary_btn_background": "#ffa18a",
+      "secondary_btn_text": "#092331",
+      "secondary_btn_border": "#dfe3e8",
+      "quickbuy_form_background": "#fffbf4",
+      "quickbuy_form_text": "#171717",
+      "zoom_bg": "#fffbf4",
+      "collection_feature_header_background": "#fffbf4",
+      "type_heading_font": "itc_caslon_no_224_n9",
+      "font_size_heading_int": 34,
+      "line_height_heading": 1.2,
+      "letter_spacing_heading": 0,
+      "uppercase_headings": false,
+      "type_base_font": "poppins_n3",
+      "font_size_body_int": 16,
+      "line_height_body": 1.5,
+      "letter_spacing_body": 0,
+      "type_nav_font": "poppins_n3",
+      "font_size_nav_int": 16,
+      "letter_spacing_nav": 0,
+      "type_logo_font": "serif",
+      "font_size_logo_int": 24,
+      "uppercase_product_titles": false,
+      "uppercase_buttons": false,
+      "global_border_radius": 15,
+      "button_border_radius": 5,
+      "hover_image_enabled": true,
+      "sale_label_enabled": true,
+      "sold_label_enabled": true,
+      "variant_style": "listed",
+      "quickbuy_buttons_toggle": true,
+      "quickbuy_labels_toggle": true,
+      "show_tax_and_shipping": false,
+      "quickbuy_show_backorder_text": true,
+      "enable_payment_button": true,
+      "swatch_enabled_productpage": true,
+      "swatch_option_name": "Color",
+      "swatch_method": "standard",
+      "swatch_enabled_grid": true,
+      "swatch_enabled": true,
+      "on_add_to_cart": "ajax",
+      "search_type": "product,article,page",
+      "enable_live_search": true,
+      "live_search_show_price": true,
+      "live_search_show_vendor": false,
+      "announcement_bar_bck_color": "#266070",
+      "announcement_bar_txt_color": "#ffffff",
+      "align_product_titles": true,
+      "overlay_opacity": 90,
+      "quickbuy_background": "#ffffff",
+      "quickbuy_text": "#080a1c",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 95,
+            "desktop_layout": "center",
+            "show_search_bar_desktop": true,
+            "show_search_bar_mobile": false,
+            "logo_position_mobile": "inline",
+            "dock_nav": true,
+            "cart_icon": "shopping-bag",
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_messages": false,
+            "home_only_messages": false,
+            "slideshow_messages": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu-1": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-2": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-3": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "social": {
+              "type": "social",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu-1",
+            "menu-2",
+            "menu-3",
+            "social"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "sticky_footer": false,
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_subscribe_form": true
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "mode": "enabled",
+            "popup_delay_seconds": 6,
+            "popup_dismiss_for_days": 30,
+            "position": "bottom-right",
+            "show_newsletter": true,
+            "show_social_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement_bar": true,
+            "home_only_announcement_bar": false,
+            "announcement_bar_col": "#266070",
+            "announcement_text_col": "#ffffff"
+          }
+        }
+      }
+    },
+    "Inspire": {
+      "color_body_background": "#ffffff",
+      "accent_color": "rgba(0,0,0,0)",
+      "color_body_text": "#202020",
+      "color_body_link": "#ff9000",
+      "color_sale_text": "#cd201a",
+      "color_rating_star": "#ffba22",
+      "header_bck_color": "#ffffff",
+      "logo_text_color": "#202020",
+      "header_text_color": "#202020",
+      "mobile_open_search_bar_color": "#202020",
+      "main_menu_bck_color": "#f4f4f4",
+      "main_menu_link_color": "#202020",
+      "mobile_menu_bck_color": "#ffffff",
+      "store_messages_bck_color": "#202020",
+      "store_messages_txt_color": "#ffffff",
+      "footer_text_color": "#ffffff",
+      "footer_bck_color": "#202020",
+      "primary_btn_background": "#202020",
+      "primary_btn_text": "#ffffff",
+      "primary_btn_border": "#212b36",
+      "secondary_btn_background": "#efefef",
+      "secondary_btn_text": "#202020",
+      "secondary_btn_border": "#dfe3e8",
+      "quickbuy_form_background": "#efefef",
+      "quickbuy_form_text": "#202020",
+      "zoom_bg": "#202020",
+      "collection_feature_header_background": "#202020",
+      "type_heading_font": "archivo_narrow_i7",
+      "font_size_heading_int": 34,
+      "line_height_heading": 1.1,
+      "letter_spacing_heading": 0,
+      "uppercase_headings": false,
+      "type_base_font": "archivo_narrow_n4",
+      "font_size_body_int": 18,
+      "line_height_body": 1.5,
+      "letter_spacing_body": 25,
+      "type_nav_font": "archivo_narrow_n4",
+      "font_size_nav_int": 18,
+      "letter_spacing_nav": 25,
+      "type_logo_font": "archivo_narrow_i7",
+      "font_size_logo_int": 24,
+      "uppercase_product_titles": false,
+      "button_hover": false,
+      "global_border_radius": 0,
+      "hover_image_enabled": true,
+      "sale_label_enabled": true,
+      "sold_label_enabled": true,
+      "variant_style": "listed",
+      "quickbuy_buttons_toggle": true,
+      "quickbuy_labels_toggle": true,
+      "show_tax_and_shipping": false,
+      "quickbuy_show_backorder_text": true,
+      "enable_payment_button": false,
+      "swatch_enabled_productpage": true,
+      "swatch_option_name": "Color",
+      "swatch_method": "image",
+      "swatch_enabled_grid": false,
+      "swatch_enabled": true,
+      "on_add_to_cart": "ajax",
+      "search_type": "product",
+      "enable_live_search": true,
+      "live_search_show_price": true,
+      "live_search_show_vendor": false,
+      "announcement_bar_bck_color": "#202020",
+      "announcement_bar_txt_color": "#efefef",
+      "align_product_titles": false,
+      "grid_show_vendor": false,
+      "filter_bar_colour": "#ffffff",
+      "overlay_opacity": 90,
+      "quickbuy_background": "#ffffff",
+      "quickbuy_text": "#080a1c",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 130,
+            "desktop_layout": "center",
+            "show_search_bar_desktop": true,
+            "show_search_bar_mobile": false,
+            "logo_position_mobile": "inline",
+            "dock_nav": true,
+            "cart_icon": "shopping-bag",
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_messages": false,
+            "home_only_messages": false,
+            "slideshow_messages": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu-1": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-2": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "menu-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "social": {
+              "type": "social",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu-1",
+            "menu-2",
+            "menu-0",
+            "social"
+          ],
+          "settings": {
+            "show_payment_icons": true,
+            "sticky_footer": false,
+            "show_country_selector": true,
+            "show_language_selector": true,
+            "show_subscribe_form": true
+          }
+        },
+        "popup": {
+          "type": "popup",
+          "settings": {
+            "mode": "enabled",
+            "popup_delay_seconds": 6,
+            "popup_dismiss_for_days": 30,
+            "position": "bottom-right",
+            "show_newsletter": true,
+            "show_social_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "show_announcement_bar": true,
+            "home_only_announcement_bar": false,
+            "announcement_bar_col": "#202020",
+            "announcement_text_col": "#ffffff"
+          }
+        }
+      }
+    }
+  }
+}

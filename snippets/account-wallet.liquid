@@ -1,0 +1,184 @@
+{% assign alt_text = 'felicitails account center, emotional support animal certification, psychiatric service animal certification,  dog and cat training, pet insurance, dog walking, pet sitting, dog boarding, dog dna testing, curated supplies and products, felicitails and free my paws founder lindsay giguiere ' %}
+
+{% assign img_account_center_wallet_store_credit = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-founded-by-lindsay-giguiere-account-center-store-credit-rewards.png?v=1685640384' %}
+{% assign alt_account_center_wallet_store_credit = 'felicitails-founded-by-lindsay-giguiere-account-center-store-credit-rewards' %}
+
+{% assign img_account_center_master_card = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-mastercard-credit-card-founded-by-lindsay-giguiere.svg?v=1685640384' %}
+{% assign img_account_center_discover_card = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-discover-credit-card-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign img_account_center_american_card = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-american-express-credit-card-founded-by-lindsay-giguiere.png?v=1685640384' %}
+{% assign img_account_center_visa_card = 'https://cdn.shopify.com/s/files/1/0068/5454/1410/files/felicitails-account-center-visa-credit-card-founded-by-lindsay-giguiere.svg?v=1685640384' %}
+
+<div class="account-main-body">
+  <div class="account-main-items">
+    <div class="account-main-digitalvault">
+      <div class="account-main-item-title">
+        <h1>Wallet & Store Credit</h1>
+      </div>
+      <div class="account-main-item-image">
+        <img
+          src="{{ img_account_center_wallet_store_credit }}"
+          alt="{{ alt_account_center_wallet_store_credit }}"
+        >
+      </div>
+    </div>
+    <div class="wallet_store width-fill">
+      <div class="wallet-group width-fill">
+        <div class="header width-fill">
+          <h4>Wallet</h4>
+          <div class="width-fill"></div>
+        </div>
+        <div class="account-cards width-fill">
+          <div class="account-card add">
+            <div class="add-address">
+              <span class="add">+</span>
+              <h4 class="text">Add a payment method</h4>
+            </div>
+          </div>
+          <div class="account-card">
+            <div class="width-fill height-fill card-content">
+              <div class="card-header">
+                <img
+                  src="{{ img_account_center_master_card }}"
+                  alt="{{ alt_text }}"
+                >
+              </div>
+              <div class="card-body">
+                <div class="header">Apple Card</div>
+                <div class="body">
+                  <p>Credit card ending</p>
+                  <p>in <span class="secret">****</span>6992</p>
+                </div>
+              </div>
+              <div class="card-footer">
+                <p class="width-fill"><a href="#">Edit</a> | <a href="#">Remove</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="account-card">
+            <div class="width-fill height-fill card-content">
+              <div class="card-header">
+                <img
+                  src="{{ img_account_center_american_card }}"
+                  alt="{{ alt_text }}"
+                >
+              </div>
+              <div class="card-body">
+                <div class="header">Apple Card</div>
+                <div class="body">
+                  <p>Credit card ending</p>
+                  <p>in <span class="secret">****</span>6992</p>
+                </div>
+              </div>
+              <div class="width-fill card-footer">
+                <p class="width-fill">
+                  <a href="#">Edit</a> | <a href="#">Remove</a> |
+                  <a href="#">Set as Main</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="account-card">
+            <div class="width-fill height-fill card-content">
+              <div class="card-header">
+                <img src="{{ img_account_center_discover_card }}" alt="{{ alt_text }}">
+              </div>
+              <div class="card-body">
+                <div class="header">Apple Card</div>
+                <div class="body">
+                  <p>Credit card ending</p>
+                  <p>in <span class="secret">****</span>6992</p>
+                </div>
+              </div>
+              <div class="width-fill card-footer">
+                <p class="width-fill">
+                  <a href="#">Edit</a> | <a href="#">Remove</a> |
+                  <a href="#">Set as Main</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="account-card">
+            <div class="width-fill height-fill card-content">
+              <div class="card-header">
+                <img src="{{ img_account_center_visa_card }}" alt="{{ alt_text }}">
+              </div>
+              <div class="card-body">
+                <div class="header">Apple Card</div>
+                <div class="body">
+                  <p>Credit card ending</p>
+                  <p>in <span class="secret">****</span>6992</p>
+                </div>
+              </div>
+              <div class="width-fill card-footer">
+                <p class="width-fill">
+                  <a href="#">Edit</a> | <a href="#">Remove</a> |
+                  <a href="#">Set as Main</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wallet-group width-fill">
+        <div class="header width-fill">
+          <h4>Store Credit</h4>
+          <div class="width-fill"></div>
+        </div>
+        <div class="body width-fill">
+          <div class="width-fill credit-explain">
+            <p class="width-fill">All store credit is available for use on felicitails.com.</p>
+            <p class="width-fill">Credit will automatically be applied to your next order.</p>
+          </div>
+          <div class="width-fill felicitail-store-credit">
+            <img
+              src="{{ img_account_center_wallet_store_credit }}"
+              alt="{{ alt_account_center_wallet_store_credit }}"
+            >
+            <div class="width-fill credit-data">
+              <div class="header width-fill">Felicitails Store Credit</div>
+              <div class="body width-fill">
+                Balance:
+
+                {% if customer %}
+                  {% assign customer_credit_balance = 0 %}
+                  {% assign response = '' %}
+                  {% capture url %}
+                        https://creditsyard.com/api/common/customers/get
+                      {% endcapture %}
+
+                  {% capture payload %}
+                        {
+                          "customer_id": "6983494107437",
+                          "customer_email": "iwo.wisniewski@greenfieldgroves.com"
+                        }
+                      {% endcapture %}
+
+                  {% capture options %}
+                        {
+                          "method": "get",
+                          "headers": {
+                            "Content-Type": "application/json",
+                            "X-Shop-Api-Key": "03eca8bb9588dd2e1d02006a41c42bb5"
+                          }
+                        }
+                      {% endcapture %}
+
+                  {% assign response = request | json | parse_json %}
+                  {% assign customer_credit_balance = response.body.balance %}
+                  {% if customer_credit_balance > 0 %}
+                    <p>Your current Credityard credit balance is {{ customer_credit_balance }}</p>
+                  {% endif %}
+                {% endif %}
+              </div>
+              <div class="buttons width-fill">
+                <button>Reload Your Balance</button>
+                <button>Redeem a Gift Card</button>
+                <button>View Activity</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

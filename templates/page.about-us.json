@@ -1,0 +1,445 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "20d8b990-9bc3-4226-aaf5-f2bcda357b4d": {
+      "type": "divider",
+      "settings": {
+        "height_size": 38
+      }
+    },
+    "56afa228-0d76-4029-bbf4-d4d5d89ac89a": {
+      "type": "section-title",
+      "settings": {
+        "section_title": "Our story"
+      }
+    },
+    "ecd54b25-7c61-408d-81aa-1f68eacaf09c": {
+      "type": "image-with-text",
+      "custom_css": [
+        "strong {color: #ecbebe;}",
+        "h3 {color: black; text-transform: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/felicitails-founded-by-lindsay-giguiere-website-about-us-collage.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>Welcome to <strong>Felicitails<\/strong>, a distinct brand of Greenfield Groves Inc. <\/h3><p>We are so very proud to be a trusted provider of telehealth services and purveyor of pet-related products for pet owners everywhere!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "3ed78a2a-4c16-4dd5-8954-ce7c049aa45b": {
+      "type": "image-with-text",
+      "custom_css": [
+        "h3 {color: black; text-transform: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/golden-lab-family-enjoying-life-as-service-animal-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>We began our journey as specialists in providing our Clients Emotional Support Animal and Psychiatric Service Dog Travel \/ Housing Letters through our telehealth services.<\/h3><p><strong>Ten+<\/strong> years of happily supporting over <strong>70,000 amazing Patients<\/strong>. It truly has been an honor and a blessing.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "1f7522d6-0aa3-4a13-8586-dad18b341755": {
+      "type": "image-with-text",
+      "custom_css": [
+        "h3 {color: black; text-transform: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-felicitails-emotional-support-dog-psychiatric-service-dog-training-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>In listening to our Patients & Clients, the desire for more and more animal related services organically expanded our business.<\/h3><p><\/p><p>To now include access to Online Training Curriculum, Pet Insurance Services, Pet Walking\/Sitting Services, Grooming Providers and many more valuable needs to successful animal ownership.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "1e91931f-2137-4b2f-a0f8-6a026a30f396": {
+      "type": "image-with-text",
+      "custom_css": [
+        "h3 {color: black; text-transform: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-felicitails-pug-laying-on-unicorn-plush-toy-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "",
+        "text": "<h3>And eventually, it made sense to further our craft-brand to introduce physical products for ALL of our Client’s pet parenting needs.<\/h3><p><\/p><p>We lovingly work daily to present products in very helpful collections you won't find anywhere else.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "3b4d1488-917e-49f0-bc33-388d7f6e4558": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {text-align: left; text-transform: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3>From a wide array of services to cute collars, harnesses, leashes to stylish clothing and accessories - you'll find everything you need to keep your furry friend safe, happy, and looking their best all in one place!<\/h3>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "a58a4f44-997e-4919-88a6-59f283c97ac0": {
+      "type": "custom-video",
+      "settings": {
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/974eaf774fe940369d194d50dc9631d3.mp4",
+        "check": false,
+        "i_vid": ""
+      }
+    },
+    "7af72287-9a76-4ac2-8c3e-bd94a6f283c1": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {text-align: left; text-transform: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3>We promise to provide crafted services and product collections. Everything you need to get the most from life with your animal.<\/h3>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#000000",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "image_url": "",
+        "custom_class": ""
+      }
+    },
+    "9420c145-d69d-4266-926b-dc26bb60e240": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19235099738413__9420c145-d69d-4266-926b-dc26bb60e240-168505940436e4590e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/pawsitively-playful-felicitails-french-bulldog-on-kayak-emotional-support-dog-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "PAWSITIVELY PLAYFUL",
+            "text": "<p>Playtime is essential for your pet's physical and mental health, so we've included an extensive collection of safe, fun toys to keep them (and you) entertained and active.<\/p><p>From the outdoors to the indoors, you will find something that tickles your fancy. The games are over, and it's time to snuggle down for a snooze, our premium pet beds combine quality construction, ideal support, and attractive designs that look fabulous in any room.<\/p>",
+            "button_label": "",
+            "button_link": "#",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19235099738413__9420c145-d69d-4266-926b-dc26bb60e240-168505940436e4590e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/hit-the-road-french-bulldog-emotional-support-animal-felicitials-founded-by-lindsay-giguiere-final.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "HIT THE ROAD",
+            "text": "<p>When you're planning a trip with your furry companion, we've got you covered too! Our pet carriers and other travel essentials make it easy to prepare for any adventure.<\/p><p>And when you get back home, our bowls, feeders, beds, and pet potties don't only look great; they're designed to help you maintain a clean and organized home with ease.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19235099738413__9420c145-d69d-4266-926b-dc26bb60e240-168505940436e4590e-0",
+        "template--19235099738413__9420c145-d69d-4266-926b-dc26bb60e240-168505940436e4590e-1"
+      ],
+      "custom_css": [
+        ".grid-flex__item {border: 1px solid #eaeaea; border-radius: 30px; padding: 30px;}",
+        ".rimage-outer-wrapper {max-width: 100% !important;}",
+        "img {width: 100%; object-fit: cover;}",
+        ".grid-flex {gap: 30px; flex-wrap: nowrap; margin: 0;}",
+        ".large-row-under {margin-bottom: 0;}",
+        "@media (max-width: 767px) {.grid-flex {gap: 20px; flex-wrap: wrap; }}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "12922f97-71bb-4e77-9b6f-a1b6ee0af4c9": {
+      "type": "multi-column",
+      "blocks": {
+        "d4e98224-1e04-4553-8bf7-9ccfe19180ce": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/we-have-you-covered-felicitails-golden-retriever-24-hour-vets-on-call-for-your-animals-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "WE GOT YOU COVERED",
+            "text": "<p>We offer several services, from the best-value pet insurance. <\/p><p>Of course, we all hope our pets stay healthy, but if something terrible happens, we need peace of mind knowing that our beloved companion can receive all the care they deserve.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "365221dc-2da4-47ed-9232-7307e1bf5512": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/healthy-pet-happy-life-felicitails-border-collie-exercise-aids-toys-felicitails-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "HEALTHY PET, HAPPY LIFE",
+            "text": "<p>When you're planning a trip with your furry companion, we've got you covered too! Our pet carriers and other travel essentials make it easy to prepare for any adventure.<\/p><p>And when you get back home, our bowls, feeders, beds, and pet potties don't only look great; they're designed to help you maintain a clean and organized home with ease.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "d4e98224-1e04-4553-8bf7-9ccfe19180ce",
+        "365221dc-2da4-47ed-9232-7307e1bf5512"
+      ],
+      "custom_css": [
+        ".container.large-row {top: -24px;}",
+        ".grid-flex__item {border: 1px solid #eaeaea; border-radius: 30px; padding: 30px;}",
+        ".rimage-outer-wrapper {max-width: 100% !important;}",
+        "img {width: 100%; object-fit: cover;}",
+        ".grid-flex {gap: 30px; flex-wrap: nowrap; margin: 0;}",
+        ".large-row-under {margin-bottom: 0;}",
+        "@media (max-width: 767px) {.grid-flex {gap: 20px; flex-wrap: wrap; } .container.large-row {top: -18px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "da5ee99d-570a-4f09-9adb-a49b1781d3b5": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lindsay-giguiere-demonstrating-her-psychiatric-service-dog-training-results-felicitails-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": ""
+      }
+    },
+    "1e33b3b4-ccfa-421f-b35c-bb137a955cc4": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19235099738413__1e33b3b4-ccfa-421f-b35c-bb137a955cc4-16850662044e8fe829-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<h3>At Free My Paws, our team of experts will guide you every step of the way. So whether you're considering certification for your pet or have been searching for the perfect gift for your furry loved one, we'll ensure you both receive the best care and attention.<\/h3>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19235099738413__1e33b3b4-ccfa-421f-b35c-bb137a955cc4-16850662044e8fe829-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>So whether you're considering certification for your pet or have been searching for the perfect gift for your furry loved one, we'll ensure you both receive the best care and attention. We're animal lovers and pet parents ourselves, so we understand how much joy, love, and companionship your pet brings into your life every day. We believe they deserve all the love, protection, and kindness we can give them – because they give us so much more in return.So thank you for choosing Free My Paws as your trusted source for all your pet-related needs! We can't wait to help you and your furry friend live your best lives! The Felicitails Team and I personally chose this and found that it meets our standards of quality, expectations of a positive impact to your trusted companion’s wellness and requirements for social consciousness in its making.<\/p><p>I trust you will enjoy it!<\/p><p>XO,<\/p><p><strong>.<\/strong><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19235099738413__1e33b3b4-ccfa-421f-b35c-bb137a955cc4-16850662044e8fe829-0",
+        "template--19235099738413__1e33b3b4-ccfa-421f-b35c-bb137a955cc4-16850662044e8fe829-1"
+      ],
+      "custom_css": [
+        "strong {display: inline-block; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0068\/5454\/1410\/files\/lindsay_signature.png?v=1685065295\"); background-repeat: no-repeat; background-size: cover; color: white; width: 156px; height: 73px;}",
+        "h3 {text-transform: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": ""
+      }
+    },
+    "16861018016f0b2a81": {
+      "type": "apps",
+      "blocks": {
+        "d13c6920-1c40-4773-a2d1-06991b30b85a": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 30,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d13c6920-1c40-4773-a2d1-06991b30b85a"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "20d8b990-9bc3-4226-aaf5-f2bcda357b4d",
+    "56afa228-0d76-4029-bbf4-d4d5d89ac89a",
+    "ecd54b25-7c61-408d-81aa-1f68eacaf09c",
+    "3ed78a2a-4c16-4dd5-8954-ce7c049aa45b",
+    "1f7522d6-0aa3-4a13-8586-dad18b341755",
+    "1e91931f-2137-4b2f-a0f8-6a026a30f396",
+    "3b4d1488-917e-49f0-bc33-388d7f6e4558",
+    "a58a4f44-997e-4919-88a6-59f283c97ac0",
+    "7af72287-9a76-4ac2-8c3e-bd94a6f283c1",
+    "9420c145-d69d-4266-926b-dc26bb60e240",
+    "12922f97-71bb-4e77-9b6f-a1b6ee0af4c9",
+    "da5ee99d-570a-4f09-9adb-a49b1781d3b5",
+    "1e33b3b4-ccfa-421f-b35c-bb137a955cc4",
+    "16861018016f0b2a81"
+  ]
+}

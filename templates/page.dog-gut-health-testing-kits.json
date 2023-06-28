@@ -1,0 +1,529 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "07eeec40-17fd-43f8-a122-fb52dee6d6fd": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/94aca52fca5d4ee782b72c712a9a1a90.mp4",
+        "cover_image": "shopify:\/\/shop_images\/gut-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.jpg",
+        "image_position": "center center",
+        "video_overlay_bg": "",
+        "video_overlay_opacity": 0,
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "rgba(0,0,0,0)",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#ffffff",
+        "overlay_title": "Welcome to Our Preferred Gut Health Testing Partner To Learn About & Support Your Dog’s Well-being",
+        "overlay_text": "A dog's health isn't solely a product of genetics, but of diet, environment, and lifestyle. We'll help you give your dog the best of everything. Decode breed mix, screen for health conditions, find relatives — all this and more with Embark!",
+        "overlay_url_text_1": "ORDER YOUR TEST KIT TODAY",
+        "overlay_url_1": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1249028690",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50,
+        "custom_class": "hero-video"
+      }
+    },
+    "6d69ba9f-0dd3-4ec4-b111-c682f04e5d71": {
+      "type": "rich-text",
+      "custom_css": [
+        ".rich-text-section {overflow: visible;}",
+        ".container {margin-top: -100px;}",
+        ".rich-text-section {box-shadow: 0 2px 20px 2px #0005;}",
+        "h2 {text-transform: capitalize; font-weight: 400;}",
+        ".reading-width {max-width: 100%; padding: 0;}",
+        ".reading-width h2 {font-size: 26px; margin: 15px 0;}",
+        "p {font-size: 26px; line-height: 34px;}",
+        ".large-section {padding-bottom: 40px; padding-top: 40px;}"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<p>Felicitails has partnered with Embark for our Patients & Clients that are in need of DNA Testing and Health Screening. Through our collaboration, you are able to order at a DISCOUNT DNA Breed Tests and Health Condition Tests, including Gut Health Testing.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#ffffff",
+        "color_bg": "#666666",
+        "gradient_bg": "",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-gut-health-test-felicitails-brand-collaboration-embark-logo-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_url": "",
+        "custom_class": "hero-sec-text free-mypaw-icon rt-one"
+      }
+    },
+    "b3915402-97cd-43d2-bfef-a21a9cdd99f6": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/gut-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-collage-of-interesting-dog-breeds.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "The Embark Gut Health testing couldn’t be easier - or more reliable!",
+        "text": "<p>Find out what’s really going on inside your dog’s digestive system. This at-home test detects bacterial imbalances and provides actionable insights for personalized diet, supplement, or lifestyle changes to improve your dog’s health.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-one",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "2ed7d903-3a0a-4ff9-88c5-c1006f1a7033": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19665603952941__2ed7d903-3a0a-4ff9-88c5-c1006f1a7033-1687652383c55baa7f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-gult-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere_653ae0cd-97c6-4a6e-bfcb-4f4c9b2c59e1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Backed by Science",
+            "text": "<p>Founded by Scientists, Developed by Veterinarians for Dog owners<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19665603952941__2ed7d903-3a0a-4ff9-88c5-c1006f1a7033-1687652383c55baa7f-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-gult-health-test-reults-screenshot-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Accurate Breed Testing",
+            "text": "<p>Advanced Technology for Accurate Results on Microbiome Diversity<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19665603952941__2ed7d903-3a0a-4ff9-88c5-c1006f1a7033-1687652383c55baa7f-0",
+        "template--19665603952941__2ed7d903-3a0a-4ff9-88c5-c1006f1a7033-1687652383c55baa7f-1"
+      ],
+      "settings": {
+        "title": "Gut Health Testing",
+        "enlarge_title": false,
+        "text_alignment": "left",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3 mc-one",
+        "button_label_bottom": "ORDER YOUR TEST KIT TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1296196454",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "32f97638-cc91-4f57-bf1d-98164df5ce87": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-gut-health-test-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-jack-russel-carrying-an-apple.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Protecting your dog’s wellness - a number one priority",
+        "text": "<p>The Embark test detects if your dog’s gut is out of balance or missing beneficial bacteria. An unbalanced gut means important digestive and immune functions may not work properly, causing symptoms like diarrhea, vomiting, constipation, and skin issues.<br\/><br\/>✓ Results 2-3 weeks after we receive your sample<br\/><br\/>✓Get a thorough report of bacterial imbalances and microbiome diversity<br\/><br\/>✓ Embark will suggest diet, supplement, or lifestyle changes for your dog<br\/><br\/>✓ Retest to measure how your dog responds to dietary changes or treatments<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-two",
+        "button_label_bottom": "ORDER YOUR TEST KIT TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1296196454",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "e17206b0-3ddd-4a82-93a0-e1d179ce86a7": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-handshake-cornell-university-research-partners-icon.svg",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Research partners of Cornell University College of Veterinary Medicine<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-veterinarian-developed-icon.svg",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Veterinarian developed<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-certificate-icon-westminster-kennel-club-dog-show.svg",
+            "image_width": 30,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Official dog DNA test of the Westminster Kennel Club Dog Show<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-0",
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-1",
+        "template--19665603952941__e17206b0-3ddd-4a82-93a0-e1d179ce86a7-1687652383c55baa7f-2"
+      ],
+      "settings": {
+        "title": "BETTER SCIENCE FOR HAPPIER DOGS",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "custom_class": "muli-column-cards shadow col-3 mc-two",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "6cf07059-8dbe-44e3-81df-8f6bef861865": {
+      "type": "faq-image",
+      "blocks": {
+        "b57f271b-8972-48f8-a498-42c99cb15430": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-detect-bacterial-imbalances-icon.svg",
+            "title": "Detect bacterial imbalances",
+            "desc": "Over 10,000 dogs tested",
+            "image": "shopify:\/\/shop_images\/dog-breed-identification-gut-health-test-report-card-felicitails-brand-collaboration-embark-breed-felicitails-is-founded-by-lindsay-giguiere_webp.png",
+            "content": "<p>Our test detects if your dog’s gut is out of balance or missing beneficial bacteria. An unbalanced gut means important digestive and immune functions may not work properly, causing symptoms like diarrhea, vomiting, constipation, and skin issues.<\/p>"
+          }
+        },
+        "cc4177bd-0e04-4447-8c08-3bfd1394616c": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-restore-maintain-icon.svg",
+            "title": "Restore and maintain",
+            "desc": "Specific recommendations",
+            "content": "<p>Each gut microbiome is unique. Different dogs need different dietary adjustments to support the growth of specific beneficial bacteria. Recommendations based on your dog's individual results will help you make simple changes that can improve their gut health and overall wellness.<\/p>"
+          }
+        },
+        "bdf742bd-57dd-4ff9-934d-9f29a6c601d1": {
+          "type": "faq",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere-improvements-over-time-icon.svg",
+            "title": "Improvements over time",
+            "desc": "A happier, healthier gut",
+            "content": "<p>See how your dog’s gut responds to dietary changes or treatments by retesting over time.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b57f271b-8972-48f8-a498-42c99cb15430",
+        "cc4177bd-0e04-4447-8c08-3bfd1394616c",
+        "bdf742bd-57dd-4ff9-934d-9f29a6c601d1"
+      ],
+      "settings": {
+        "title": "WHAT TESTING WILL SHOW",
+        "title_color": "#000000"
+      }
+    },
+    "d57e1380-e013-4588-97b9-73d60971f8db": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "How it Works",
+        "image": "shopify:\/\/shop_images\/dog-gut-health-test-poop-sample-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Collect a Poop Sample",
+        "text": "<p>The microbiome test kit includes everything you’ll need to collect two pea-sized samples of your dog’s poop.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-three",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "307196c8-ed2c-400b-aa6a-7af32a75fd3b": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-breed-identification-dna-test-full-kit-felicitails-brand-collaboration-embark-over-step-two-activate-mail-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "subtitle": "",
+        "title": "Activate & Mail",
+        "text": "<p>Activate your kit online and return your dog’s sample with the prepaid envelope.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-four",
+        "button_label_bottom": "",
+        "button_link_bottom": "",
+        "url_style_bottom": "link_style"
+      }
+    },
+    "1b1287b3-3079-43c3-8713-e3a1561a90d9": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/dog-gut-oral-health-test-reults-felicitails-brand-collaboration-embark-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "Results in 2-4 Weeks",
+        "text": "<p>Using DNA sequencing, we identify the types and proportions of all the bacteria living in your dog’s gut and compare it to our healthy reference set. In about two weeks, you’ll receive an email notification that your test results are ready.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-five",
+        "button_label_bottom": "TEST YOUR DOG’S GUT HEALTH TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1296196454",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "53c06602-b742-4468-9f4b-44a7107ae9a2": {
+      "type": "custom-video",
+      "settings": {
+        "image_title_top": "See For Yourself",
+        "select": "MP4",
+        "vid": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4543899085fd4f94adcbeda40d7e0a0c.mp4",
+        "poster": "shopify:\/\/shop_images\/why-felicitials-partnered-with-embark-gut-health-testing-video-felicitails-is-founded-by-lindsay-giguiere.jpg",
+        "check": false,
+        "i_vid": "",
+        "button_label_bottom": "ORDER YOUR DOG’S GUT HEALTH TEST TODAY",
+        "button_link_bottom": "https:\/\/www.shareasale.com\/m-pr.cfm?merchantID=66364&userID=3702802&productID=1296196454",
+        "url_style_bottom": "button_1"
+      }
+    },
+    "d14d81a3-1b07-40fd-b2a8-218f0a4a0961": {
+      "type": "custom-reviews",
+      "blocks": {
+        "986c1238-bb1f-452e-b285-5395553f2e8b": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Kim L.",
+            "review_content": "<p>The Gut Biome test is very comprehensive and really impressive! My dog showed some high bad bacteria, and low good bacteria. She had intermittent vomiting and rare occasional bloody diarrhea, along with bad breath, low energy, frequent nausea and poor appetite. The first round of Gut Restore pills did improve her health, along with a change of diet, and supplements.<\/p>"
+          }
+        },
+        "a99a0b04-3b29-44bf-842a-3fb743cf976c": {
+          "type": "reviews",
+          "settings": {
+            "review_author": "Teresa L.",
+            "review_content": "<p>Just for the educational value of the report alone I felt it was worth my money. I have purchased two more kits to test the other dog and re-test the one I tested already.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "986c1238-bb1f-452e-b285-5395553f2e8b",
+        "a99a0b04-3b29-44bf-842a-3fb743cf976c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "A healthier gut",
+        "button_label": "",
+        "button_link": "",
+        "review_rating": "",
+        "review_rating_text": "",
+        "url_style": "button_1",
+        "button_label_2": "",
+        "button_link_2": "",
+        "url_style_2": "button_1",
+        "custom_class": "cr-one"
+      }
+    },
+    "8130b083-60f4-4de8-963a-14e5072842e4": {
+      "type": "faq",
+      "blocks": {
+        "6f572e77-e65c-49ef-9c7f-db11ead19c29": {
+          "type": "faq",
+          "settings": {
+            "que": "What is fecal microbiome testing and what are the benefits?",
+            "ans": "<p>Fecal microbiome testing is the process of sequencing bacterial DNA material from a small sample of feces (more commonly known as poop). We can detect all known bacteria from your dog’s stool sample and then provide you with a comprehensive report.<br\/><br\/>Testing a dog’s microbiome provides insights into their health. Then imbalances in specific gut bacteria can be addressed to help alleviate such symptoms as diarrhea, vomiting, constipation, and itchy skin that may be associated with some chronic health conditions.<\/p>"
+          }
+        },
+        "8318dd53-1ba2-441f-aca7-070829195de3": {
+          "type": "faq",
+          "settings": {
+            "que": "How do I register my sample?",
+            "ans": "<p>Go to embarkvet.com\/activate to sign in or create an account and complete your dog’s profile. Activate the kit, using the six-character ID code printed on the tubes. Please note that your sample must be registered in order for our scientists to complete the analysis.<\/p>"
+          }
+        },
+        "60944805-aba0-4b3e-90b6-8cbac0fba0b9": {
+          "type": "faq",
+          "settings": {
+            "que": "Is my sample safe in the mail?",
+            "ans": "<p>Yes, your sample is safe. The sample tubes contain a special liquid that keeps the bacteria perfectly preserved for analysis, across a very wide range of temperatures. Once inside the tube, the sample is stable for several months.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6f572e77-e65c-49ef-9c7f-db11ead19c29",
+        "8318dd53-1ba2-441f-aca7-070829195de3",
+        "60944805-aba0-4b3e-90b6-8cbac0fba0b9"
+      ],
+      "custom_css": [
+        ".accordion-container {max-width: 1018px;}"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_color": "#000000"
+      }
+    },
+    "f809242f-d67e-4d57-bf47-0d252d3e5528": {
+      "type": "image-with-text",
+      "settings": {
+        "image_title_top": "",
+        "image": "shopify:\/\/shop_images\/gut-health-test-felicitails-brand-collaboration-embark-founder-adam-boyko-in-peru-felicitails-is-founded-by-lindsay-giguiere.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "subtitle": "",
+        "title": "About Embark A different kind of dog DNA company",
+        "text": "<p>Not all dog DNA tests are created equal - and neither are the companies that make them. While some of of Embark’s competitors are part of big conglomerates, Embark is a startup founded by dog-loving scientists and veterinarians. They only focus on one thing: canine health.<br\/><br\/>Their founders, Ryan and Adam Boyko, spent years traveling the world and swabbing dogs in remote areas of Europe, Asia, and South America. But they knew there was more they could do to support all dogs.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "subtitle_color": "",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_class": "iwt-six",
+        "button_label_bottom": "ORDER YOUR TEST KIT TODAY",
+        "button_link_bottom": "",
+        "url_style_bottom": "button_1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "07eeec40-17fd-43f8-a122-fb52dee6d6fd",
+    "6d69ba9f-0dd3-4ec4-b111-c682f04e5d71",
+    "b3915402-97cd-43d2-bfef-a21a9cdd99f6",
+    "2ed7d903-3a0a-4ff9-88c5-c1006f1a7033",
+    "32f97638-cc91-4f57-bf1d-98164df5ce87",
+    "e17206b0-3ddd-4a82-93a0-e1d179ce86a7",
+    "6cf07059-8dbe-44e3-81df-8f6bef861865",
+    "d57e1380-e013-4588-97b9-73d60971f8db",
+    "307196c8-ed2c-400b-aa6a-7af32a75fd3b",
+    "1b1287b3-3079-43c3-8713-e3a1561a90d9",
+    "53c06602-b742-4468-9f4b-44a7107ae9a2",
+    "d14d81a3-1b07-40fd-b2a8-218f0a4a0961",
+    "8130b083-60f4-4de8-963a-14e5072842e4",
+    "f809242f-d67e-4d57-bf47-0d252d3e5528"
+  ]
+}
