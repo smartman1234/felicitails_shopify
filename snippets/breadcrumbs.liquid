@@ -34,8 +34,8 @@ assign home_title = 'layout.breadcrumbs.home' | t
 assign other_templates = 'blog, cart, list-collections, page, search' | split: ', '
 
 if template.name == 'blog' or template.name == 'page'
-  assign item_title = [template.name].title
-  assign item_url = [template.name].url
+  assign item_title = self[template.name].title
+  assign item_url = self[template.name].url
 elsif template.name == 'list-collections'
   assign item_title = 'layout.breadcrumbs.collections' | t
   assign item_url = routes.collections_url
@@ -267,3 +267,16 @@ endif
   {%- endif -%}
   {{ crumbs_html }}
 {%- endif -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "  assign item_title = [template.name].title"
+  to: "  assign item_title = self[template.name].title"
+  position: 1396..1443
+- from: "  assign item_url = [template.name].url"
+  to: "  assign item_url = self[template.name].url"
+  position: 1444..1487
+{% endcomment %}
